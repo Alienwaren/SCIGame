@@ -1,0 +1,365 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Dokumentacja klasy factory::CActorTemplate</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Lista&nbsp;klas</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarchia&nbsp;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&nbsp;klas</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="namespacefactory.html">factory</a>::<a class="el" href="classfactory_1_1_c_actor_template.html">CActorTemplate</a>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja klasy factory::CActorTemplate</h1><!-- doxytag: class="factory::CActorTemplate" --><!-- doxytag: inherits="factory::CPhysicalTemplate" -->
+<p><code>#include &lt;<a class="el" href="_c_actor_template_8h_source.html">CActorTemplate.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla factory::CActorTemplate</div>
+<div class="dynsection">
+ <div class="center">
+  <img src="classfactory_1_1_c_actor_template.gif" usemap="#factory::CActorTemplate_map" alt=""/>
+  <map id="factory::CActorTemplate_map" name="factory::CActorTemplate_map">
+<area href="classfactory_1_1_c_physical_template.html" alt="factory::CPhysicalTemplate" shape="rect" coords="87,56,252,80"/>
+<area href="classresource_1_1_i_resource.html" alt="resource::IResource" shape="rect" coords="87,0,252,24"/>
+<area href="classfactory_1_1_c_enemy_template.html" alt="factory::CEnemyTemplate" shape="rect" coords="0,168,165,192"/>
+<area href="classfactory_1_1_c_player_template.html" alt="factory::CPlayerTemplate" shape="rect" coords="175,168,340,192"/>
+</map>
+ </div>
+</div>
+
+<p><a href="classfactory_1_1_c_actor_template-members.html">Lista wszystkich składowych.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Metody publiczne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory_1_1_c_actor_template.html#a7fe3a1d4152e73cfd5299bc77a8bdef9">CActorTemplate</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory_1_1_c_actor_template.html#acec57c500710aed033e6e6b3d8c80b21">~CActorTemplate</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory_1_1_c_actor_template.html#aa6607fbba297d2d2050ecf9775c26791">Drop</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory_1_1_c_actor_template.html#a94956e71a91078039f49e62dc32cf17c">Load</a> (const std::string &amp;name)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory_1_1_c_actor_template.html#ac5070dc75f2531b99a49b4ff62137440">Load</a> (<a class="el" href="classxml_1_1_c_xml.html">CXml</a> &amp;xml)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const std::vector&lt; CAnimSet * &gt; &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory_1_1_c_actor_template.html#ae7e5315936d2718d1fd89d959995e541">GetAvailableAnims</a> ()</td></tr>
+<tr><td colspan="2"><h2>Metody chronione</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory_1_1_c_actor_template.html#acf4a1c5792110afa8da369a14b14f4ae">Fill</a> (<a class="el" href="classlogic_1_1_c_actor.html">CActor</a> *actor)</td></tr>
+<tr><td colspan="2"><h2>Atrybuty chronione</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CAnimSet *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory_1_1_c_actor_template.html#a608e9b5176ce8348202dcf7a94ce4881">p_templ_animations</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory_1_1_c_actor_template.html#a3a0b3fb6852a9cec313941c35c559a4f">m_templ_energy</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::vector&lt; CAnimSet * &gt;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory_1_1_c_actor_template.html#a7a293a904077664570ae586d066e21f5">m_templ_available_animations</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory_1_1_c_actor_template.html#ac2e5d7ed912a1f4154a06959b752a02d">m_templ_mass</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory_1_1_c_actor_template.html#a15cd23f369f55e7b2ce25fca84815d35">m_templ_temperature</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory_1_1_c_actor_template.html#ae67680a4660375b33210720b2d7789a0">m_templ_speed</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfactory_1_1_c_actor_template.html#ab4d811b4756f51e34db63d5651f39772">m_templ_movabled</a></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Opis szczegółowy</h2>
+<p>Klasa reprezentuje generyczny wzorzec aktora </p>
+<hr/><h2>Dokumentacja konstruktora i destruktora</h2>
+<a class="anchor" id="a7fe3a1d4152e73cfd5299bc77a8bdef9"></a><!-- doxytag: member="factory::CActorTemplate::CActorTemplate" ref="a7fe3a1d4152e73cfd5299bc77a8bdef9" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">factory::CActorTemplate::CActorTemplate </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Konstruktor </p>
+
+</div>
+</div>
+<a class="anchor" id="acec57c500710aed033e6e6b3d8c80b21"></a><!-- doxytag: member="factory::CActorTemplate::~CActorTemplate" ref="acec57c500710aed033e6e6b3d8c80b21" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">factory::CActorTemplate::~CActorTemplate </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Destruktor wirtualny </p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja funkcji składowych</h2>
+<a class="anchor" id="aa6607fbba297d2d2050ecf9775c26791"></a><!-- doxytag: member="factory::CActorTemplate::Drop" ref="aa6607fbba297d2d2050ecf9775c26791" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void factory::CActorTemplate::Drop </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Wirtualna metoda zwalniająca zasób - implementacje w klasach pochodnych </p>
+
+<p>Implementuje <a class="el" href="classfactory_1_1_c_physical_template.html#a7771d259aec1d77b2b58159aefbc60d1">factory::CPhysicalTemplate</a>.</p>
+
+<p>Reimplementowana w <a class="el" href="classfactory_1_1_c_enemy_template.html#a5b923523eea8f95cde22b3c9be548949">factory::CEnemyTemplate</a> i <a class="el" href="classfactory_1_1_c_player_template.html#a760b17d7c9152e773a0ee5cd304f7103">factory::CPlayerTemplate</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acf4a1c5792110afa8da369a14b14f4ae"></a><!-- doxytag: member="factory::CActorTemplate::Fill" ref="acf4a1c5792110afa8da369a14b14f4ae" args="(CActor *actor)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void factory::CActorTemplate::Fill </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classlogic_1_1_c_actor.html">CActor</a> *&nbsp;</td>
+          <td class="paramname"> <em>actor</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected, virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Wirtualna metoda wypełniająca danymi obiekt klasy CActor</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>*actor</em>&nbsp;</td><td>- wskaźnik na obiekt klasy CActor </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplementowana z <a class="el" href="classfactory_1_1_c_physical_template.html#aff85fc64a33e056882887f5640294e08">factory::CPhysicalTemplate</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae7e5315936d2718d1fd89d959995e541"></a><!-- doxytag: member="factory::CActorTemplate::GetAvailableAnims" ref="ae7e5315936d2718d1fd89d959995e541" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt;CAnimSet*&gt;&amp; factory::CActorTemplate::GetAvailableAnims </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac5070dc75f2531b99a49b4ff62137440"></a><!-- doxytag: member="factory::CActorTemplate::Load" ref="ac5070dc75f2531b99a49b4ff62137440" args="(CXml &amp;xml)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool factory::CActorTemplate::Load </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classxml_1_1_c_xml.html">CXml</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>xml</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Wirtualna metoda ładująca dane z <a class="el" href="namespacexml.html">xml</a> ładuje wspólne cechy CActor</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;xml</em>&nbsp;</td><td>- referencja na obiekt klasy CXml </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplementowana z <a class="el" href="classfactory_1_1_c_physical_template.html#ab6942e43b4a05edf048f5bde6e421e04">factory::CPhysicalTemplate</a>.</p>
+
+<p>Reimplementowana w <a class="el" href="classfactory_1_1_c_enemy_template.html#aad6dc891d244f8aa24f57422c699e1d2">factory::CEnemyTemplate</a> i <a class="el" href="classfactory_1_1_c_player_template.html#a693ac2aa28021c88eabeac4f140cde36">factory::CPlayerTemplate</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a94956e71a91078039f49e62dc32cf17c"></a><!-- doxytag: member="factory::CActorTemplate::Load" ref="a94956e71a91078039f49e62dc32cf17c" args="(const std::string &amp;name)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool factory::CActorTemplate::Load </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>name</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ładująca dane</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;name</em>&nbsp;</td><td>- stała referencja na std::string </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplementowana z <a class="el" href="classfactory_1_1_c_physical_template.html#a5c0b6ac88ac39fa3ea78c1165ae9ad09">factory::CPhysicalTemplate</a>.</p>
+
+<p>Reimplementowana w <a class="el" href="classfactory_1_1_c_enemy_template.html#ad8394d36d8b42a607b560f4a5a143191">factory::CEnemyTemplate</a> i <a class="el" href="classfactory_1_1_c_player_template.html#a7c8088fb53d7b29b19da5a1bf1b6abb9">factory::CPlayerTemplate</a>.</p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja atrybutów składowych</h2>
+<a class="anchor" id="a7a293a904077664570ae586d066e21f5"></a><!-- doxytag: member="factory::CActorTemplate::m_templ_available_animations" ref="a7a293a904077664570ae586d066e21f5" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;CAnimSet*&gt; <a class="el" href="classfactory_1_1_c_actor_template.html#a7a293a904077664570ae586d066e21f5">factory::CActorTemplate::m_templ_available_animations</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3a0b3fb6852a9cec313941c35c559a4f"></a><!-- doxytag: member="factory::CActorTemplate::m_templ_energy" ref="a3a0b3fb6852a9cec313941c35c559a4f" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float <a class="el" href="classfactory_1_1_c_actor_template.html#a3a0b3fb6852a9cec313941c35c559a4f">factory::CActorTemplate::m_templ_energy</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac2e5d7ed912a1f4154a06959b752a02d"></a><!-- doxytag: member="factory::CActorTemplate::m_templ_mass" ref="ac2e5d7ed912a1f4154a06959b752a02d" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float <a class="el" href="classfactory_1_1_c_actor_template.html#ac2e5d7ed912a1f4154a06959b752a02d">factory::CActorTemplate::m_templ_mass</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab4d811b4756f51e34db63d5651f39772"></a><!-- doxytag: member="factory::CActorTemplate::m_templ_movabled" ref="ab4d811b4756f51e34db63d5651f39772" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classfactory_1_1_c_actor_template.html#ab4d811b4756f51e34db63d5651f39772">factory::CActorTemplate::m_templ_movabled</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae67680a4660375b33210720b2d7789a0"></a><!-- doxytag: member="factory::CActorTemplate::m_templ_speed" ref="ae67680a4660375b33210720b2d7789a0" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float <a class="el" href="classfactory_1_1_c_actor_template.html#ae67680a4660375b33210720b2d7789a0">factory::CActorTemplate::m_templ_speed</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a15cd23f369f55e7b2ce25fca84815d35"></a><!-- doxytag: member="factory::CActorTemplate::m_templ_temperature" ref="a15cd23f369f55e7b2ce25fca84815d35" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float <a class="el" href="classfactory_1_1_c_actor_template.html#a15cd23f369f55e7b2ce25fca84815d35">factory::CActorTemplate::m_templ_temperature</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a608e9b5176ce8348202dcf7a94ce4881"></a><!-- doxytag: member="factory::CActorTemplate::p_templ_animations" ref="a608e9b5176ce8348202dcf7a94ce4881" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CAnimSet* <a class="el" href="classfactory_1_1_c_actor_template.html#a608e9b5176ce8348202dcf7a94ce4881">factory::CActorTemplate::p_templ_animations</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Factory/<a class="el" href="_c_actor_template_8h_source.html">CActorTemplate.h</a></li>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Factory/<a class="el" href="_c_actor_template_8cpp.html">CActorTemplate.cpp</a></li>
+</ul>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:17 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

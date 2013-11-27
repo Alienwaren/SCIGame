@@ -1,0 +1,189 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Dokumentacja przestrzeni nazw stringutils</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li class="current"><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="namespaces.html"><span>Lista&nbsp;przestrzeni&nbsp;nazw</span></a></li>
+      <li><a href="namespacemembers.html"><span>Składowe&nbsp;przestrzeni&nbsp;nazw</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja przestrzeni nazw stringutils</h1><table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Funkcje</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">unsigned long long&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacestringutils.html#afbaf43e3a19786eb3caad4627c99bf30">GetStringHash</a> (const std::string &amp;str)</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacestringutils.html#aaa468524ca5e7a01466079688bc30a35">FromString</a> (const std::string &amp;str, T &amp;value)</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;class type &gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">std::wstring&nbsp;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacestringutils.html#a9ac2a044ac9e878db79b36b49a855085">ToWString</a> (const type &amp;value)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::wstring&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacestringutils.html#a66c187cf81460253f95accbb18907ebf">ConvertToWString</a> (std::string string_param)</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">std::string&nbsp;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacestringutils.html#ade2fcbb33f4e09974ba6c91203e60208">ToString</a> (const T i)</td></tr>
+</table>
+<hr/><h2>Dokumentacja funkcji</h2>
+<a class="anchor" id="a66c187cf81460253f95accbb18907ebf"></a><!-- doxytag: member="stringutils::ConvertToWString" ref="a66c187cf81460253f95accbb18907ebf" args="(std::string string_param)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::wstring stringutils::ConvertToWString </td>
+          <td>(</td>
+          <td class="paramtype">std::string&nbsp;</td>
+          <td class="paramname"> <em>string_param</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Funkcja konwertuje std::string na std::wstring </p>
+
+</div>
+</div>
+<a class="anchor" id="aaa468524ca5e7a01466079688bc30a35"></a><!-- doxytag: member="stringutils::FromString" ref="aaa468524ca5e7a01466079688bc30a35" args="(const std::string &amp;str, T &amp;value)" -->
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool stringutils::FromString </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&nbsp;</td>
+          <td class="paramname"> <em>value</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Funkcja szablonowa sprawdzająca, czy można dokonać konwersji typu szablonowego </p>
+
+</div>
+</div>
+<a class="anchor" id="afbaf43e3a19786eb3caad4627c99bf30"></a><!-- doxytag: member="stringutils::GetStringHash" ref="afbaf43e3a19786eb3caad4627c99bf30" args="(const std::string &amp;str)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long long stringutils::GetStringHash </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>str</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Funkcja hash - generuje unikalne wartości typu unsigned long long</p>
+<p>param &amp;str - stała referencja na obiekt std::string </p>
+
+</div>
+</div>
+<a class="anchor" id="ade2fcbb33f4e09974ba6c91203e60208"></a><!-- doxytag: member="stringutils::ToString" ref="ade2fcbb33f4e09974ba6c91203e60208" args="(const T i)" -->
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string stringutils::ToString </td>
+          <td>(</td>
+          <td class="paramtype">const T&nbsp;</td>
+          <td class="paramname"> <em>i</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Funkcja szablonowa konwertująca typ szablonowy na std::string </p>
+
+</div>
+</div>
+<a class="anchor" id="a9ac2a044ac9e878db79b36b49a855085"></a><!-- doxytag: member="stringutils::ToWString" ref="a9ac2a044ac9e878db79b36b49a855085" args="(const type &amp;value)" -->
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class type &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::wstring stringutils::ToWString </td>
+          <td>(</td>
+          <td class="paramtype">const type &amp;&nbsp;</td>
+          <td class="paramname"> <em>value</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Funkcja szablonowa konwertująca typ szablonowy na std::wstring </p>
+
+</div>
+</div>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:19 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

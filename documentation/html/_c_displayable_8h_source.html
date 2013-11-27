@@ -1,0 +1,206 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Plik źródłowy C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Rendering/Displayable/CDisplayable.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+<h1>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Rendering/Displayable/CDisplayable.h</h1><a href="_c_displayable_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/*</span>
+<a name="l00002"></a>00002 <span class="comment"> ________________________________________</span>
+<a name="l00003"></a>00003 <span class="comment">| CDisplayable.h - definicja klasy       |</span>
+<a name="l00004"></a>00004 <span class="comment">| SCI - August 2012.                     |</span>
+<a name="l00005"></a>00005 <span class="comment">|________________________________________|</span>
+<a name="l00006"></a>00006 <span class="comment"></span>
+<a name="l00007"></a>00007 <span class="comment">*/</span>
+<a name="l00008"></a>00008 
+<a name="l00009"></a>00009 <span class="preprocessor">#ifndef H_DISPLAYABLE_SCI</span>
+<a name="l00010"></a>00010 <span class="preprocessor"></span><span class="preprocessor">#define H_DISPLAYABLE_SCI</span>
+<a name="l00011"></a>00011 <span class="preprocessor"></span>
+<a name="l00012"></a>00012 <span class="preprocessor">#include &quot;../Drawable/IDrawable.h&quot;</span>
+<a name="l00013"></a>00013 <span class="preprocessor">#include &quot;<a class="code" href="_c_sprite_8h.html">CSprite.h</a>&quot;</span>
+<a name="l00014"></a>00014 <span class="preprocessor">#include &lt;string&gt;</span>
+<a name="l00015"></a>00015 
+<a name="l00019"></a><a class="code" href="namespacesf.html">00019</a> <span class="keyword">namespace </span>sf
+<a name="l00020"></a>00020 {
+<a name="l00021"></a>00021     <span class="keyword">class </span>Sprite;
+<a name="l00022"></a>00022     <span class="keyword">class </span>RenderWindow;
+<a name="l00023"></a>00023 }
+<a name="l00024"></a>00024 
+<a name="l00028"></a>00028 <span class="keyword">namespace </span>rendering
+<a name="l00029"></a>00029 {
+<a name="l00030"></a>00030         <span class="keyword">namespace </span>animation
+<a name="l00031"></a>00031         {
+<a name="l00032"></a>00032                 <span class="keyword">class </span><a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html">CAnimationState</a>;
+<a name="l00033"></a>00033                 <span class="keyword">class </span><a class="code" href="classrendering_1_1animation_1_1_c_animation_frame.html">CAnimationFrame</a>;
+<a name="l00034"></a>00034                 <span class="keyword">class </span><a class="code" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a>;
+<a name="l00035"></a>00035         }
+<a name="l00036"></a>00036 }
+<a name="l00037"></a>00037 
+<a name="l00041"></a><a class="code" href="namespaceresource.html">00041</a> <span class="keyword">namespace </span>resource
+<a name="l00042"></a>00042 {
+<a name="l00043"></a>00043         <span class="keyword">class </span><a class="code" href="classresource_1_1_c_texture.html">CTexture</a>;
+<a name="l00044"></a>00044 }
+<a name="l00045"></a>00045 
+<a name="l00046"></a>00046 <span class="keyword">using namespace </span>rendering::animation;
+<a name="l00047"></a>00047 <span class="keyword">using namespace </span>resource;
+<a name="l00048"></a>00048 <span class="keyword">using namespace </span>rendering::drawable;
+<a name="l00049"></a>00049 
+<a name="l00050"></a>00050 <span class="keyword">namespace </span>rendering
+<a name="l00051"></a>00051 {
+<a name="l00052"></a>00052         <span class="keyword">namespace </span>displayable
+<a name="l00053"></a>00053         {
+<a name="l00057"></a><a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html">00057</a>                 <span class="keyword">class </span><a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html">CDisplayable</a> : <span class="keyword">public</span> <a class="code" href="classrendering_1_1drawable_1_1_i_drawable.html">IDrawable</a>
+<a name="l00058"></a>00058                 {
+<a name="l00059"></a>00059 
+<a name="l00060"></a>00060                 <span class="keyword">public</span>:
+<a name="l00061"></a>00061 
+<a name="l00065"></a>00065                         <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a1c94ae2aaa731b35405ad3b68184c738">CDisplayable</a>();
+<a name="l00066"></a>00066 
+<a name="l00072"></a>00072                         <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a1c94ae2aaa731b35405ad3b68184c738">CDisplayable</a>(<span class="keyword">const</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html">CDisplayable</a>&amp; CDisplayableCopy);
+<a name="l00073"></a>00073 
+<a name="l00077"></a>00077                         <span class="keyword">virtual</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a927a73f17233b0fc968c3028b4fa6d42">~CDisplayable</a>();
+<a name="l00078"></a>00078 
+<a name="l00082"></a>00082                         <a class="code" href="classrendering_1_1displayable_1_1_c_sprite.html">CSprite</a> *<a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a3310a6d0a7727396a4d0f01a66b46fbf">GetSprite</a>();
+<a name="l00083"></a>00083 
+<a name="l00087"></a>00087                         <span class="keyword">const</span> <span class="keywordtype">bool</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a9a1a937b5a253cfbf209ef2d83425df5">getCanDraw</a>() <span class="keyword">const</span>;
+<a name="l00088"></a>00088 
+<a name="l00094"></a>00094                         <span class="keyword">const</span> <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a1b1630f12421652ae8376aa0e8c2248e">setCanDraw</a>(<span class="keywordtype">bool</span> can_draw);
+<a name="l00095"></a>00095 
+<a name="l00099"></a>00099                         <span class="keyword">const</span> <span class="keywordtype">bool</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a8fc3c61a8b27500207964324ac474596">getVisible</a>() <span class="keyword">const</span>;
+<a name="l00100"></a>00100 
+<a name="l00106"></a>00106                         <span class="keyword">const</span> <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#aed4d15ede08d20c30a316357ef7ce00f">setVisible</a>(<span class="keywordtype">bool</span> visible);
+<a name="l00107"></a>00107 
+<a name="l00111"></a>00111                         <span class="keyword">const</span> sf::Vector2f&amp; <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#ab9494ebbf26604d73f9a7e81357e5dec">getPosition</a>() <span class="keyword">const</span>;
+<a name="l00112"></a>00112 
+<a name="l00120"></a>00120                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#ad75bbbffab0008f7603e2bde77593767">setPosition</a>(<span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y);
+<a name="l00121"></a>00121 
+<a name="l00123"></a>00123                         <span class="comment">//Metoda ustawia pozycję obiektu</span>
+<a name="l00127"></a>00127 <span class="comment"></span>                        <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#ad75bbbffab0008f7603e2bde77593767">setPosition</a>(<span class="keyword">const</span> sf::Vector2f&amp; vector);
+<a name="l00128"></a>00128 
+<a name="l00132"></a>00132                         <span class="keywordtype">float</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a4326abdd68a891554de0874bd26475f2">getRotation</a>() <span class="keyword">const</span>;
+<a name="l00133"></a>00133                 
+<a name="l00139"></a>00139                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#ae410cfd8312a6cf2a8755007335eb9aa">setRotation</a>(<span class="keywordtype">float</span> rotation_value);
+<a name="l00140"></a>00140 
+<a name="l00146"></a>00146                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a0b7634ee110a46fce562a4d9ce5c1f00">rotate</a>(<span class="keywordtype">float</span> angle);
+<a name="l00147"></a>00147 
+<a name="l00151"></a>00151                         <span class="keyword">const</span> sf::Vector2f&amp; <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a713ed1f35285067b1e4496ec377eecf9">getScale</a>() <span class="keyword">const</span>;
+<a name="l00152"></a>00152                 
+<a name="l00160"></a>00160                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#aef0a4ab5d1f321ea629e85713e194ad6">setScale</a>(<span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y);
+<a name="l00161"></a>00161 
+<a name="l00167"></a>00167                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#aef0a4ab5d1f321ea629e85713e194ad6">setScale</a>(<span class="keyword">const</span> sf::Vector2f&amp; new_scale_value);
+<a name="l00168"></a>00168 
+<a name="l00174"></a>00174                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#aef0a4ab5d1f321ea629e85713e194ad6">setScale</a>(<span class="keywordtype">float</span> factors);
+<a name="l00175"></a>00175 
+<a name="l00183"></a>00183                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#aa07354c2dadb1cce6ba3284501fb5cb2">scale</a>(<span class="keywordtype">float</span> factorX, <span class="keywordtype">float</span> factorY);
+<a name="l00184"></a>00184                         
+<a name="l00190"></a>00190                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#aa07354c2dadb1cce6ba3284501fb5cb2">scale</a>(<span class="keyword">const</span> sf::Vector2f&amp; factor);
+<a name="l00191"></a>00191 
+<a name="l00195"></a>00195                         <span class="keyword">const</span> sf::Vector2f&amp; <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#afaf7df81b939454ecca5e5986a013784">getOrigin</a>() <span class="keyword">const</span>;
+<a name="l00196"></a>00196 
+<a name="l00204"></a>00204                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a3671f85d2e76b650ce04a5160d18f147">setOrigin</a>(<span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y);
+<a name="l00205"></a>00205 
+<a name="l00211"></a>00211                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a3671f85d2e76b650ce04a5160d18f147">setOrigin</a>(<span class="keyword">const</span> sf::Vector2f&amp; origin);
+<a name="l00212"></a>00212 
+<a name="l00216"></a>00216                         <span class="keyword">const</span> sf::IntRect&amp; <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a1bb2eb0192827f13bcd10db4097231df">getTextureRect</a>() <span class="keyword">const</span>;
+<a name="l00217"></a>00217 
+<a name="l00229"></a>00229                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#ac13055a6e02894cf3b6c5c0f92cf2f66">setTextureRect</a>(<span class="keywordtype">int</span> rectLeft, <span class="keywordtype">int</span> rectTop, <span class="keywordtype">int</span> rectWidth, <span class="keywordtype">int</span> rectHeight);
+<a name="l00230"></a>00230 
+<a name="l00236"></a>00236                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#ac13055a6e02894cf3b6c5c0f92cf2f66">setTextureRect</a> (<span class="keyword">const</span> sf::IntRect&amp; rectangle);
+<a name="l00237"></a>00237 
+<a name="l00241"></a>00241                         sf::FloatRect <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#ae4dcf931e56d6fcd85f041a3034085aa">getLocalBounds</a>() <span class="keyword">const</span>;
+<a name="l00242"></a>00242 
+<a name="l00246"></a>00246                         sf::FloatRect <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#ad288592f35bbff0b971d9d9e477b39d7">getGlobalBounds</a>() <span class="keyword">const</span>;
+<a name="l00247"></a>00247                         
+<a name="l00255"></a>00255                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#aa5f8418e5fcb606b03c565c368a1f76b">move</a>(<span class="keywordtype">float</span> offsetX, <span class="keywordtype">float</span> offsetY);
+<a name="l00256"></a>00256 
+<a name="l00262"></a>00262                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#aa5f8418e5fcb606b03c565c368a1f76b">move</a>(<span class="keyword">const</span> sf::Vector2f&amp; offset);
+<a name="l00263"></a>00263 
+<a name="l00267"></a>00267                         <span class="keyword">const</span> sf::Color&amp; <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#acb14f6d5266ccb57c487ffe0c8dc6b28">getColor</a>() <span class="keyword">const</span>;
+<a name="l00268"></a>00268 
+<a name="l00274"></a>00274                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a116c9922f47ad2ca70bf2aaba3a8d27c">setColor</a>(<span class="keyword">const</span> sf::Color&amp; color);
+<a name="l00275"></a>00275 
+<a name="l00281"></a>00281                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a8b1227c8936469b7e6821aea22f69526">setTexture</a>(<span class="keyword">const</span> std::string&amp; texture_name);
+<a name="l00282"></a>00282 
+<a name="l00288"></a>00288                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a8b1227c8936469b7e6821aea22f69526">setTexture</a>(<a class="code" href="classresource_1_1_c_texture.html">CTexture</a> *p_texture);
+<a name="l00289"></a>00289 
+<a name="l00295"></a>00295                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a009771dbf9840b1a39ec30331719abf3">SetAnimation</a>( <span class="keyword">const</span> std::string&amp; animation_name );
+<a name="l00296"></a>00296 
+<a name="l00302"></a>00302                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a009771dbf9840b1a39ec30331719abf3">SetAnimation</a>(<a class="code" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *p_animation);
+<a name="l00303"></a>00303 
+<a name="l00307"></a>00307                         <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html">CAnimationState</a>* <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a63ce5c681fb3e2da71648750b33ac262">GetAnimationState</a>();
+<a name="l00308"></a>00308 
+<a name="l00312"></a>00312                         <span class="keyword">const</span> <span class="keywordtype">bool</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#af419c38439001b66ddb5aca11b902a94" title="Metoda zwraca tryb wygładzania tekstury.">getSmoothing</a>() <span class="keyword">const</span>;
+<a name="l00313"></a>00313 
+<a name="l00319"></a>00319                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a64bb9bc83e1435b5550e52d608ea767e">setSmoothing</a>(<span class="keywordtype">bool</span> smooth);
+<a name="l00320"></a>00320 
+<a name="l00326"></a>00326                         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a7129540cda649d8d230b94438400ee7e">Draw</a>(sf::RenderWindow* render);
+<a name="l00327"></a>00327                 
+<a name="l00328"></a>00328                 <span class="keyword">protected</span>:
+<a name="l00329"></a>00329                 
+<a name="l00330"></a><a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#af6e83c466537e741f6471156155ee94c">00330</a>                         <a class="code" href="classrendering_1_1displayable_1_1_c_sprite.html">CSprite</a>*                        <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#af6e83c466537e741f6471156155ee94c">m_sprite</a>;                               <span class="comment">//wskaźnik na obiekt klasy CSprite (kontekst graficzny)</span>
+<a name="l00331"></a><a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a6aa721a683e510f347ee1b7e3f0ccbf9">00331</a>                         <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html">CAnimationState</a>*        <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a6aa721a683e510f347ee1b7e3f0ccbf9">m_animation_state</a>;              <span class="comment">//wskaźnik na obiekt CAnimationState</span>
+<a name="l00332"></a><a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#afd3b2c18ef6619abf70b3598e26e40a7">00332</a>                         <span class="keywordtype">bool</span>                            <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#afd3b2c18ef6619abf70b3598e26e40a7">m_visible</a>;                              <span class="comment">//flaga określający, czy obiekt jest widoczny</span>
+<a name="l00333"></a><a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a5e45485ab57905e07c7305efdd27a397">00333</a>                         <span class="keywordtype">bool</span>                            <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a5e45485ab57905e07c7305efdd27a397">m_can_draw</a>;                             <span class="comment">//flaga określający, czy można rysować ten obiekt</span>
+<a name="l00334"></a><a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a9a5b89bdbc972b86a71b976d96d951cc">00334</a>                         std::string                     <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#a9a5b89bdbc972b86a71b976d96d951cc">m_animation_name</a>;               <span class="comment">//nazwa animacji</span>
+<a name="l00335"></a><a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#aa5878660468c11dc2a93288232519969">00335</a>                         <span class="keywordtype">bool</span>                            <a class="code" href="classrendering_1_1displayable_1_1_c_displayable.html#aa5878660468c11dc2a93288232519969">m_smooth</a>;                               <span class="comment">//flaga, czy obiekt wygładza piksele tekstury</span>
+<a name="l00336"></a>00336                 };
+<a name="l00337"></a>00337         } <span class="comment">//namespace displayable</span>
+<a name="l00338"></a>00338 }<span class="comment">//namespace rendering</span>
+<a name="l00339"></a>00339 <span class="preprocessor">#endif //H_DISPLAYABLE_SCI</span>
+</pre></div></div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:16 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

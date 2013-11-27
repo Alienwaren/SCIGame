@@ -1,0 +1,147 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Plik źródłowy C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Logic/CPhysicalManager.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+<h1>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Logic/CPhysicalManager.h</h1><a href="_c_physical_manager_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/*</span>
+<a name="l00002"></a>00002 <span class="comment"> ____________________________________________</span>
+<a name="l00003"></a>00003 <span class="comment">| CPhysicalManager.h - definicja klasy       |</span>
+<a name="l00004"></a>00004 <span class="comment">| SCI - November 2012.                       |</span>
+<a name="l00005"></a>00005 <span class="comment">|____________________________________________|</span>
+<a name="l00006"></a>00006 <span class="comment"></span>
+<a name="l00007"></a>00007 <span class="comment">*/</span>
+<a name="l00008"></a>00008 
+<a name="l00009"></a>00009 <span class="preprocessor">#ifndef H_PHYSICAL_MANAGER_SCI</span>
+<a name="l00010"></a>00010 <span class="preprocessor"></span><span class="preprocessor">#define H_PHYSICAL_MANAGER_SCI</span>
+<a name="l00011"></a>00011 <span class="preprocessor"></span>
+<a name="l00012"></a>00012 <span class="preprocessor">#include &quot;../Utilities/Singleton/CSingleton.h&quot;</span>
+<a name="l00013"></a>00013 <span class="preprocessor">#include &quot;../Game/Listener/IFrameListener.h&quot;</span>
+<a name="l00014"></a>00014 <span class="preprocessor">#include &lt;string&gt;</span>
+<a name="l00015"></a>00015 <span class="preprocessor">#include &lt;map&gt;</span>
+<a name="l00016"></a>00016 
+<a name="l00017"></a><a class="code" href="_c_physical_manager_8h.html#afdfc70fefff93cb1d5672a4ef559484d">00017</a> <span class="preprocessor">#define gPhysicalManager logic::CPhysicalManager::GetSingleton()</span>
+<a name="l00018"></a>00018 <span class="preprocessor"></span>
+<a name="l00022"></a>00022 <span class="keyword">namespace </span>logic
+<a name="l00023"></a>00023 {
+<a name="l00024"></a>00024         <span class="keyword">class </span>CPhysical;
+<a name="l00025"></a>00025         <span class="keyword">class </span>CActor;
+<a name="l00026"></a>00026         <span class="keyword">class </span>CEnemy;
+<a name="l00027"></a>00027         <span class="keyword">class </span>CPlayer;
+<a name="l00028"></a>00028         <span class="keyword">class </span>CBullet;
+<a name="l00029"></a>00029 }
+<a name="l00030"></a>00030 <span class="comment">//fabryka może produkować obiekty wyżej wymienionych klasy</span>
+<a name="l00031"></a>00031 
+<a name="l00032"></a>00032 <span class="keyword">using namespace </span>listener;
+<a name="l00033"></a>00033 
+<a name="l00034"></a>00034 <span class="keyword">namespace </span>logic
+<a name="l00035"></a>00035 {
+<a name="l00039"></a><a class="code" href="classlogic_1_1_c_physical_manager.html">00039</a>         <span class="keyword">class </span><a class="code" href="classlogic_1_1_c_physical_manager.html">CPhysicalManager</a> : <span class="keyword">public</span> <a class="code" href="class_c_singleton.html">CSingleton</a>&lt;CPhysicalManager&gt;, <span class="keyword">public</span> <a class="code" href="classlistener_1_1_i_frame_listener.html">IFrameListener</a>
+<a name="l00040"></a>00040         {
+<a name="l00041"></a>00041         <span class="keyword">public</span>:
+<a name="l00042"></a>00042 
+<a name="l00046"></a>00046                 <a class="code" href="classlogic_1_1_c_physical_manager.html#a37c75bab47cbd25c5c09e18191e3e696">CPhysicalManager</a>();
+<a name="l00047"></a>00047 
+<a name="l00051"></a>00051                 <span class="keyword">virtual</span> <a class="code" href="classlogic_1_1_c_physical_manager.html#a8c6a06e55860e420e76c96378d48fabe">~CPhysicalManager</a>();
+<a name="l00052"></a>00052 
+<a name="l00058"></a>00058                 <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classlogic_1_1_c_physical_manager.html#a2a86c033514c302af9297f15e2fc80d8">FrameStarted</a>(<span class="keywordtype">float</span> secondsPassed);
+<a name="l00059"></a>00059                 
+<a name="l00065"></a>00065                 <a class="code" href="classlogic_1_1_c_physical.html">logic::CPhysical</a>* <a class="code" href="classlogic_1_1_c_physical_manager.html#a3a2577df38a721e0c5f9fca5e8294963">CreatePhysical</a>(<span class="keyword">const</span> std::wstring&amp; unique_id = L<span class="stringliteral">&quot;&quot;</span>);
+<a name="l00066"></a>00066 
+<a name="l00072"></a>00072                 <a class="code" href="classlogic_1_1_c_actor.html">logic::CActor</a> *<a class="code" href="classlogic_1_1_c_physical_manager.html#aa1e60cf20c1823a2739a5ebadeaa124a">CreateActor</a>(<span class="keyword">const</span> std::wstring &amp;uniqueId = L<span class="stringliteral">&quot;&quot;</span>);
+<a name="l00073"></a>00073 
+<a name="l00079"></a>00079                 <a class="code" href="classlogic_1_1_c_enemy.html">logic::CEnemy</a> *<a class="code" href="classlogic_1_1_c_physical_manager.html#a0d3321513d4564d0bfd46de9c667d536">CreateEnemy</a>(<span class="keyword">const</span> std::wstring &amp;uniqueId = L<span class="stringliteral">&quot;&quot;</span>);
+<a name="l00080"></a>00080 
+<a name="l00086"></a>00086                 <a class="code" href="classlogic_1_1_c_player.html">logic::CPlayer</a> *<a class="code" href="classlogic_1_1_c_physical_manager.html#a053fad29dd2481bb393ffe13e32777fc">CreatePlayer</a>( <span class="keyword">const</span> std::wstring &amp;uniqueId = L<span class="stringliteral">&quot;&quot;</span>);
+<a name="l00087"></a>00087 
+<a name="l00093"></a>00093                 <a class="code" href="classlogic_1_1_c_bullet.html">logic::CBullet</a> *<a class="code" href="classlogic_1_1_c_physical_manager.html#ab4859542ad3b34f27509f458383085fc">CreateBullet</a>( <span class="keyword">const</span> std::wstring &amp;uniqueId = L<span class="stringliteral">&quot;&quot;</span>);
+<a name="l00094"></a>00094 
+<a name="l00100"></a>00100                 <span class="keywordtype">void</span> <a class="code" href="classlogic_1_1_c_physical_manager.html#ae8b3f1201a4b117b1e34a2c5f9196960">DestroyPhysical</a>(<a class="code" href="classlogic_1_1_c_physical.html">logic::CPhysical</a>* physical);
+<a name="l00101"></a>00101             
+<a name="l00107"></a>00107                 <span class="keywordtype">void</span> <a class="code" href="classlogic_1_1_c_physical_manager.html#ae8b3f1201a4b117b1e34a2c5f9196960">DestroyPhysical</a>(<span class="keyword">const</span> std::wstring&amp; id_physical);
+<a name="l00108"></a>00108 
+<a name="l00114"></a>00114                 <span class="keywordtype">void</span> <a class="code" href="classlogic_1_1_c_physical_manager.html#a4a906c20cf37bf4c996ed1a8dbdfc905">Clear</a>(<span class="keywordtype">bool</span> force_destroy_instantly = <span class="keyword">false</span>);
+<a name="l00115"></a>00115 
+<a name="l00119"></a>00119                 <span class="keyword">const</span> std::map&lt;std::wstring, logic::CPhysical*&gt;&amp; <a class="code" href="classlogic_1_1_c_physical_manager.html#aaab5722a432a49d94686818bcad4d131">GetNamedPhysicals</a>();
+<a name="l00120"></a>00120 
+<a name="l00124"></a>00124                 <span class="keyword">const</span> std::vector&lt;logic::CPhysical*&gt;&amp; <a class="code" href="classlogic_1_1_c_physical_manager.html#a3b90bcb3eacb5f28657eaae6058710f0">GetPhysicals</a>();
+<a name="l00125"></a>00125 
+<a name="l00131"></a>00131                 <a class="code" href="classlogic_1_1_c_physical.html">logic::CPhysical</a>* <a class="code" href="classlogic_1_1_c_physical_manager.html#a213e32ac23f424a7258c43fa06d7423f">GetPhysicalById</a>(<span class="keyword">const</span> std::wstring&amp; physical_id);
+<a name="l00132"></a>00132 
+<a name="l00133"></a>00133         <span class="keyword">private</span>:
+<a name="l00134"></a>00134                 
+<a name="l00135"></a>00135                 <span class="comment">//</span>
+<a name="l00136"></a>00136                 <span class="comment">//Szablon metody tworzenia obiektów</span>
+<a name="l00137"></a>00137                 <span class="comment">//</span>
+<a name="l00138"></a>00138                 <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt; T* Create(<span class="keyword">const</span> std::wstring &amp;uniqueId);
+<a name="l00139"></a>00139             
+<a name="l00140"></a>00140                 std::map&lt;std::wstring, logic::CPhysical*&gt;               m_named_physicals;      <span class="comment">//kontener &lt;map&gt; na nazwy obiektów CPhysical</span>
+<a name="l00141"></a>00141                 std::vector&lt;logic::CPhysical*&gt;                                  m_physicals;            <span class="comment">//kontener &lt;vector&gt; na wskaźniki na obiekty klasy CPhysical</span>
+<a name="l00142"></a>00142             
+<a name="l00143"></a>00143                 <span class="comment">//</span>
+<a name="l00144"></a>00144                 <span class="comment">//Prywatna metoda sprawdzająca jaki identyfikator nadać obiektowi przy utworzeniu</span>
+<a name="l00145"></a>00145                 <span class="comment">//</span>
+<a name="l00146"></a>00146                 <span class="comment">//@param &amp;new_unique_id - referencja na obiekt klasy std::wstring</span>
+<a name="l00147"></a>00147                 <span class="comment">//</span>
+<a name="l00148"></a>00148                 <span class="keywordtype">void</span> CheckUniqueId(std::wstring&amp; new_unique_id);
+<a name="l00149"></a>00149         };
+<a name="l00150"></a>00150 }<span class="comment">//namespace logic</span>
+<a name="l00151"></a>00151 <span class="preprocessor">#endif//H_PHYSICAL_MANAGER_SCI</span>
+</pre></div></div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:16 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

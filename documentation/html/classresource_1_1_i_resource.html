@@ -1,0 +1,189 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Dokumentacja klasy resource::IResource</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Lista&nbsp;klas</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarchia&nbsp;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&nbsp;klas</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="namespaceresource.html">resource</a>::<a class="el" href="classresource_1_1_i_resource.html">IResource</a>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja klasy resource::IResource</h1><!-- doxytag: class="resource::IResource" -->
+<p><code>#include &lt;<a class="el" href="_i_resource_8h_source.html">IResource.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla resource::IResource</div>
+<div class="dynsection">
+ <div class="center">
+  <img src="classresource_1_1_i_resource.gif" usemap="#resource::IResource_map" alt=""/>
+  <map id="resource::IResource_map" name="resource::IResource_map">
+<area href="classfactory_1_1_c_physical_template.html" alt="factory::CPhysicalTemplate" shape="rect" coords="175,56,340,80"/>
+<area href="classresource_1_1_c_font.html" alt="resource::CFont" shape="rect" coords="350,56,515,80"/>
+<area href="classresource_1_1_c_music.html" alt="resource::CMusic" shape="rect" coords="525,56,690,80"/>
+<area href="classresource_1_1_c_sound.html" alt="resource::CSound" shape="rect" coords="700,56,865,80"/>
+<area href="classresource_1_1_c_texture.html" alt="resource::CTexture" shape="rect" coords="875,56,1040,80"/>
+<area href="classfactory_1_1_c_actor_template.html" alt="factory::CActorTemplate" shape="rect" coords="87,112,252,136"/>
+<area href="classfactory_1_1_c_bullet_template.html" alt="factory::CBulletTemplate" shape="rect" coords="262,112,427,136"/>
+<area href="classfactory_1_1_c_enemy_template.html" alt="factory::CEnemyTemplate" shape="rect" coords="0,168,165,192"/>
+<area href="classfactory_1_1_c_player_template.html" alt="factory::CPlayerTemplate" shape="rect" coords="175,168,340,192"/>
+</map>
+ </div>
+</div>
+
+<p><a href="classresource_1_1_i_resource-members.html">Lista wszystkich składowych.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Metody publiczne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classresource_1_1_i_resource.html#ad0b274220ecbade9cf7d37b752d6dbea">IResource</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classresource_1_1_i_resource.html#a7c26d2ae809861a34f6fadbcd0d7f641">~IResource</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classresource_1_1_i_resource.html#a92d5c2ce05640b212e330ef2a471da83">Load</a> (const std::string &amp;file_name)=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classresource_1_1_i_resource.html#a74d8ead2d3b101788462bca82b56b3c5">Drop</a> ()=0</td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Opis szczegółowy</h2>
+<p>Klasa reprezentuje abstrakcyjny interfejs </p>
+<hr/><h2>Dokumentacja konstruktora i destruktora</h2>
+<a class="anchor" id="ad0b274220ecbade9cf7d37b752d6dbea"></a><!-- doxytag: member="resource::IResource::IResource" ref="ad0b274220ecbade9cf7d37b752d6dbea" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">resource::IResource::IResource </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Konstruktor </p>
+
+</div>
+</div>
+<a class="anchor" id="a7c26d2ae809861a34f6fadbcd0d7f641"></a><!-- doxytag: member="resource::IResource::~IResource" ref="a7c26d2ae809861a34f6fadbcd0d7f641" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">resource::IResource::~IResource </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Destruktor wirtualny </p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja funkcji składowych</h2>
+<a class="anchor" id="a74d8ead2d3b101788462bca82b56b3c5"></a><!-- doxytag: member="resource::IResource::Drop" ref="a74d8ead2d3b101788462bca82b56b3c5" args="()=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void resource::IResource::Drop </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Wirtualna metoda zwalniająca zasób - implementacje w klasach pochodnych </p>
+
+<p>Implementowany w <a class="el" href="classfactory_1_1_c_actor_template.html#aa6607fbba297d2d2050ecf9775c26791">factory::CActorTemplate</a>, <a class="el" href="classfactory_1_1_c_bullet_template.html#a7b1de4b7bb7dce6644f4d9769e1bacc3">factory::CBulletTemplate</a>, <a class="el" href="classfactory_1_1_c_enemy_template.html#a5b923523eea8f95cde22b3c9be548949">factory::CEnemyTemplate</a>, <a class="el" href="classfactory_1_1_c_physical_template.html#a7771d259aec1d77b2b58159aefbc60d1">factory::CPhysicalTemplate</a>, <a class="el" href="classfactory_1_1_c_player_template.html#a760b17d7c9152e773a0ee5cd304f7103">factory::CPlayerTemplate</a>, <a class="el" href="classresource_1_1_c_font.html#ab642bb3d3158728549f04e9113b0d49f">resource::CFont</a>, <a class="el" href="classresource_1_1_c_music.html#ae925006fd1d1834cb5b8487ff5750256">resource::CMusic</a>, <a class="el" href="classresource_1_1_c_sound.html#a7d6f63460ab2c156aa34cbdde8668e2b">resource::CSound</a> i <a class="el" href="classresource_1_1_c_texture.html#a33dc8d14db49ced9ee7e92942bf28a51">resource::CTexture</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a92d5c2ce05640b212e330ef2a471da83"></a><!-- doxytag: member="resource::IResource::Load" ref="a92d5c2ce05640b212e330ef2a471da83" args="(const std::string &amp;file_name)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool resource::IResource::Load </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>file_name</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Wirtualna metoda ładująca zasób - implementacje w klasach pochodnych</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;file_name</em>&nbsp;</td><td>- stała referencja na nazwę pliku </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementowany w <a class="el" href="classfactory_1_1_c_actor_template.html#a94956e71a91078039f49e62dc32cf17c">factory::CActorTemplate</a>, <a class="el" href="classfactory_1_1_c_bullet_template.html#a86d0801cbc9c14d6a2de28f4e112bcf4">factory::CBulletTemplate</a>, <a class="el" href="classfactory_1_1_c_enemy_template.html#ad8394d36d8b42a607b560f4a5a143191">factory::CEnemyTemplate</a>, <a class="el" href="classfactory_1_1_c_physical_template.html#a5c0b6ac88ac39fa3ea78c1165ae9ad09">factory::CPhysicalTemplate</a>, <a class="el" href="classfactory_1_1_c_player_template.html#a7c8088fb53d7b29b19da5a1bf1b6abb9">factory::CPlayerTemplate</a>, <a class="el" href="classresource_1_1_c_font.html#ae723ab9940690dd2cf09f6b60f49431c">resource::CFont</a>, <a class="el" href="classresource_1_1_c_music.html#a0d9549220db8b7b838708f24d241d6d3">resource::CMusic</a>, <a class="el" href="classresource_1_1_c_sound.html#a55e5e28ab001ee977b81a466b1034658">resource::CSound</a> i <a class="el" href="classresource_1_1_c_texture.html#aa64bfe542f7e732409f0aebab7fc0bf9">resource::CTexture</a>.</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/ResourceManager/<a class="el" href="_i_resource_8h_source.html">IResource.h</a></li>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/ResourceManager/<a class="el" href="_i_resource_8cpp.html">IResource.cpp</a></li>
+</ul>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:19 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

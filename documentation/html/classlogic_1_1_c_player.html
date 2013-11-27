@@ -1,0 +1,230 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Dokumentacja klasy logic::CPlayer</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Lista&nbsp;klas</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarchia&nbsp;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&nbsp;klas</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="namespacelogic.html">logic</a>::<a class="el" href="classlogic_1_1_c_player.html">CPlayer</a>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja klasy logic::CPlayer</h1><!-- doxytag: class="logic::CPlayer" --><!-- doxytag: inherits="logic::CActor" -->
+<p><code>#include &lt;<a class="el" href="_c_player_8h_source.html">CPlayer.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla logic::CPlayer</div>
+<div class="dynsection">
+ <div class="center">
+  <img src="classlogic_1_1_c_player.gif" usemap="#logic::CPlayer_map" alt=""/>
+  <map id="logic::CPlayer_map" name="logic::CPlayer_map">
+<area href="classlogic_1_1_c_actor.html" alt="logic::CActor" shape="rect" coords="0,56,102,80"/>
+<area href="classlogic_1_1_c_physical.html" alt="logic::CPhysical" shape="rect" coords="0,0,102,24"/>
+</map>
+ </div>
+</div>
+
+<p><a href="classlogic_1_1_c_player-members.html">Lista wszystkich składowych.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Metody publiczne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_player.html#ac809c8933bb08c149167802c5bbd5232">Update</a> (float dt)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_player.html#a9dd84db6b079aaa2430f6ba84a9a6858">Kill</a> ()</td></tr>
+<tr><td colspan="2"><h2>Metody chronione</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_player.html#a68e1a2b0efc5c0be8b28d09520ba37db">CPlayer</a> (const std::wstring &amp;uniqueId)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_player.html#afed286004bd823538b82731ccab41f3a">CPlayer</a> (const <a class="el" href="classlogic_1_1_c_player.html">CPlayer</a> &amp;CPlayerCopy)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_player.html#aaa2d70173b8fb4b7c7612bada005c0f4">~CPlayer</a> (void)</td></tr>
+<tr><td colspan="2"><h2>Przyjaciele</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">class&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_player.html#af951e2ef15f0d800ea59b76f29b55163">CPhysicalManager</a></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Opis szczegółowy</h2>
+<p>Klasa reprezentuje gracza </p>
+<hr/><h2>Dokumentacja konstruktora i destruktora</h2>
+<a class="anchor" id="a68e1a2b0efc5c0be8b28d09520ba37db"></a><!-- doxytag: member="logic::CPlayer::CPlayer" ref="a68e1a2b0efc5c0be8b28d09520ba37db" args="(const std::wstring &amp;uniqueId)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logic::CPlayer::CPlayer </td>
+          <td>(</td>
+          <td class="paramtype">const std::wstring &amp;&nbsp;</td>
+          <td class="paramname"> <em>uniqueId</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Chroniony konstruktor domyślny </p>
+
+</div>
+</div>
+<a class="anchor" id="afed286004bd823538b82731ccab41f3a"></a><!-- doxytag: member="logic::CPlayer::CPlayer" ref="afed286004bd823538b82731ccab41f3a" args="(const CPlayer &amp;CPlayerCopy)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logic::CPlayer::CPlayer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classlogic_1_1_c_player.html">CPlayer</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>CPlayerCopy</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Chroniony konstruktor kopiujący</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>CPlayerCopy</em>&nbsp;</td><td>- parametr - obiekt klasy <a class="el" href="classlogic_1_1_c_player.html">CPlayer</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aaa2d70173b8fb4b7c7612bada005c0f4"></a><!-- doxytag: member="logic::CPlayer::~CPlayer" ref="aaa2d70173b8fb4b7c7612bada005c0f4" args="(void)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logic::CPlayer::~CPlayer </td>
+          <td>(</td>
+          <td class="paramtype">void&nbsp;</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected, virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Chroniony destruktor wirtualny - używany wyłącznie przez <a class="el" href="classlogic_1_1_c_physical_manager.html">CPhysicalManager</a> </p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja funkcji składowych</h2>
+<a class="anchor" id="a9dd84db6b079aaa2430f6ba84a9a6858"></a><!-- doxytag: member="logic::CPlayer::Kill" ref="a9dd84db6b079aaa2430f6ba84a9a6858" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPlayer::Kill </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Wirtualan metoda zabija obiekt klasy <a class="el" href="classlogic_1_1_c_player.html">CPlayer</a> i wywołuje odpowiednie czynności z tym związane </p>
+
+<p>Reimplementowana z <a class="el" href="classlogic_1_1_c_actor.html#aee73077dac23b7f5ddd2b54eb5b30fbd">logic::CActor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac809c8933bb08c149167802c5bbd5232"></a><!-- doxytag: member="logic::CPlayer::Update" ref="ac809c8933bb08c149167802c5bbd5232" args="(float dt)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPlayer::Update </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>dt</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Wirtualna metoda aktualizująca obiekt</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>dt</em>&nbsp;</td><td>- czas </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplementowana z <a class="el" href="classlogic_1_1_c_actor.html#a36ff4669b51b161756c64f19de23fde9">logic::CActor</a>.</p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja przyjaciół i funkcji związanych</h2>
+<a class="anchor" id="af951e2ef15f0d800ea59b76f29b55163"></a><!-- doxytag: member="logic::CPlayer::CPhysicalManager" ref="af951e2ef15f0d800ea59b76f29b55163" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classlogic_1_1_c_physical_manager.html">CPhysicalManager</a><code> [friend]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Deklaracja przyjaźni </p>
+
+<p>Reimplementowana z <a class="el" href="classlogic_1_1_c_actor.html#af951e2ef15f0d800ea59b76f29b55163">logic::CActor</a>.</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Logic/Player/<a class="el" href="_c_player_8h_source.html">CPlayer.h</a></li>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Logic/Player/<a class="el" href="_c_player_8cpp.html">CPlayer.cpp</a></li>
+</ul>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:18 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Plik źródłowy C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Rendering/Drawable/Layers.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+<h1>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Rendering/Drawable/Layers.h</h1><a href="_layers_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/*</span>
+<a name="l00002"></a>00002 <span class="comment"> __________________________________</span>
+<a name="l00003"></a>00003 <span class="comment">| LayerIndexValue.h - wyliczenie.  |</span>
+<a name="l00004"></a>00004 <span class="comment">| SCI - March 2012.                |</span>
+<a name="l00005"></a>00005 <span class="comment">|__________________________________|</span>
+<a name="l00006"></a>00006 <span class="comment"></span>
+<a name="l00007"></a>00007 <span class="comment">*/</span>
+<a name="l00008"></a>00008 <span class="preprocessor">#ifndef H_LAYER_INDEX_VALUE_SCI</span>
+<a name="l00009"></a>00009 <span class="preprocessor"></span><span class="preprocessor">#define H_LAYER_INDEX_VALUE_SCI</span>
+<a name="l00010"></a>00010 <span class="preprocessor"></span>
+<a name="l00011"></a>00011 <span class="keyword">namespace </span>rendering
+<a name="l00012"></a>00012 {
+<a name="l00013"></a>00013         <span class="keyword">namespace </span>drawable
+<a name="l00014"></a>00014         {
+<a name="l00019"></a><a class="code" href="namespacerendering_1_1drawable.html#a4b0cecdc99bd691812bffd43e6af9150">00019</a>                 <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="namespacerendering_1_1drawable.html#a4b0cecdc99bd691812bffd43e6af9150">Z_MAX</a>                                         = 100;
+<a name="l00020"></a><a class="code" href="namespacerendering_1_1drawable.html#a39460c21fded1d0004adf4d2c37c749c">00020</a>                 <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="namespacerendering_1_1drawable.html#a39460c21fded1d0004adf4d2c37c749c">Z_TILE</a>                                        = 90;
+<a name="l00021"></a><a class="code" href="namespacerendering_1_1drawable.html#a9874dc82900a1e4aa08c5203f1442298">00021</a>                 <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="namespacerendering_1_1drawable.html#a9874dc82900a1e4aa08c5203f1442298">Z_BLOOD_SPLATS</a>                        = 85;
+<a name="l00022"></a><a class="code" href="namespacerendering_1_1drawable.html#af4aa4396bae868234078ce93eab5358b">00022</a>                 <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="namespacerendering_1_1drawable.html#af4aa4396bae868234078ce93eab5358b">Z_PHYSICAL_SHADOWS_BODY</a>       = 83;
+<a name="l00023"></a><a class="code" href="namespacerendering_1_1drawable.html#ac25087978b5d42e7f457838641cee3a8">00023</a>                 <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="namespacerendering_1_1drawable.html#ac25087978b5d42e7f457838641cee3a8">Z_DEAD_BODY</a>                           = 80;
+<a name="l00024"></a><a class="code" href="namespacerendering_1_1drawable.html#a2dc514037d7e56859329229b4dc72bf8">00024</a>                 <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="namespacerendering_1_1drawable.html#a2dc514037d7e56859329229b4dc72bf8">Z_ITEM</a>                                        = 55;
+<a name="l00025"></a><a class="code" href="namespacerendering_1_1drawable.html#aa8b6439a529fc2b5ea6700efe2e80956">00025</a>                 <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="namespacerendering_1_1drawable.html#aa8b6439a529fc2b5ea6700efe2e80956">Z_PHYSICAL_BODY</a>                       = 50;
+<a name="l00026"></a><a class="code" href="namespacerendering_1_1drawable.html#a4eeced91b2eeb530ca56b81d1a98427d">00026</a>                 <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="namespacerendering_1_1drawable.html#a4eeced91b2eeb530ca56b81d1a98427d">Z_PHYSICAL_SHADOWS_HEAD</a>       = 49;
+<a name="l00027"></a><a class="code" href="namespacerendering_1_1drawable.html#a0718db723976c697224f9b43ee483592">00027</a>                 <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="namespacerendering_1_1drawable.html#a0718db723976c697224f9b43ee483592">Z_PHYSICAL_HEAD</a>                       = 48;
+<a name="l00028"></a><a class="code" href="namespacerendering_1_1drawable.html#a769662745ce18eaf56286b13c6a21612">00028</a>                 <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="namespacerendering_1_1drawable.html#a769662745ce18eaf56286b13c6a21612">Z_CURSOR</a>                                      = 1;
+<a name="l00029"></a><a class="code" href="namespacerendering_1_1drawable.html#ac0546ec7b781c7b9d879d5c4ddbcef69">00029</a>                 <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="namespacerendering_1_1drawable.html#ac0546ec7b781c7b9d879d5c4ddbcef69">Z_ZERO</a>                                        = 0;
+<a name="l00030"></a>00030         }<span class="comment">//namespace drawable</span>
+<a name="l00031"></a>00031 }<span class="comment">//namespace rendering</span>
+<a name="l00032"></a>00032 <span class="preprocessor">#endif //H_LAYER_INDEX_VALUE_SCI</span>
+</pre></div></div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:16 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

@@ -1,0 +1,255 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Dokumentacja szablonu klasy rapidxml::xml_attribute&lt; Ch &gt;</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Lista&nbsp;klas</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarchia&nbsp;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&nbsp;klas</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="namespacerapidxml.html">rapidxml</a>::<a class="el" href="classrapidxml_1_1xml__attribute.html">xml_attribute</a>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja szablonu klasy rapidxml::xml_attribute&lt; Ch &gt;</h1><!-- doxytag: class="rapidxml::xml_attribute" --><!-- doxytag: inherits="rapidxml::xml_base" -->
+<p><code>#include &lt;<a class="el" href="rapidxml_8hpp_source.html">rapidxml.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla rapidxml::xml_attribute&lt; Ch &gt;</div>
+<div class="dynsection">
+ <div class="center">
+  <img src="classrapidxml_1_1xml__attribute.gif" usemap="#rapidxml::xml_attribute&lt; Ch &gt;_map" alt=""/>
+  <map id="rapidxml::xml_attribute&lt; Ch &gt;_map" name="rapidxml::xml_attribute&lt; Ch &gt;_map">
+<area href="classrapidxml_1_1xml__base.html" alt="rapidxml::xml_base&lt; Ch &gt;" shape="rect" coords="0,0,175,24"/>
+</map>
+ </div>
+</div>
+
+<p><a href="classrapidxml_1_1xml__attribute-members.html">Lista wszystkich składowych.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Metody publiczne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrapidxml_1_1xml__attribute.html#a26be291103917d3e8de110d46dd83816">xml_attribute</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrapidxml_1_1xml__document.html">xml_document</a>&lt; Ch &gt; *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrapidxml_1_1xml__attribute.html#a8b6d31d899e27f01bde35b53d98496ec">document</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrapidxml_1_1xml__attribute.html">xml_attribute</a>&lt; Ch &gt; *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrapidxml_1_1xml__attribute.html#ae3547cc30b201fd6d7b98c04dda26f89">previous_attribute</a> (const Ch *name=0, std::size_t name_size=0, bool case_sensitive=true) const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrapidxml_1_1xml__attribute.html">xml_attribute</a>&lt; Ch &gt; *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrapidxml_1_1xml__attribute.html#a56c08d7c96203286c889a43849328a86">next_attribute</a> (const Ch *name=0, std::size_t name_size=0, bool case_sensitive=true) const </td></tr>
+<tr><td colspan="2"><h2>Przyjaciele</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">class&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrapidxml_1_1xml__attribute.html#aa7e464ce3fe512598ff8dda47291941f">xml_node&lt; Ch &gt;</a></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Opis szczegółowy</h2>
+<h3>template&lt;class Ch = char&gt;<br/>
+ class rapidxml::xml_attribute&lt; Ch &gt;</h3>
+
+<p>Class representing attribute node of XML document. Each attribute has name and value strings, which are available through <a class="el" href="classrapidxml_1_1xml__base.html#a9a09739310469995db078ebd0da3ed45">name()</a> and <a class="el" href="classrapidxml_1_1xml__base.html#adcdaccff61c665f039d9344e447b7445">value()</a> functions (inherited from <a class="el" href="classrapidxml_1_1xml__base.html">xml_base</a>). Note that after parse, both name and value of attribute will point to interior of source text used for parsing. Thus, this text must persist in memory for the lifetime of attribute. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>Ch</em>&nbsp;</td><td>Character type to use. </td></tr>
+  </table>
+  </dd>
+</dl>
+<hr/><h2>Dokumentacja konstruktora i destruktora</h2>
+<a class="anchor" id="a26be291103917d3e8de110d46dd83816"></a><!-- doxytag: member="rapidxml::xml_attribute::xml_attribute" ref="a26be291103917d3e8de110d46dd83816" args="()" -->
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Ch = char&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrapidxml_1_1xml__attribute.html">rapidxml::xml_attribute</a>&lt; Ch &gt;::<a class="el" href="classrapidxml_1_1xml__attribute.html">xml_attribute</a> </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Constructs an empty attribute with the specified type. Consider using <a class="el" href="classrapidxml_1_1memory__pool.html">memory_pool</a> of appropriate <a class="el" href="classrapidxml_1_1xml__document.html">xml_document</a> if allocating attributes manually. </p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja funkcji składowych</h2>
+<a class="anchor" id="a8b6d31d899e27f01bde35b53d98496ec"></a><!-- doxytag: member="rapidxml::xml_attribute::document" ref="a8b6d31d899e27f01bde35b53d98496ec" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Ch = char&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrapidxml_1_1xml__document.html">xml_document</a>&lt;Ch&gt;* <a class="el" href="classrapidxml_1_1xml__attribute.html">rapidxml::xml_attribute</a>&lt; Ch &gt;::document </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const<code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Gets document of which attribute is a child. </p>
+<dl class="return"><dt><b>Zwraca:</b></dt><dd>Pointer to document that contains this attribute, or 0 if there is no parent document. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a56c08d7c96203286c889a43849328a86"></a><!-- doxytag: member="rapidxml::xml_attribute::next_attribute" ref="a56c08d7c96203286c889a43849328a86" args="(const Ch *name=0, std::size_t name_size=0, bool case_sensitive=true) const " -->
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Ch = char&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrapidxml_1_1xml__attribute.html">xml_attribute</a>&lt;Ch&gt;* <a class="el" href="classrapidxml_1_1xml__attribute.html">rapidxml::xml_attribute</a>&lt; Ch &gt;::next_attribute </td>
+          <td>(</td>
+          <td class="paramtype">const Ch *&nbsp;</td>
+          <td class="paramname"> <em>name</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&nbsp;</td>
+          <td class="paramname"> <em>name_size</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&nbsp;</td>
+          <td class="paramname"> <em>case_sensitive</em> = <code>true</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td> const<code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Gets next attribute, optionally matching attribute name. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>name</em>&nbsp;</td><td>Name of attribute to find, or 0 to return next attribute regardless of its name; this string doesn't have to be zero-terminated if name_size is non-zero </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>name_size</em>&nbsp;</td><td>Size of name, in characters, or 0 to have size calculated automatically from string </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>case_sensitive</em>&nbsp;</td><td>Should name comparison be case-sensitive; non case-sensitive comparison works properly only for ASCII characters </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Zwraca:</b></dt><dd>Pointer to found attribute, or 0 if not found. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae3547cc30b201fd6d7b98c04dda26f89"></a><!-- doxytag: member="rapidxml::xml_attribute::previous_attribute" ref="ae3547cc30b201fd6d7b98c04dda26f89" args="(const Ch *name=0, std::size_t name_size=0, bool case_sensitive=true) const " -->
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Ch = char&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrapidxml_1_1xml__attribute.html">xml_attribute</a>&lt;Ch&gt;* <a class="el" href="classrapidxml_1_1xml__attribute.html">rapidxml::xml_attribute</a>&lt; Ch &gt;::previous_attribute </td>
+          <td>(</td>
+          <td class="paramtype">const Ch *&nbsp;</td>
+          <td class="paramname"> <em>name</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&nbsp;</td>
+          <td class="paramname"> <em>name_size</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&nbsp;</td>
+          <td class="paramname"> <em>case_sensitive</em> = <code>true</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td> const<code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Gets previous attribute, optionally matching attribute name. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>name</em>&nbsp;</td><td>Name of attribute to find, or 0 to return previous attribute regardless of its name; this string doesn't have to be zero-terminated if name_size is non-zero </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>name_size</em>&nbsp;</td><td>Size of name, in characters, or 0 to have size calculated automatically from string </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>case_sensitive</em>&nbsp;</td><td>Should name comparison be case-sensitive; non case-sensitive comparison works properly only for ASCII characters </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Zwraca:</b></dt><dd>Pointer to found attribute, or 0 if not found. </dd></dl>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja przyjaciół i funkcji związanych</h2>
+<a class="anchor" id="aa7e464ce3fe512598ff8dda47291941f"></a><!-- doxytag: member="rapidxml::xml_attribute::xml_node&lt; Ch &gt;" ref="aa7e464ce3fe512598ff8dda47291941f" args="" -->
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Ch = char&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a>&lt; Ch &gt;<code> [friend]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z pliku:<ul>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/XML/RapidXML/<a class="el" href="rapidxml_8hpp_source.html">rapidxml.hpp</a></li>
+</ul>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:18 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

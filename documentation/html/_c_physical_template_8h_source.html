@@ -1,0 +1,158 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Plik źródłowy C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Factory/CPhysicalTemplate.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+<h1>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Factory/CPhysicalTemplate.h</h1><a href="_c_physical_template_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/*</span>
+<a name="l00002"></a>00002 <span class="comment"> ______________________________________________</span>
+<a name="l00003"></a>00003 <span class="comment">| CPhysicalTemplate.h - definicja klasy.       |</span>
+<a name="l00004"></a>00004 <span class="comment">| SCI - November 2012.                         |</span>
+<a name="l00005"></a>00005 <span class="comment">|______________________________________________|</span>
+<a name="l00006"></a>00006 <span class="comment"></span>
+<a name="l00007"></a>00007 <span class="comment">*/</span>
+<a name="l00008"></a>00008 
+<a name="l00009"></a>00009 <span class="preprocessor">#ifndef H_PHYSICAL_TEMPLATE_SCI</span>
+<a name="l00010"></a>00010 <span class="preprocessor"></span><span class="preprocessor">#define H_PHYSICAL_TEMPLATE_SCI</span>
+<a name="l00011"></a>00011 <span class="preprocessor"></span>
+<a name="l00012"></a>00012 <span class="preprocessor">#include &quot;../ResourceManager/IResource.h&quot;</span>
+<a name="l00013"></a>00013 <span class="preprocessor">#include &quot;../Logic/Physical/CPhysical.h&quot;</span>
+<a name="l00014"></a>00014 <span class="preprocessor">#include &quot;../XML/CXml.h&quot;</span>
+<a name="l00015"></a>00015 <span class="preprocessor">#include &lt;string&gt;</span>
+<a name="l00016"></a>00016 <span class="preprocessor">#include &lt;ostream&gt;</span>
+<a name="l00017"></a>00017 <span class="preprocessor">#include &lt;map&gt;</span>
+<a name="l00018"></a>00018 <span class="preprocessor">#include &lt;SFML/Graphics/Color.hpp&gt;</span>
+<a name="l00019"></a>00019 
+<a name="l00023"></a>00023 <span class="keyword">namespace </span>xml
+<a name="l00024"></a>00024 {
+<a name="l00025"></a>00025         <span class="keyword">class </span><a class="code" href="classxml_1_1_c_xml.html">CXml</a>;
+<a name="l00026"></a>00026 }
+<a name="l00027"></a>00027 
+<a name="l00028"></a>00028 <span class="keyword">namespace </span>logic
+<a name="l00029"></a>00029 {
+<a name="l00030"></a>00030         <span class="keyword">class </span><a class="code" href="classlogic_1_1_c_actor.html">CActor</a>;
+<a name="l00031"></a>00031 }
+<a name="l00032"></a>00032 
+<a name="l00033"></a>00033 <span class="keyword">using namespace </span>resource;
+<a name="l00034"></a>00034 <span class="keyword">using namespace </span>xml;
+<a name="l00035"></a>00035 <span class="keyword">using namespace </span>logic;
+<a name="l00036"></a>00036 
+<a name="l00037"></a>00037 <span class="keyword">namespace </span>factory
+<a name="l00038"></a>00038 {
+<a name="l00042"></a><a class="code" href="classfactory_1_1_c_physical_template.html">00042</a>         <span class="keyword">class </span><a class="code" href="classfactory_1_1_c_physical_template.html">CPhysicalTemplate</a> : <span class="keyword">public</span> <a class="code" href="classresource_1_1_i_resource.html">IResource</a>
+<a name="l00043"></a>00043         {
+<a name="l00044"></a>00044 
+<a name="l00045"></a>00045         <span class="keyword">public</span>:
+<a name="l00046"></a>00046                 
+<a name="l00050"></a>00050                 <a class="code" href="classfactory_1_1_c_physical_template.html#a228140411feb6e10bd2c340dd3cab7cb">CPhysicalTemplate</a>(<span class="keywordtype">void</span>);
+<a name="l00051"></a>00051 
+<a name="l00055"></a>00055                 <span class="keyword">virtual</span> <a class="code" href="classfactory_1_1_c_physical_template.html#a86a30429520c0e0016191bd938c211ff">~CPhysicalTemplate</a>(<span class="keywordtype">void</span>);
+<a name="l00056"></a>00056 
+<a name="l00060"></a>00060                 <span class="keywordtype">void</span> <a class="code" href="classfactory_1_1_c_physical_template.html#a7771d259aec1d77b2b58159aefbc60d1">Drop</a>() = 0;
+<a name="l00061"></a>00061 
+<a name="l00067"></a>00067                 <span class="keywordtype">bool</span> <a class="code" href="classfactory_1_1_c_physical_template.html#a5c0b6ac88ac39fa3ea78c1165ae9ad09">Load</a>(<span class="keyword">const</span> std::string &amp;name);
+<a name="l00068"></a>00068 
+<a name="l00074"></a>00074                 <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classfactory_1_1_c_physical_template.html#a5c0b6ac88ac39fa3ea78c1165ae9ad09">Load</a>(<a class="code" href="classxml_1_1_c_xml.html">CXml</a> &amp;xml);
+<a name="l00075"></a>00075 
+<a name="l00083"></a>00083                 <span class="keyword">virtual</span> <a class="code" href="classlogic_1_1_c_physical.html">CPhysical</a>* <a class="code" href="classfactory_1_1_c_physical_template.html#a230250cbc40eacbb80a29eb558c551c5">Create</a>(std::wstring <span class="keywordtype">id</span> = L<span class="stringliteral">&quot;&quot;</span>) = 0 ;
+<a name="l00084"></a>00084 
+<a name="l00090"></a><a class="code" href="classfactory_1_1_c_physical_template.html#aff85fc64a33e056882887f5640294e08">00090</a>                 <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classfactory_1_1_c_physical_template.html#aff85fc64a33e056882887f5640294e08">Fill</a>(<a class="code" href="classlogic_1_1_c_actor.html">CActor</a> *actor) {};
+<a name="l00091"></a>00091 
+<a name="l00095"></a><a class="code" href="classfactory_1_1_c_physical_template.html#ab5743fd360fe24caf91812dd601a14f4">00095</a>                 <span class="keyword">inline</span> <span class="keyword">const</span> std::string&amp; <a class="code" href="classfactory_1_1_c_physical_template.html#ab5743fd360fe24caf91812dd601a14f4">GetFilename</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classfactory_1_1_c_physical_template.html#ad05d9520b9d8c2d1e80d1b48fe364c7d">m_templ_filename</a>; }
+<a name="l00096"></a>00096 
+<a name="l00097"></a>00097                 <span class="comment">//metody pomocnicze - get</span>
+<a name="l00098"></a>00098 
+<a name="l00099"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a5fa67c42a31b63c775124b584a857a80">00099</a>                 <span class="keyword">inline</span> std::wstring     <a class="code" href="classfactory_1_1_c_physical_template.html#a5fa67c42a31b63c775124b584a857a80">GetGenre</a>()                              { <span class="keywordflow">return</span> <a class="code" href="classfactory_1_1_c_physical_template.html#a4ed2e023607fa81a2e6216447c37abf0">m_templ_genre</a>;                                 }
+<a name="l00100"></a><a class="code" href="classfactory_1_1_c_physical_template.html#aec292cee63878228b4383ed3ec85dcef">00100</a>                 <span class="keyword">inline</span> <span class="keywordtype">float</span>            <a class="code" href="classfactory_1_1_c_physical_template.html#aec292cee63878228b4383ed3ec85dcef">GetCircleRadius</a>()               { <span class="keywordflow">return</span> <a class="code" href="classfactory_1_1_c_physical_template.html#ad892a5ea28d999b298a51c45e795c598">m_templ_circle_radius</a>;                 }
+<a name="l00101"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a283838e31db938fe655ddbc5360da2ed">00101</a>                 <span class="keyword">inline</span> <span class="keywordtype">float</span>            <a class="code" href="classfactory_1_1_c_physical_template.html#a283838e31db938fe655ddbc5360da2ed">GetAltitude</a>()                   { <span class="keywordflow">return</span> <a class="code" href="classfactory_1_1_c_physical_template.html#a223e1f93605f3facf28ec8da523fb9bc">m_templ_altitude</a>;                              }
+<a name="l00102"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a56abd9a1732d48ea0dad17b820cdc8ee">00102</a>                 <span class="keyword">inline</span> <span class="keywordtype">bool</span>                     <a class="code" href="classfactory_1_1_c_physical_template.html#a56abd9a1732d48ea0dad17b820cdc8ee">GetUseDisplayableBody</a>() { <span class="keywordflow">return</span> <a class="code" href="classfactory_1_1_c_physical_template.html#a49bf89bb4bcac1fd8f6a0d32be580779">m_templ_use_displayable_body</a>;  }
+<a name="l00103"></a><a class="code" href="classfactory_1_1_c_physical_template.html#aa96ee9670cd0ca723e2647988d388b61">00103</a>                 <span class="keyword">inline</span> <span class="keywordtype">bool</span>                     <a class="code" href="classfactory_1_1_c_physical_template.html#aa96ee9670cd0ca723e2647988d388b61">GetUseShadowBody</a>()              { <span class="keywordflow">return</span> <a class="code" href="classfactory_1_1_c_physical_template.html#a20f48d98b1d1cd071dd7d284228c7ea0">m_templ_use_shadow_body</a>;               }
+<a name="l00104"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a7515f4907e345ba84ac4b3abb440a709">00104</a>                 <span class="keyword">inline</span> <span class="keywordtype">bool</span>                     <a class="code" href="classfactory_1_1_c_physical_template.html#a7515f4907e345ba84ac4b3abb440a709">GetUseDisplayableHead</a>() { <span class="keywordflow">return</span> <a class="code" href="classfactory_1_1_c_physical_template.html#a1eb91dd4eb3eee235589fdef7517ae23">m_templ_use_displayable_head</a>;  }
+<a name="l00105"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a6d4251316aa12296f7a6182dd6fb34ae">00105</a>                 <span class="keyword">inline</span> <span class="keywordtype">bool</span>                     <a class="code" href="classfactory_1_1_c_physical_template.html#a6d4251316aa12296f7a6182dd6fb34ae">GetUseShadowHead</a>()              { <span class="keywordflow">return</span> <a class="code" href="classfactory_1_1_c_physical_template.html#a2eb8f9752930cfd50a2e34469536b6ce">m_templ_use_shadow_head</a>;               }
+<a name="l00106"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a16a2b0ed9f7a5c7c1f75cadca06635e5">00106</a>                 <span class="keyword">inline</span> <span class="keywordtype">float</span>            <a class="code" href="classfactory_1_1_c_physical_template.html#a16a2b0ed9f7a5c7c1f75cadca06635e5">GetScaleBody</a>()                  { <span class="keywordflow">return</span> <a class="code" href="classfactory_1_1_c_physical_template.html#a7d946ba6f5b3fe51a81a5c5eb006791c">m_templ_scale_body</a>;                    }
+<a name="l00107"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a0cf83fb28079014120d3b65ebe3f5e4c">00107</a>                 <span class="keyword">inline</span> <span class="keywordtype">float</span>            <a class="code" href="classfactory_1_1_c_physical_template.html#a0cf83fb28079014120d3b65ebe3f5e4c">GetScaleHead</a>()                  { <span class="keywordflow">return</span> <a class="code" href="classfactory_1_1_c_physical_template.html#a216c52924cef2d8d3a79a145df1f6c42">m_templ_scale_head</a>;                    }
+<a name="l00108"></a><a class="code" href="classfactory_1_1_c_physical_template.html#aabe5a2e917e7b55c8ba28a695c478e12">00108</a>                 <span class="keyword">inline</span> std::string      <a class="code" href="classfactory_1_1_c_physical_template.html#aabe5a2e917e7b55c8ba28a695c478e12">GetAnimationNameBody</a>()  { <span class="keywordflow">return</span> <a class="code" href="classfactory_1_1_c_physical_template.html#a4aa5a413508d546a88ea467fa90c81f9">m_templ_animation_name_body</a>;   }
+<a name="l00109"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a554b7f331d92ce73f32e729b71e973cd">00109</a>                 <span class="keyword">inline</span> std::string      <a class="code" href="classfactory_1_1_c_physical_template.html#a554b7f331d92ce73f32e729b71e973cd">GetAnimationNameHead</a>()  { <span class="keywordflow">return</span> <a class="code" href="classfactory_1_1_c_physical_template.html#a03b3ac87427fbf7178c3d4ea5584301a">m_templ_animation_name_head</a>;   }
+<a name="l00110"></a>00110 
+<a name="l00111"></a>00111         <span class="keyword">protected</span>:
+<a name="l00112"></a>00112 
+<a name="l00113"></a><a class="code" href="classfactory_1_1_c_physical_template.html#ad05d9520b9d8c2d1e80d1b48fe364c7d">00113</a>                 std::string             <a class="code" href="classfactory_1_1_c_physical_template.html#ad05d9520b9d8c2d1e80d1b48fe364c7d">m_templ_filename</a>;                               <span class="comment">//nazwa pliku xml</span>
+<a name="l00114"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a958c5822e00f8886a01f4e7ff6f38669">00114</a>                 std::string             <a class="code" href="classfactory_1_1_c_physical_template.html#a958c5822e00f8886a01f4e7ff6f38669">m_templ_type</a>;                                   <span class="comment">//typ obiektu</span>
+<a name="l00115"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a4ed2e023607fa81a2e6216447c37abf0">00115</a>                 std::wstring    <a class="code" href="classfactory_1_1_c_physical_template.html#a4ed2e023607fa81a2e6216447c37abf0">m_templ_genre</a>;                                  <span class="comment">//nazwa &quot;gatunku&quot; obiektu (np. robot, human, gun, etc.)</span>
+<a name="l00116"></a>00116                 
+<a name="l00117"></a><a class="code" href="classfactory_1_1_c_physical_template.html#ad892a5ea28d999b298a51c45e795c598">00117</a>                 <span class="keywordtype">float</span>                   <a class="code" href="classfactory_1_1_c_physical_template.html#ad892a5ea28d999b298a51c45e795c598">m_templ_circle_radius</a>;                  <span class="comment">//promień detekcji kolizji</span>
+<a name="l00118"></a><a class="code" href="classfactory_1_1_c_physical_template.html#ad9111aa08d7e750c26d99716179e153b">00118</a>                 sf::Vector2f    <a class="code" href="classfactory_1_1_c_physical_template.html#ad9111aa08d7e750c26d99716179e153b">m_templ_rect_size</a>;                              <span class="comment">//wektor przechowujący rozmiar obszaru prostokątnego</span>
+<a name="l00119"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a223e1f93605f3facf28ec8da523fb9bc">00119</a>                 <span class="keywordtype">float</span>                   <a class="code" href="classfactory_1_1_c_physical_template.html#a223e1f93605f3facf28ec8da523fb9bc">m_templ_altitude</a>;                               <span class="comment">//wartość pułapu obiektu względem podłoża</span>
+<a name="l00120"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a49bf89bb4bcac1fd8f6a0d32be580779">00120</a>                 <span class="keywordtype">bool</span>                    <a class="code" href="classfactory_1_1_c_physical_template.html#a49bf89bb4bcac1fd8f6a0d32be580779">m_templ_use_displayable_body</a>;   <span class="comment">//flaga określa, czy CPhysical posiada reprezentację graficzną - body</span>
+<a name="l00121"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a20f48d98b1d1cd071dd7d284228c7ea0">00121</a>                 <span class="keywordtype">bool</span>                    <a class="code" href="classfactory_1_1_c_physical_template.html#a20f48d98b1d1cd071dd7d284228c7ea0">m_templ_use_shadow_body</a>;                <span class="comment">//flaga określa, czy CPhysical posiada reprezentację graficzną - body - cień</span>
+<a name="l00122"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a1eb91dd4eb3eee235589fdef7517ae23">00122</a>                 <span class="keywordtype">bool</span>                    <a class="code" href="classfactory_1_1_c_physical_template.html#a1eb91dd4eb3eee235589fdef7517ae23">m_templ_use_displayable_head</a>;   <span class="comment">//flaga określa, czy CPhysical posiada reprezentację graficzną - head</span>
+<a name="l00123"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a2eb8f9752930cfd50a2e34469536b6ce">00123</a>                 <span class="keywordtype">bool</span>                    <a class="code" href="classfactory_1_1_c_physical_template.html#a2eb8f9752930cfd50a2e34469536b6ce">m_templ_use_shadow_head</a>;                <span class="comment">//flaga określa, czy CPhysical posiada reprezentację graficzną - head - cień</span>
+<a name="l00124"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a7d946ba6f5b3fe51a81a5c5eb006791c">00124</a>                 <span class="keywordtype">float</span>                   <a class="code" href="classfactory_1_1_c_physical_template.html#a7d946ba6f5b3fe51a81a5c5eb006791c">m_templ_scale_body</a>;                             <span class="comment">//skala - body</span>
+<a name="l00125"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a216c52924cef2d8d3a79a145df1f6c42">00125</a>                 <span class="keywordtype">float</span>                   <a class="code" href="classfactory_1_1_c_physical_template.html#a216c52924cef2d8d3a79a145df1f6c42">m_templ_scale_head</a>;                             <span class="comment">//skala - body</span>
+<a name="l00126"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a4aa5a413508d546a88ea467fa90c81f9">00126</a>                 std::string             <a class="code" href="classfactory_1_1_c_physical_template.html#a4aa5a413508d546a88ea467fa90c81f9">m_templ_animation_name_body</a>;    <span class="comment">//nazwa animacji części body</span>
+<a name="l00127"></a><a class="code" href="classfactory_1_1_c_physical_template.html#a03b3ac87427fbf7178c3d4ea5584301a">00127</a>                 std::string             <a class="code" href="classfactory_1_1_c_physical_template.html#a03b3ac87427fbf7178c3d4ea5584301a">m_templ_animation_name_head</a>;    <span class="comment">//nazwa animacji części head</span>
+<a name="l00128"></a>00128                                                                                                                 <span class="comment">//animacje muszą być zarejestrowane</span>
+<a name="l00129"></a>00129                                                                                                                 <span class="comment">//w CAnimationManager</span>
+<a name="l00130"></a>00130         <span class="keyword">private</span>:
+<a name="l00131"></a>00131 
+<a name="l00132"></a>00132         };
+<a name="l00133"></a>00133 }<span class="comment">//namespace factory</span>
+<a name="l00134"></a>00134 <span class="preprocessor">#endif //H_PHYSICAL_TEMPLATE_SCI</span>
+</pre></div></div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:16 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

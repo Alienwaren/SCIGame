@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D4DC5FED-B769-4579-81CB-B0B4763A08A4}</ProjectGuid>
+    <RootNamespace>GameSCI</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\SFML-2.0-windows-vc10-32bits\SFML-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-window-d.lib;sfml-main-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-network-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\SFML-2.0-windows-vc10-32bits\SFML-2.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\SFML-2.0-windows-vc10-32bits\SFML-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>sfml-system.lib;sfml-window.lib;sfml-main.lib;sfml-graphics.lib;sfml-audio.lib;sfml-network.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\SFML-2.0-windows-vc10-32bits\SFML-2.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Factory\CBulletTemplate.cpp" />
+    <ClCompile Include="source\Logic\Bullet\CBullet.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\ResourceManager\CFont.cpp" />
+    <ClCompile Include="source\ResourceManager\CMusic.cpp" />
+    <ClCompile Include="source\ResourceManager\CResourceManager.cpp" />
+    <ClCompile Include="source\ResourceManager\CSound.cpp" />
+    <ClCompile Include="source\ResourceManager\CTexture.cpp" />
+    <ClCompile Include="source\ResourceManager\IResource.cpp" />
+    <ClCompile Include="source\Utilities\Singleton\CSingletonCleaner.cpp" />
+    <ClCompile Include="source\Utilities\StringUtils\StringUtils.cpp" />
+    <ClCompile Include="source\Utilities\TimeUtilities\CClock.cpp" />
+    <ClCompile Include="source\Utilities\TimeUtilities\CFPS.cpp" />
+    <ClCompile Include="source\XML\CXml.cpp" />
+    <ClCompile Include="source\Rendering\Displayable\CDisplayable.cpp" />
+    <ClCompile Include="source\Rendering\Displayable\CSprite.cpp" />
+    <ClCompile Include="source\Rendering\Animations\CAnimation.cpp" />
+    <ClCompile Include="source\Rendering\Animations\CAnimationFrame.cpp" />
+    <ClCompile Include="source\Rendering\Animations\CAnimationManager.cpp" />
+    <ClCompile Include="source\Rendering\Animations\CAnimationState.cpp" />
+    <ClCompile Include="source\Rendering\Animations\CAnimSet.cpp" />
+    <ClCompile Include="source\Rendering\Animations\CNameAnimPairTranslator.cpp" />
+    <ClCompile Include="source\Rendering\Animations\CTimedAnimationFrame.cpp" />
+    <ClCompile Include="source\Rendering\Drawable\CDrawableManager.cpp" />
+    <ClCompile Include="source\Rendering\Drawable\IDrawable.cpp" />
+    <ClCompile Include="source\Game\CGame.cpp" />
+    <ClCompile Include="source\Game\CGameProperties.cpp" />
+    <ClCompile Include="source\Logic\CLogic.cpp" />
+    <ClCompile Include="source\Logic\CPhysicalManager.cpp" />
+    <ClCompile Include="source\Logic\Physical\CPhysical.cpp" />
+    <ClCompile Include="source\Logic\Actor\CActor.cpp" />
+    <ClCompile Include="source\Logic\Enemy\CEnemy.cpp" />
+    <ClCompile Include="source\Logic\Player\CPlayer.cpp" />
+    <ClCompile Include="source\Weather\CWeather.cpp" />
+    <ClCompile Include="source\Factory\CActorTemplate.cpp" />
+    <ClCompile Include="source\Factory\CEnemyTemplate.cpp" />
+    <ClCompile Include="source\Factory\CPhysicalTemplate.cpp" />
+    <ClCompile Include="source\Factory\CPlayerTemplate.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Factory\CBulletTemplate.h" />
+    <ClInclude Include="source\Logic\Bullet\CBullet.h" />
+    <ClInclude Include="source\ResourceManager\CFont.h" />
+    <ClInclude Include="source\ResourceManager\CMusic.h" />
+    <ClInclude Include="source\ResourceManager\CResourceManager.h" />
+    <ClInclude Include="source\ResourceManager\CSound.h" />
+    <ClInclude Include="source\ResourceManager\CTexture.h" />
+    <ClInclude Include="source\ResourceManager\IResource.h" />
+    <ClInclude Include="source\Utilities\Singleton\CSingleton.h" />
+    <ClInclude Include="source\Utilities\Singleton\CSingletonCleaner.h" />
+    <ClInclude Include="source\Utilities\Singleton\ICleanupable.h" />
+    <ClInclude Include="source\Utilities\StringUtils\StringUtils.h" />
+    <ClInclude Include="source\Utilities\TimeUtilities\CClock.h" />
+    <ClInclude Include="source\Utilities\TimeUtilities\CFPS.h" />
+    <ClInclude Include="source\Utilities\TimeUtilities\CPausableClock.h" />
+    <ClInclude Include="source\XML\CXml.h" />
+    <ClInclude Include="source\XML\RapidXML\rapidxml.hpp" />
+    <ClInclude Include="source\XML\RapidXML\rapidxml_iterators.hpp" />
+    <ClInclude Include="source\XML\RapidXML\rapidxml_print.hpp" />
+    <ClInclude Include="source\XML\RapidXML\rapidxml_utils.hpp" />
+    <ClInclude Include="source\Rendering\Displayable\CDisplayable.h" />
+    <ClInclude Include="source\Rendering\Displayable\CSprite.h" />
+    <ClInclude Include="source\Rendering\Animations\CAnimation.h" />
+    <ClInclude Include="source\Rendering\Animations\CAnimationFrame.h" />
+    <ClInclude Include="source\Rendering\Animations\CAnimationManager.h" />
+    <ClInclude Include="source\Rendering\Animations\CAnimationState.h" />
+    <ClInclude Include="source\Rendering\Animations\CAnimSet.h" />
+    <ClInclude Include="source\Rendering\Animations\CNameAnimPairTranslator.h" />
+    <ClInclude Include="source\Rendering\Animations\CTimedAnimationFrame.h" />
+    <ClInclude Include="source\Rendering\Animations\EAnimHandler.h" />
+    <ClInclude Include="source\Rendering\Drawable\CDrawableManager.h" />
+    <ClInclude Include="source\Rendering\Drawable\IDrawable.h" />
+    <ClInclude Include="source\Rendering\Drawable\Layers.h" />
+    <ClInclude Include="source\Game\CGame.h" />
+    <ClInclude Include="source\Game\CGameProperties.h" />
+    <ClInclude Include="source\Game\Listener\IFrameListener.h" />
+    <ClInclude Include="source\Game\Listener\IKeyListener.h" />
+    <ClInclude Include="source\Game\Listener\IMouseListener.h" />
+    <ClInclude Include="source\Logic\CLogic.h" />
+    <ClInclude Include="source\Logic\CPhysicalManager.h" />
+    <ClInclude Include="source\Logic\Physical\CPhysical.h" />
+    <ClInclude Include="source\Logic\Physical\ECollisionShape.h" />
+    <ClInclude Include="source\Logic\Physical\EPhysicalPart.h" />
+    <ClInclude Include="source\Logic\Actor\CActor.h" />
+    <ClInclude Include="source\Logic\Enemy\CEnemy.h" />
+    <ClInclude Include="source\Logic\Player\CPlayer.h" />
+    <ClInclude Include="source\Weather\CWeather.h" />
+    <ClInclude Include="source\Factory\CActorTemplate.h" />
+    <ClInclude Include="source\Factory\CEnemyTemplate.h" />
+    <ClInclude Include="source\Factory\CPhysicalTemplate.h" />
+    <ClInclude Include="source\Factory\CPlayerTemplate.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="notes\notes.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

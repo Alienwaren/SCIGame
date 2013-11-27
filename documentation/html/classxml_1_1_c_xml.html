@@ -1,0 +1,653 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Dokumentacja klasy xml::CXml</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Lista&nbsp;klas</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarchia&nbsp;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&nbsp;klas</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="namespacexml.html">xml</a>::<a class="el" href="classxml_1_1_c_xml.html">CXml</a>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja klasy xml::CXml</h1><!-- doxytag: class="xml::CXml" -->
+<p><code>#include &lt;<a class="el" href="_c_xml_8h_source.html">CXml.h</a>&gt;</code></p>
+
+<p><a href="classxml_1_1_c_xml-members.html">Lista wszystkich składowych.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Metody publiczne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxml_1_1_c_xml.html#ac3afc7f2d00bc8bc0c18ae4981ec0656">CXml</a> (std::string filename, std::string root)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxml_1_1_c_xml.html#a0951b67f51d26f93836457d28bcf3c0d">~CXml</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxml_1_1_c_xml.html#a31e99367dde0da87734d3cde1f16614d">GetRootNode</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const std::string &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxml_1_1_c_xml.html#a4d4795deb48cab27e2601bf80a3affba">GetFilename</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxml_1_1_c_xml.html#a7d7b60f3e90ccd5f687dbe25664dedfc">GetChild</a> (<a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a>&lt;&gt; *parent, const std::string &amp;node_name)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxml_1_1_c_xml.html#aa3f5572ae65a7354ec37041e145a0fe6">GetSibling</a> (<a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a>&lt;&gt; *sibling, const std::string &amp;node_name)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxml_1_1_c_xml.html#ab9337c66b2f34119af2ed68c2e5909b7">GetBool</a> (<a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a>&lt;&gt; *parent, const std::string &amp;attrib_name=&quot;&quot;, bool default_value=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxml_1_1_c_xml.html#ae7dc940d2ea779af0440e052c969e0de">GetBool</a> (const std::string &amp;node_name, const std::string &amp;attrib_name=&quot;&quot;, bool default_value=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxml_1_1_c_xml.html#a2c82a3583b5f13042b5797c43eca1818">GetInt</a> (<a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a>&lt;&gt; *parent, const std::string &amp;attrib_name=&quot;&quot;, int default_value=0)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxml_1_1_c_xml.html#aa6a06838c342f54b861fcd56ee146bf5">GetInt</a> (const std::string &amp;node_name, const std::string &amp;attrib_name=&quot;&quot;, int default_value=0)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxml_1_1_c_xml.html#af4ef4bcdba12e763067f997b81f315fb">GetFloat</a> (<a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a>&lt;&gt; *parent, const std::string &amp;attrib_name=&quot;&quot;, float default_value=0.0f)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxml_1_1_c_xml.html#a22c5b85dfa0cdd11288ea50ef7048434">GetFloat</a> (const std::string &amp;node_name, const std::string &amp;attrib_name=&quot;&quot;, float default_value=0.0f)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::string&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxml_1_1_c_xml.html#a9483fff1169e63aa362fb4af9b855e4c">GetString</a> (<a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a>&lt;&gt; *parent, const std::string &amp;attrib_name=&quot;&quot;)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::string&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxml_1_1_c_xml.html#abb5c9f9b3c03b5dc8d58d7aac3bf033d">GetString</a> (const std::string &amp;node_name, const std::string &amp;attrib_name=&quot;&quot;)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::wstring&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxml_1_1_c_xml.html#a4099622800a704dd0397ccdca1e8a07f">GetWString</a> (<a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a>&lt;&gt; *parent, const std::string &amp;attrib_name=&quot;&quot;)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::wstring&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxml_1_1_c_xml.html#aecc1e7479c0fef584531de5078a3b1ee">GetWString</a> (const std::string &amp;node_name, const std::string &amp;attrib_name=&quot;&quot;)</td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Opis szczegółowy</h2>
+<p>Klasa reprezentuje opadkowanie parsera RapidXML </p>
+<hr/><h2>Dokumentacja konstruktora i destruktora</h2>
+<a class="anchor" id="ac3afc7f2d00bc8bc0c18ae4981ec0656"></a><!-- doxytag: member="xml::CXml::CXml" ref="ac3afc7f2d00bc8bc0c18ae4981ec0656" args="(std::string filename, std::string root)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">xml::CXml::CXml </td>
+          <td>(</td>
+          <td class="paramtype">std::string&nbsp;</td>
+          <td class="paramname"> <em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&nbsp;</td>
+          <td class="paramname"> <em>root</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Konstruktor domyślny</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>filename</em>&nbsp;</td><td>- nazwa pliku</td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>root</em>&nbsp;</td><td>- nazwa węzła głównego root </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a0951b67f51d26f93836457d28bcf3c0d"></a><!-- doxytag: member="xml::CXml::~CXml" ref="a0951b67f51d26f93836457d28bcf3c0d" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">xml::CXml::~CXml </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Destruktor </p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja funkcji składowych</h2>
+<a class="anchor" id="ae7dc940d2ea779af0440e052c969e0de"></a><!-- doxytag: member="xml::CXml::GetBool" ref="ae7dc940d2ea779af0440e052c969e0de" args="(const std::string &amp;node_name, const std::string &amp;attrib_name=&quot;&quot;, bool default_value=false)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool xml::CXml::GetBool </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>node_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>attrib_name</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&nbsp;</td>
+          <td class="paramname"> <em>default_value</em> = <code>false</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca atrybut wskazanego typu</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;node_name</em>&nbsp;</td><td>- stała referencja na nazwę węzła</td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>&amp;attrib_name</em>&nbsp;</td><td>- stała referencja na nazwę atrybutu dokumentu <a class="el" href="namespacexml.html">xml</a></td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>default_value</em>&nbsp;</td><td>- wartość default (false) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ab9337c66b2f34119af2ed68c2e5909b7"></a><!-- doxytag: member="xml::CXml::GetBool" ref="ab9337c66b2f34119af2ed68c2e5909b7" args="(xml_node&lt;&gt; *parent, const std::string &amp;attrib_name=&quot;&quot;, bool default_value=false)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool xml::CXml::GetBool </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a>&lt;&gt; *&nbsp;</td>
+          <td class="paramname"> <em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>attrib_name</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&nbsp;</td>
+          <td class="paramname"> <em>default_value</em> = <code>false</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca atrybut wskazanego typu</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>*parent</em>&nbsp;</td><td>- wskaźnik na węzeł dokumentu <a class="el" href="namespacexml.html">xml</a></td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>&amp;attrib_name</em>&nbsp;</td><td>- stała referencja na nazwę atrybutu dokumentu <a class="el" href="namespacexml.html">xml</a></td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>default_value</em>&nbsp;</td><td>- wartość default (false) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7d7b60f3e90ccd5f687dbe25664dedfc"></a><!-- doxytag: member="xml::CXml::GetChild" ref="a7d7b60f3e90ccd5f687dbe25664dedfc" args="(xml_node&lt;&gt; *parent, const std::string &amp;node_name)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a> * xml::CXml::GetChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a>&lt;&gt; *&nbsp;</td>
+          <td class="paramname"> <em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>node_name</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wskaźnik na węzeł dziecka</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>parent</em>&nbsp;</td><td>- wskaźnik na węzeł</td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>node_name</em>&nbsp;</td><td>- nazwa pobieranego węzła </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4d4795deb48cab27e2601bf80a3affba"></a><!-- doxytag: member="xml::CXml::GetFilename" ref="a4d4795deb48cab27e2601bf80a3affba" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; xml::CXml::GetFilename </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca nazwę pliku </p>
+
+</div>
+</div>
+<a class="anchor" id="a22c5b85dfa0cdd11288ea50ef7048434"></a><!-- doxytag: member="xml::CXml::GetFloat" ref="a22c5b85dfa0cdd11288ea50ef7048434" args="(const std::string &amp;node_name, const std::string &amp;attrib_name=&quot;&quot;, float default_value=0.0f)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float xml::CXml::GetFloat </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>node_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>attrib_name</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>default_value</em> = <code>0.0f</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca atrybut wskazanego typu</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;node_name</em>&nbsp;</td><td>- stała referencja na nazwę węzła</td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>&amp;attrib_name</em>&nbsp;</td><td>- stała referencja na nazwę atrybutu dokumentu <a class="el" href="namespacexml.html">xml</a></td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>default_value</em>&nbsp;</td><td>- wartość default (false) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="af4ef4bcdba12e763067f997b81f315fb"></a><!-- doxytag: member="xml::CXml::GetFloat" ref="af4ef4bcdba12e763067f997b81f315fb" args="(xml_node&lt;&gt; *parent, const std::string &amp;attrib_name=&quot;&quot;, float default_value=0.0f)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float xml::CXml::GetFloat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a>&lt;&gt; *&nbsp;</td>
+          <td class="paramname"> <em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>attrib_name</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>default_value</em> = <code>0.0f</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca atrybut wskazanego typu</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>*parent</em>&nbsp;</td><td>- wskaźnik na węzeł dokumentu <a class="el" href="namespacexml.html">xml</a></td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>&amp;attrib_name</em>&nbsp;</td><td>- stała referencja na nazwę atrybutu dokumentu <a class="el" href="namespacexml.html">xml</a></td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>default_value</em>&nbsp;</td><td>- wartość default (false) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa6a06838c342f54b861fcd56ee146bf5"></a><!-- doxytag: member="xml::CXml::GetInt" ref="aa6a06838c342f54b861fcd56ee146bf5" args="(const std::string &amp;node_name, const std::string &amp;attrib_name=&quot;&quot;, int default_value=0)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int xml::CXml::GetInt </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>node_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>attrib_name</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>default_value</em> = <code>0</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca atrybut wskazanego typu</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;node_name</em>&nbsp;</td><td>- stała referencja na nazwę węzła</td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>&amp;attrib_name</em>&nbsp;</td><td>- stała referencja na nazwę atrybutu dokumentu <a class="el" href="namespacexml.html">xml</a></td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>default_value</em>&nbsp;</td><td>- wartość default (false) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a2c82a3583b5f13042b5797c43eca1818"></a><!-- doxytag: member="xml::CXml::GetInt" ref="a2c82a3583b5f13042b5797c43eca1818" args="(xml_node&lt;&gt; *parent, const std::string &amp;attrib_name=&quot;&quot;, int default_value=0)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int xml::CXml::GetInt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a>&lt;&gt; *&nbsp;</td>
+          <td class="paramname"> <em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>attrib_name</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>default_value</em> = <code>0</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca atrybut wskazanego typu</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>*parent</em>&nbsp;</td><td>- wskaźnik na węzeł dokumentu <a class="el" href="namespacexml.html">xml</a></td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>&amp;attrib_name</em>&nbsp;</td><td>- stała referencja na nazwę atrybutu dokumentu <a class="el" href="namespacexml.html">xml</a></td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>default_value</em>&nbsp;</td><td>- wartość default (false) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a31e99367dde0da87734d3cde1f16614d"></a><!-- doxytag: member="xml::CXml::GetRootNode" ref="a31e99367dde0da87734d3cde1f16614d" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a> * xml::CXml::GetRootNode </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wskaźnik na węzeł root dokumentu </p>
+
+</div>
+</div>
+<a class="anchor" id="aa3f5572ae65a7354ec37041e145a0fe6"></a><!-- doxytag: member="xml::CXml::GetSibling" ref="aa3f5572ae65a7354ec37041e145a0fe6" args="(xml_node&lt;&gt; *sibling, const std::string &amp;node_name)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a> * xml::CXml::GetSibling </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a>&lt;&gt; *&nbsp;</td>
+          <td class="paramname"> <em>sibling</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>node_name</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wskaźnik na węzeł rodzeństwa</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>*sibling</em>&nbsp;</td><td>- wskaźnik na węzeł</td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>node_name</em>&nbsp;</td><td>- nazwa węzła </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="abb5c9f9b3c03b5dc8d58d7aac3bf033d"></a><!-- doxytag: member="xml::CXml::GetString" ref="abb5c9f9b3c03b5dc8d58d7aac3bf033d" args="(const std::string &amp;node_name, const std::string &amp;attrib_name=&quot;&quot;)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string xml::CXml::GetString </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>node_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>attrib_name</em> = <code>&quot;&quot;</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca atrybut wskazanego typu</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;node_name</em>&nbsp;</td><td>- stała referencja na nazwę węzła</td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>&amp;attrib_name</em>&nbsp;</td><td>- stała referencja na nazwę atrybutu dokumentu <a class="el" href="namespacexml.html">xml</a></td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>default_value</em>&nbsp;</td><td>- wartość default (false) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a9483fff1169e63aa362fb4af9b855e4c"></a><!-- doxytag: member="xml::CXml::GetString" ref="a9483fff1169e63aa362fb4af9b855e4c" args="(xml_node&lt;&gt; *parent, const std::string &amp;attrib_name=&quot;&quot;)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string xml::CXml::GetString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a>&lt;&gt; *&nbsp;</td>
+          <td class="paramname"> <em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>attrib_name</em> = <code>&quot;&quot;</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca atrybut wskazanego typu</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>*parent</em>&nbsp;</td><td>- wskaźnik na węzeł dokumentu <a class="el" href="namespacexml.html">xml</a></td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>&amp;attrib_name</em>&nbsp;</td><td>- stała referencja na nazwę atrybutu dokumentu <a class="el" href="namespacexml.html">xml</a></td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>default_value</em>&nbsp;</td><td>- wartość default (false) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aecc1e7479c0fef584531de5078a3b1ee"></a><!-- doxytag: member="xml::CXml::GetWString" ref="aecc1e7479c0fef584531de5078a3b1ee" args="(const std::string &amp;node_name, const std::string &amp;attrib_name=&quot;&quot;)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::wstring xml::CXml::GetWString </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>node_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>attrib_name</em> = <code>&quot;&quot;</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca atrybut wskazanego typu</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;node_name</em>&nbsp;</td><td>- stała referencja na nazwę węzła</td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>&amp;attrib_name</em>&nbsp;</td><td>- stała referencja na nazwę atrybutu dokumentu <a class="el" href="namespacexml.html">xml</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4099622800a704dd0397ccdca1e8a07f"></a><!-- doxytag: member="xml::CXml::GetWString" ref="a4099622800a704dd0397ccdca1e8a07f" args="(xml_node&lt;&gt; *parent, const std::string &amp;attrib_name=&quot;&quot;)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::wstring xml::CXml::GetWString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classrapidxml_1_1xml__node.html">xml_node</a>&lt;&gt; *&nbsp;</td>
+          <td class="paramname"> <em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>attrib_name</em> = <code>&quot;&quot;</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca atrybut wskazanego typu</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>*parent</em>&nbsp;</td><td>- wskaźnik na węzeł dokumentu <a class="el" href="namespacexml.html">xml</a></td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>&amp;attrib_name</em>&nbsp;</td><td>- stała referencja na nazwę atrybutu dokumentu <a class="el" href="namespacexml.html">xml</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/XML/<a class="el" href="_c_xml_8h_source.html">CXml.h</a></li>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/XML/<a class="el" href="_c_xml_8cpp.html">CXml.cpp</a></li>
+</ul>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:19 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

@@ -1,0 +1,436 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Dokumentacja klasy logic::CPhysicalManager</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Lista&nbsp;klas</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarchia&nbsp;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&nbsp;klas</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="namespacelogic.html">logic</a>::<a class="el" href="classlogic_1_1_c_physical_manager.html">CPhysicalManager</a>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja klasy logic::CPhysicalManager</h1><!-- doxytag: class="logic::CPhysicalManager" --><!-- doxytag: inherits="CSingleton&lt; CPhysicalManager &gt;,listener::IFrameListener" -->
+<p><code>#include &lt;<a class="el" href="_c_physical_manager_8h_source.html">CPhysicalManager.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla logic::CPhysicalManager</div>
+<div class="dynsection">
+ <div class="center">
+  <img src="classlogic_1_1_c_physical_manager.gif" usemap="#logic::CPhysicalManager_map" alt=""/>
+  <map id="logic::CPhysicalManager_map" name="logic::CPhysicalManager_map">
+<area href="class_c_singleton.html" alt="CSingleton&lt; CPhysicalManager &gt;" shape="rect" coords="0,56,205,80"/>
+<area href="classlistener_1_1_i_frame_listener.html" alt="listener::IFrameListener" shape="rect" coords="215,56,420,80"/>
+<area href="class_i_cleanupable.html" alt="ICleanupable" shape="rect" coords="0,0,205,24"/>
+</map>
+ </div>
+</div>
+
+<p><a href="classlogic_1_1_c_physical_manager-members.html">Lista wszystkich składowych.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Metody publiczne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical_manager.html#a37c75bab47cbd25c5c09e18191e3e696">CPhysicalManager</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical_manager.html#a8c6a06e55860e420e76c96378d48fabe">~CPhysicalManager</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical_manager.html#a2a86c033514c302af9297f15e2fc80d8">FrameStarted</a> (float secondsPassed)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlogic_1_1_c_physical.html">logic::CPhysical</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical_manager.html#a3a2577df38a721e0c5f9fca5e8294963">CreatePhysical</a> (const std::wstring &amp;unique_id=L&quot;&quot;)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlogic_1_1_c_actor.html">logic::CActor</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical_manager.html#aa1e60cf20c1823a2739a5ebadeaa124a">CreateActor</a> (const std::wstring &amp;uniqueId=L&quot;&quot;)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlogic_1_1_c_enemy.html">logic::CEnemy</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical_manager.html#a0d3321513d4564d0bfd46de9c667d536">CreateEnemy</a> (const std::wstring &amp;uniqueId=L&quot;&quot;)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlogic_1_1_c_player.html">logic::CPlayer</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical_manager.html#a053fad29dd2481bb393ffe13e32777fc">CreatePlayer</a> (const std::wstring &amp;uniqueId=L&quot;&quot;)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlogic_1_1_c_bullet.html">logic::CBullet</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical_manager.html#ab4859542ad3b34f27509f458383085fc">CreateBullet</a> (const std::wstring &amp;uniqueId=L&quot;&quot;)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical_manager.html#ae8b3f1201a4b117b1e34a2c5f9196960">DestroyPhysical</a> (<a class="el" href="classlogic_1_1_c_physical.html">logic::CPhysical</a> *physical)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical_manager.html#affa4a8465951f3dd3ed8fb0ed7c1228a">DestroyPhysical</a> (const std::wstring &amp;id_physical)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical_manager.html#a4a906c20cf37bf4c996ed1a8dbdfc905">Clear</a> (bool force_destroy_instantly=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::wstring, <br class="typebreak"/>
+<a class="el" href="classlogic_1_1_c_physical.html">logic::CPhysical</a> * &gt; &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical_manager.html#aaab5722a432a49d94686818bcad4d131">GetNamedPhysicals</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const std::vector<br class="typebreak"/>
+&lt; <a class="el" href="classlogic_1_1_c_physical.html">logic::CPhysical</a> * &gt; &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical_manager.html#a3b90bcb3eacb5f28657eaae6058710f0">GetPhysicals</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlogic_1_1_c_physical.html">logic::CPhysical</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical_manager.html#a213e32ac23f424a7258c43fa06d7423f">GetPhysicalById</a> (const std::wstring &amp;physical_id)</td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Opis szczegółowy</h2>
+<p>Klasa reprezentuje fabrykę produkującą obiekty gry i zarządzanie obiektami </p>
+<hr/><h2>Dokumentacja konstruktora i destruktora</h2>
+<a class="anchor" id="a37c75bab47cbd25c5c09e18191e3e696"></a><!-- doxytag: member="logic::CPhysicalManager::CPhysicalManager" ref="a37c75bab47cbd25c5c09e18191e3e696" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logic::CPhysicalManager::CPhysicalManager </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Konstruktor </p>
+
+</div>
+</div>
+<a class="anchor" id="a8c6a06e55860e420e76c96378d48fabe"></a><!-- doxytag: member="logic::CPhysicalManager::~CPhysicalManager" ref="a8c6a06e55860e420e76c96378d48fabe" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logic::CPhysicalManager::~CPhysicalManager </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Destruktor wirtualny </p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja funkcji składowych</h2>
+<a class="anchor" id="a4a906c20cf37bf4c996ed1a8dbdfc905"></a><!-- doxytag: member="logic::CPhysicalManager::Clear" ref="a4a906c20cf37bf4c996ed1a8dbdfc905" args="(bool force_destroy_instantly=false)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysicalManager::Clear </td>
+          <td>(</td>
+          <td class="paramtype">bool&nbsp;</td>
+          <td class="paramname"> <em>force_destroy_instantly</em> = <code>false</code></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda usuwa wszystkie obiekty z kontenera</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>force_destroy_instantly</em>&nbsp;</td><td>- flaga, czy usunąć z kontenera wszystkie obiekty </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa1e60cf20c1823a2739a5ebadeaa124a"></a><!-- doxytag: member="logic::CPhysicalManager::CreateActor" ref="aa1e60cf20c1823a2739a5ebadeaa124a" args="(const std::wstring &amp;uniqueId=L&quot;&quot;)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classlogic_1_1_c_actor.html">logic::CActor</a> * logic::CPhysicalManager::CreateActor </td>
+          <td>(</td>
+          <td class="paramtype">const std::wstring &amp;&nbsp;</td>
+          <td class="paramname"> <em>uniqueId</em> = <code>L&quot;&quot;</code></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda tworzy obiekt klasy <a class="el" href="classlogic_1_1_c_actor.html">CActor</a> i zwaraca wskaźnik na ten obiekt</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;uniqueId</em>&nbsp;</td><td>- unikalny identyfikator - stała referencja na obiekt klasy std::wstring </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ab4859542ad3b34f27509f458383085fc"></a><!-- doxytag: member="logic::CPhysicalManager::CreateBullet" ref="ab4859542ad3b34f27509f458383085fc" args="(const std::wstring &amp;uniqueId=L&quot;&quot;)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classlogic_1_1_c_bullet.html">logic::CBullet</a> * logic::CPhysicalManager::CreateBullet </td>
+          <td>(</td>
+          <td class="paramtype">const std::wstring &amp;&nbsp;</td>
+          <td class="paramname"> <em>uniqueId</em> = <code>L&quot;&quot;</code></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda tworzy obiekt klasy <a class="el" href="classlogic_1_1_c_bullet.html">CBullet</a> i zwaraca wskaźnik na ten obiekt</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;uniqueId</em>&nbsp;</td><td>- unikalny identyfikator - stała referencja na obiekt klasy std::wstring </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a0d3321513d4564d0bfd46de9c667d536"></a><!-- doxytag: member="logic::CPhysicalManager::CreateEnemy" ref="a0d3321513d4564d0bfd46de9c667d536" args="(const std::wstring &amp;uniqueId=L&quot;&quot;)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classlogic_1_1_c_enemy.html">logic::CEnemy</a> * logic::CPhysicalManager::CreateEnemy </td>
+          <td>(</td>
+          <td class="paramtype">const std::wstring &amp;&nbsp;</td>
+          <td class="paramname"> <em>uniqueId</em> = <code>L&quot;&quot;</code></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda tworzy obiekt klasy <a class="el" href="classlogic_1_1_c_enemy.html">CEnemy</a> i zwaraca wskaźnik na ten obiekt</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;uniqueId</em>&nbsp;</td><td>- unikalny identyfikator - stała referencja na obiekt klasy std::wstring </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a3a2577df38a721e0c5f9fca5e8294963"></a><!-- doxytag: member="logic::CPhysicalManager::CreatePhysical" ref="a3a2577df38a721e0c5f9fca5e8294963" args="(const std::wstring &amp;unique_id=L&quot;&quot;)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classlogic_1_1_c_physical.html">logic::CPhysical</a> * logic::CPhysicalManager::CreatePhysical </td>
+          <td>(</td>
+          <td class="paramtype">const std::wstring &amp;&nbsp;</td>
+          <td class="paramname"> <em>unique_id</em> = <code>L&quot;&quot;</code></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda tworzy obiekt klasy <a class="el" href="classlogic_1_1_c_physical.html">CPhysical</a> i zwaraca wskaźnik na ten obiekt</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;uniqueId</em>&nbsp;</td><td>- unikalny identyfikator - stała referencja na obiekt klasy std::wstring </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a053fad29dd2481bb393ffe13e32777fc"></a><!-- doxytag: member="logic::CPhysicalManager::CreatePlayer" ref="a053fad29dd2481bb393ffe13e32777fc" args="(const std::wstring &amp;uniqueId=L&quot;&quot;)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classlogic_1_1_c_player.html">logic::CPlayer</a> * logic::CPhysicalManager::CreatePlayer </td>
+          <td>(</td>
+          <td class="paramtype">const std::wstring &amp;&nbsp;</td>
+          <td class="paramname"> <em>uniqueId</em> = <code>L&quot;&quot;</code></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda tworzy obiekt klasy <a class="el" href="classlogic_1_1_c_player.html">CPlayer</a> i zwaraca wskaźnik na ten obiekt</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;uniqueId</em>&nbsp;</td><td>- unikalny identyfikator - stała referencja na obiekt klasy std::wstring </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="affa4a8465951f3dd3ed8fb0ed7c1228a"></a><!-- doxytag: member="logic::CPhysicalManager::DestroyPhysical" ref="affa4a8465951f3dd3ed8fb0ed7c1228a" args="(const std::wstring &amp;id_physical)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysicalManager::DestroyPhysical </td>
+          <td>(</td>
+          <td class="paramtype">const std::wstring &amp;&nbsp;</td>
+          <td class="paramname"> <em>id_physical</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda usuwa obiekt klasy <a class="el" href="classlogic_1_1_c_physical.html">CPhysical</a> z kontenera</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;id_physical</em>&nbsp;</td><td>- stała referencja na obiekt klasy std::wstring - unikalny identyfikator obiektu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae8b3f1201a4b117b1e34a2c5f9196960"></a><!-- doxytag: member="logic::CPhysicalManager::DestroyPhysical" ref="ae8b3f1201a4b117b1e34a2c5f9196960" args="(logic::CPhysical *physical)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysicalManager::DestroyPhysical </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classlogic_1_1_c_physical.html">logic::CPhysical</a> *&nbsp;</td>
+          <td class="paramname"> <em>physical</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda usuwa obiekt klasy <a class="el" href="classlogic_1_1_c_physical.html">CPhysical</a> z kontenera</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>*physical</em>&nbsp;</td><td>- wskaźnik na obiekt klasy <a class="el" href="classlogic_1_1_c_physical.html">CPhysical</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a2a86c033514c302af9297f15e2fc80d8"></a><!-- doxytag: member="logic::CPhysicalManager::FrameStarted" ref="a2a86c033514c302af9297f15e2fc80d8" args="(float secondsPassed)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysicalManager::FrameStarted </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>secondsPassed</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Wirtualna metoda - czyści obiekty z kontenera</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>secondsPassed</em>&nbsp;</td><td>- upływający czas </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementuje <a class="el" href="classlistener_1_1_i_frame_listener.html#a207f7b7dc3c6045ab3d782e379a446fb">listener::IFrameListener</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaab5722a432a49d94686818bcad4d131"></a><!-- doxytag: member="logic::CPhysicalManager::GetNamedPhysicals" ref="aaab5722a432a49d94686818bcad4d131" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::map&lt; std::wstring, <a class="el" href="classlogic_1_1_c_physical.html">logic::CPhysical</a> * &gt; &amp; logic::CPhysicalManager::GetNamedPhysicals </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca stała referencję do kontenera z nazwami wszystkich zarejestorwanych obiektów <a class="el" href="classlogic_1_1_c_physical.html">CPhysical</a> </p>
+
+</div>
+</div>
+<a class="anchor" id="a213e32ac23f424a7258c43fa06d7423f"></a><!-- doxytag: member="logic::CPhysicalManager::GetPhysicalById" ref="a213e32ac23f424a7258c43fa06d7423f" args="(const std::wstring &amp;physical_id)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classlogic_1_1_c_physical.html">logic::CPhysical</a> * logic::CPhysicalManager::GetPhysicalById </td>
+          <td>(</td>
+          <td class="paramtype">const std::wstring &amp;&nbsp;</td>
+          <td class="paramname"> <em>physical_id</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wskaźnik na obiekt klasy <a class="el" href="classlogic_1_1_c_physical.html">CPhysical</a> z kontenera na podstawie identyfikatora</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;physical_id</em>&nbsp;</td><td>- stała referencja na obiekt klasy std::wstring </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a3b90bcb3eacb5f28657eaae6058710f0"></a><!-- doxytag: member="logic::CPhysicalManager::GetPhysicals" ref="a3b90bcb3eacb5f28657eaae6058710f0" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt; <a class="el" href="classlogic_1_1_c_physical.html">logic::CPhysical</a> * &gt; &amp; logic::CPhysicalManager::GetPhysicals </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca stała referencję do kontenera z wszystkimi wskaźnikami zarejestorwanych obiektów <a class="el" href="classlogic_1_1_c_physical.html">CPhysical</a> </p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Logic/<a class="el" href="_c_physical_manager_8h_source.html">CPhysicalManager.h</a></li>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Logic/<a class="el" href="_c_physical_manager_8cpp.html">CPhysicalManager.cpp</a></li>
+</ul>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:18 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

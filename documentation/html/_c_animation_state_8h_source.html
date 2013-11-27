@@ -1,0 +1,137 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Plik źródłowy C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Rendering/Animations/CAnimationState.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+<h1>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Rendering/Animations/CAnimationState.h</h1><a href="_c_animation_state_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/*</span>
+<a name="l00002"></a>00002 <span class="comment"> ____________________________________________</span>
+<a name="l00003"></a>00003 <span class="comment">| CAnimationState.h - definicja klasy.       |</span>
+<a name="l00004"></a>00004 <span class="comment">| SCI - March 2012.                          |</span>
+<a name="l00005"></a>00005 <span class="comment">|____________________________________________|</span>
+<a name="l00006"></a>00006 <span class="comment"></span>
+<a name="l00007"></a>00007 <span class="comment">*/</span>
+<a name="l00008"></a>00008 
+<a name="l00009"></a>00009 <span class="preprocessor">#ifndef H_ANIMATION_STATE_SCI</span>
+<a name="l00010"></a>00010 <span class="preprocessor"></span><span class="preprocessor">#define H_ANIMATION_STATE_SCI</span>
+<a name="l00011"></a>00011 <span class="preprocessor"></span>
+<a name="l00012"></a>00012 <span class="preprocessor">#include &quot;<a class="code" href="_c_animation_frame_8h.html">CAnimationFrame.h</a>&quot;</span>
+<a name="l00013"></a>00013 
+<a name="l00014"></a>00014 <span class="keyword">namespace </span>rendering
+<a name="l00015"></a>00015 {
+<a name="l00016"></a>00016         <span class="keyword">namespace </span>animation
+<a name="l00017"></a>00017         {
+<a name="l00021"></a>00021                 <span class="keyword">class </span>CAnimation;
+<a name="l00022"></a>00022 
+<a name="l00026"></a><a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html">00026</a>                 <span class="keyword">class </span><a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html">CAnimationState</a>
+<a name="l00027"></a>00027                 {
+<a name="l00028"></a>00028 
+<a name="l00029"></a>00029                 <span class="keyword">public</span>:
+<a name="l00030"></a>00030 
+<a name="l00034"></a>00034                         <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#a4d5b49e89b6bf4fab80908f155249c7b">CAnimationState</a>(<span class="keywordtype">void</span>);
+<a name="l00035"></a>00035 
+<a name="l00041"></a>00041                         <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#a4d5b49e89b6bf4fab80908f155249c7b">CAnimationState</a>(<span class="keyword">const</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html">CAnimationState</a>&amp; CAnimationStateCopy);
+<a name="l00042"></a>00042 
+<a name="l00048"></a>00048                         <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#a4d5b49e89b6bf4fab80908f155249c7b">CAnimationState</a>(<a class="code" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a>* animation);
+<a name="l00049"></a>00049 
+<a name="l00053"></a>00053                         <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#a5823972c3901b57b34c9a367c683a582">~CAnimationState</a>(<span class="keywordtype">void</span>);
+<a name="l00054"></a>00054 
+<a name="l00058"></a>00058                         <span class="keyword">const</span> <span class="keywordtype">float</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#a07fb5f16a9c4095e80cd9b1ae7c66c7e">GetCurrentTime</a>() <span class="keyword">const</span>;
+<a name="l00059"></a>00059 
+<a name="l00065"></a>00065                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#a646c79520d9885aa1137fc02f2bab915">SetCurrentTime</a> (<span class="keywordtype">float</span> current_time);
+<a name="l00066"></a>00066 
+<a name="l00070"></a>00070                         <span class="keyword">const</span> <span class="keywordtype">float</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#a09bb627a3d1c8dd2aec0e29e36679972">GetAnimSpeed</a>() <span class="keyword">const</span>;
+<a name="l00071"></a>00071 
+<a name="l00077"></a>00077                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#a7c92f426d981eb278da7065c01347b3f">SetAnimSpeed</a>(<span class="keywordtype">float</span> anim_speed);
+<a name="l00078"></a>00078 
+<a name="l00082"></a>00082                         <span class="keyword">const</span> <span class="keywordtype">bool</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#a6f8ec26eac018e1c700243874d139c45">GetLooped</a>() <span class="keyword">const</span>;
+<a name="l00083"></a>00083 
+<a name="l00089"></a>00089                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#a56d61420d578c22e674c0299ae4b5970">SetLooped</a>(<span class="keywordtype">bool</span> is_looped);
+<a name="l00090"></a>00090 
+<a name="l00094"></a>00094                         <span class="keyword">const</span> <span class="keywordtype">bool</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#a313b7525df5153ee4b10add8dfeef783">GetPaused</a>() <span class="keyword">const</span>;
+<a name="l00095"></a>00095 
+<a name="l00101"></a>00101                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#a189c19dbfe05ebb4b87199af986f5651">SetPaused</a> (<span class="keywordtype">bool</span> is_paused);
+<a name="l00102"></a>00102 
+<a name="l00106"></a>00106                         <a class="code" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a>* <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#a099e97219566b2c2cfe81807b9ea6ad4">GetAnimation</a>();
+<a name="l00107"></a>00107 
+<a name="l00113"></a>00113                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#a4aebab10a629dacff9b9ae6d2295f8b6">SetAnimation</a>(<a class="code" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a>* animation);
+<a name="l00114"></a>00114 
+<a name="l00120"></a>00120                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#aeb99c2f54aacd114e1390ae84ed4cef7">AddTime</a>(<span class="keywordtype">float</span> time);
+<a name="l00121"></a>00121 
+<a name="l00125"></a>00125                         <span class="keyword">const</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation_frame.html">CAnimationFrame</a>&amp; <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#a05b57be6399a5958d20974a6b3473b18">GetCurrentFrame</a>();
+<a name="l00126"></a>00126                         
+<a name="l00130"></a>00130                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#a17156d6ebd52501438ed48b57d7eef36">Play</a>();
+<a name="l00131"></a>00131 
+<a name="l00135"></a>00135                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#a6583d93cd657d4ff04f8000d938a3061">Stop</a>();
+<a name="l00136"></a>00136 
+<a name="l00142"></a>00142                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation_state.html#a244464bf240a9e846ab41c0e5c9933f6">RewindTo</a>(<span class="keywordtype">float</span> position);
+<a name="l00143"></a>00143 
+<a name="l00144"></a>00144                 <span class="keyword">private</span>:
+<a name="l00145"></a>00145 
+<a name="l00146"></a>00146                         <span class="keywordtype">float</span>           m_current_time; <span class="comment">//upływający czas</span>
+<a name="l00147"></a>00147                         <span class="keywordtype">float</span>           m_anim_speed;   <span class="comment">//współczynnik prędkości odtwarzania animacji 1.0f - normal speed</span>
+<a name="l00148"></a>00148                         <span class="keywordtype">bool</span>            m_is_looped;    <span class="comment">//flaga, czy animacja ma być odtwarzana jako zapętlona (loop)</span>
+<a name="l00149"></a>00149                         <span class="keywordtype">bool</span>            m_is_paused;    <span class="comment">//flaga, czy animacja jest wstrzymana</span>
+<a name="l00150"></a>00150                         <a class="code" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a>* p_animation;        <span class="comment">//wskaźnik na obiekt klasy CAnimation (pojemnik z klatkami)</span>
+<a name="l00151"></a>00151                 };
+<a name="l00152"></a>00152         }<span class="comment">//namespace animation</span>
+<a name="l00153"></a>00153 }<span class="comment">//namespace rendering</span>
+<a name="l00154"></a>00154 <span class="preprocessor">#endif //H_ANIMATION_STATE_SCI</span>
+</pre></div></div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:16 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

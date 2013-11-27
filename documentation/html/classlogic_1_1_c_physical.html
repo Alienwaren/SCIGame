@@ -1,0 +1,2997 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Dokumentacja klasy logic::CPhysical</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Lista&nbsp;klas</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarchia&nbsp;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&nbsp;klas</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="namespacelogic.html">logic</a>::<a class="el" href="classlogic_1_1_c_physical.html">CPhysical</a>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja klasy logic::CPhysical</h1><!-- doxytag: class="logic::CPhysical" -->
+<p><code>#include &lt;<a class="el" href="_c_physical_8h_source.html">CPhysical.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla logic::CPhysical</div>
+<div class="dynsection">
+ <div class="center">
+  <img src="classlogic_1_1_c_physical.gif" usemap="#logic::CPhysical_map" alt=""/>
+  <map id="logic::CPhysical_map" name="logic::CPhysical_map">
+<area href="classlogic_1_1_c_actor.html" alt="logic::CActor" shape="rect" coords="56,56,158,80"/>
+<area href="classlogic_1_1_c_bullet.html" alt="logic::CBullet" shape="rect" coords="168,56,270,80"/>
+<area href="classlogic_1_1_c_enemy.html" alt="logic::CEnemy" shape="rect" coords="0,112,102,136"/>
+<area href="classlogic_1_1_c_player.html" alt="logic::CPlayer" shape="rect" coords="112,112,214,136"/>
+</map>
+ </div>
+</div>
+
+<p><a href="classlogic_1_1_c_physical-members.html">Lista wszystkich składowych.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Metody publiczne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const std::wstring &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#abea7dfa68af3aa70393738723505d8ba">GetUniqueId</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const std::wstring &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a05b377f0d7fdbda194aafeb407545610">GetGenre</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#aa8ce614555ade042ca10a1290eff7d0a">SetGenre</a> (const std::wstring &amp;genre)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const sf::Vector2f &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a228e0cb26ad0dc896347ff740fc50af2">GetPosition</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ab59e09c5ba2ae80c94785c4a700e144f">SetPosition</a> (float x, float y, bool change_old_position=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#af83de7725fbfe6f65762eb60ffb22eae">SetPosition</a> (const sf::Vector2f &amp;new_value, bool change_old_position=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const sf::Vector2f &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a0eb156faa6a6b51e1dae7ba3f52a8049">GetOldPosition</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const sf::Vector2f &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ac652438062a6427006c756beee73a00d">GetScaleBody</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a74c7629cce1c5625c6449608db751aef">SetScaleBody</a> (float scale_X, float scale_Y)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#abf25242b98f7293dd3199938c2fd3084">SetScaleBody</a> (const sf::Vector2f &amp;scale_vector)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const sf::Vector2f &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#aab602449a5b11fddbd7319c72d5d2d3c">GetScaleHead</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a47af40612a3e6934f00f7d14a4e63ec6">SetScaleHead</a> (float scale_X, float scale_Y)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a8888d192149aa2b21204146740b86f04">SetScaleHead</a> (const sf::Vector2f &amp;scale_vector)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a9c937c8d0e680e3f62c77178e9a396f4">SetScale</a> (float scale_X, float scale_Y)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ab0efce67fa5762146c740a54a9764f52">SetScale</a> (const sf::Vector2f &amp;scale)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a84f11368905764039eda048dd5b0f6cf">SetScale</a> (float uniform)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a283c921869551087d1b2a46c966316b0">GetRotation</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a945366e33ee9487aa3d53a9bfcf38df5">SetRotation</a> (float rotation_uniform)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a125f50c181f3c389bba9ba1ee749a34d">GetRotationBody</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ac49119caad4c8e29fbc00d16579825cb">SetRotationBody</a> (float rotation_body)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ad32d178a351234ca8071f6b0b8a6b9c2">GetRotationHead</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a8e4ab6059a53e6e37c2120efd7beae13">SetRotationHead</a> (float rotation_head)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a7e4a571ad7fcb6b5a805559e685568d6">RotateBody</a> (float angle)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a3ea1d824b9cc3a2034152d099cc68155">RotateHead</a> (float angle)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a47fe7679b34a6dd6b08d85e0131a0b47">Rotate</a> (float angle)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const sf::Vector2f &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a331f9807ce0dacc58486a72e4adaa4ef">GetVelocity</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a20b95c21952dae1aec89b0afd3e31a5e">SetVelocity</a> (const sf::Vector2f &amp;velocity)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a72d68dcf5e8dfafa37b048f6fa267af3">GetCircleRadius</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacelogic.html#a8c0b3d46799e1509d43f3177e32b67f4">ECollisionShape</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a19ccb765b5cad4e6c8235d54f398a092">GetCollisionShape</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#af5df2a007a5904ac33f3ccfbfb9c362e">SetBoundingCircle</a> (float radius)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#aeca039238962eafb767bb89c1c703377">SetBoundingRect</a> (const sf::Vector2f &amp;rect_size)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const sf::Vector2f &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#aeed104d1a0d811264f3b756746e048dc">GetRectSize</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ad1de93c28462fd3fe88c2d68cabea975">GetAltitude</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a119c8fb3d6b9ba2f9c36f14a334dedbe">SetAltitude</a> (float altitude)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const sf::Color &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a17686a8f4c2a60bc1bbb3ac8850ef575">GetColor</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#aac4f747f019dcc99a001bd1e9c8cc1fa">SetColor</a> (const sf::Color &amp;color)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const sf::Color &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ac42bbc37d690aa6b34824009fe6dac8b">GetColorBody</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a652d3e589c0b1354d144c8e9f226af93">SetColorBody</a> (const sf::Color &amp;color_body)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const sf::Color &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a0f0cb2a6d48f78eb9dd9b38169ea26c6">GetColorHead</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#aaa460a1b2796a767875add749b03c71b">SetColorHead</a> (const sf::Color &amp;color_head)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a37869f96a9aabcd5cfb74a7f4ed69312">RestoreColor</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a084f9607acf2947670ebf2d3a5432d1d">RestoreColorBody</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#aea11d31d03e4060bc4b8f3e192f7f8e1">RestoreColorHead</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const sf::Color &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a5f9feb2530e98b183564b24a4ae9d839">GetColorShadow</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a976e91a93b75cf62e628cfd5071421e0">SetColorShadow</a> (const sf::Color &amp;color_shadow)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">sf::Vector2f&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a31c126c1a010854bdf96ab9854013ae8">GetShadowOffsetBody</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a3bc6023d7c5fdfc82222e6e6a1676dbf">SetShadowOffsetBody</a> (sf::Vector2f &amp;shadow_offset_body)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">sf::Vector2f&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a21d8b5259947bf1ce1a447198212d1a8">GetShadowOffsetHead</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ad48d1023b48889bcd272f9637a10ea7d">SetShadowOffsetHead</a> (sf::Vector2f &amp;shadow_offset_head)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a0e8fe100fcbac15baa38349724211e22">SetUseDisplayable</a> (bool b)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a4da9eaa3f9151577d8e8c86be0026bdc">SetUseDisplayableBody</a> (bool b)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a166c96ca53a9afd02b19f382d6d94e37">SetUseDisplayableHead</a> (bool b)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a58605291efb86a3e8f320d2a0534659a">GetUseDisplayableBody</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a6bece4d7ada0addac04009c843058667">GetUseDisplayableHead</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a547caf5f08a15421b956c99580bd6746">GetAnimation</a> (<a class="el" href="namespacelogic.html#a9ad2f18e85b09d8237b20ce858ce8022">EPhysicalPart</a> physical_part=BODY)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a27b21e0c33e041933f5182e43af237b4">SetAnimation</a> (<a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *p_anim, <a class="el" href="namespacelogic.html#a9ad2f18e85b09d8237b20ce858ce8022">EPhysicalPart</a> physical_part=BODY)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a8ff0d913aa138c41aec9708ed6735b86">SetAnimation</a> (const std::string &amp;anim_name, <a class="el" href="namespacelogic.html#a9ad2f18e85b09d8237b20ce858ce8022">EPhysicalPart</a> physical_part=BODY)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const std::string &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a81076e252863c0a407f7b4cb039352d4">GetAnimationName</a> (<a class="el" href="namespacelogic.html#a9ad2f18e85b09d8237b20ce858ce8022">EPhysicalPart</a> physical_part=BODY) const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a8b0bdb4d1d2ae6bd5956f049ae493aee">GetAnimation</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ac2628696e0bbc33af1aaefa9038955a6">SetAnimation</a> (<a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *p_anim)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const std::string &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#aa69c82138b8ecd4889b2332b3c37bbf3">GetAnimationName</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a186680311b8dd4765279cb8cb4776d8f">SetAnimation</a> (const std::string &amp;anim_name)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ae8d6bcf9505ac85fe5a27f7d66f0aaf1">GetAnimationBody</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a7d04575e3baa24d1e1a472e70bddecf7">SetAnimationBody</a> (<a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *p_anim_body)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const std::string &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a272ddb87ad2d30f2f29ff1aecf42ba95">GetAnimationBodyName</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ae36c876a29a135281901d31ad6a62549">SetAnimationBody</a> (const std::string &amp;anim_body_name)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ad8b97cf6e87d805bff0949f12110a6d8">GetAnimationHead</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a6fc69a8e97354f463544a08377569c89">SetAnimationHead</a> (<a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *p_anim_head)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const std::string &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a4f41782dabf96465e2891a8cbee85a10">GetAnimationHeadName</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ac9019bb5faf855ad8d0f71686cdc13e4">SetAnimationHead</a> (const std::string &amp;anim_head_name)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#aacc923e7fef6945b14798f1ea8427ae8">SetAnimation</a> (<a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *p_anim_body, <a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *p_anim_head)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a72bef2da0e763df66ecbc6a406f52a76">SetAnimation</a> (const std::string &amp;anim_name_body, const std::string &amp;anim_name_head)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrendering_1_1displayable_1_1_c_displayable.html">CDisplayable</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#abcb8913defe79dddb9295ff973fb6093">GetDisplayable</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrendering_1_1displayable_1_1_c_displayable.html">CDisplayable</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ad6976df0e6aee389a258c0f2e79a5fca">GetShadow</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrendering_1_1displayable_1_1_c_displayable.html">CDisplayable</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ab492d783903f22350c95c6d33124fadf">GetDisplayable</a> (<a class="el" href="namespacelogic.html#a9ad2f18e85b09d8237b20ce858ce8022">EPhysicalPart</a> physical_part)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrendering_1_1displayable_1_1_c_displayable.html">CDisplayable</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a6d6eb0e87cef96f044de70310429fd51">GetShadow</a> (<a class="el" href="namespacelogic.html#a9ad2f18e85b09d8237b20ce858ce8022">EPhysicalPart</a> physical_part)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrendering_1_1displayable_1_1_c_displayable.html">CDisplayable</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#aa00d38bbe3f00ae14d415c0dbd8e4749">GetDisplayableBody</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrendering_1_1displayable_1_1_c_displayable.html">CDisplayable</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a77d5145516a8cab8f6f6f388ecb75975">GetDisplayableBodyShadow</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrendering_1_1displayable_1_1_c_displayable.html">CDisplayable</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a49e15e3c5f7149252f2c0df25dc55a56">GetDisplayableHead</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrendering_1_1displayable_1_1_c_displayable.html">CDisplayable</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a4c0593308543aca458cfff3b3d1393ec">GetDisplayableHeadShadow</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a2f8024caf3462990ff242d441cbbdabf">GetUseShadowBody</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ac09abf6f118a7335a5f4a49bb6793356">SetUseShadowBody</a> (bool use_shadow_body)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a67df4798dce811031bd176bcc62e6e7e">GetUseShadowHead</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a74da19527da46af6eb3b5ca5e6cf4556">SetUseShadowHead</a> (bool use_shadow_head)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a0ce8c77f022fd3bc3582eb6516373676">GetUseShadow</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a075d95ff4631e09783fd7670cfd06121">SetUseShadow</a> (bool use_shadow)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a3981de34d33c97e3a3de0d73f12498a5">MarkForDelete</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a4836d5f5391034b2451d84d8b24eac15">Kill</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#aa897708c082291a532a11f38482e474e">IsDead</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const std::string &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#aaa6d19e8abfca8ccbc3d59b38b859298">GetTextureBody</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a070278f544e25dc30f4424544f6bb746">SetTextureBody</a> (const std::string &amp;texture_body)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const std::string &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#aed4c1ea6bb66ce20c7df43c1db99fe9c">GetTextureHead</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a7c0e5bad29818302aa69f2c24b19637f">SetTextureHead</a> (const std::string &amp;texture_head)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#af04eab504dce8477950cefe28008206c">getSmoothing</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a7cdf01a4151e69ece1f16a5a36b3a431">setSmoothing</a> (bool smooth)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a3389d20159410a6382f2f04299f42a40">GetIncrease</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#afa6a4c15311a93fda7f068a57a2116da">SetIncrease</a> (float increase) const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classfactory_1_1_c_physical_template.html">CPhysicalTemplate</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a6736e35c42d4da3c9169e97481c2c5bc">GetTemplate</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a3451a4f8606c900ae589c9c8f221e8b8">SetTemplate</a> (<a class="el" href="classfactory_1_1_c_physical_template.html">CPhysicalTemplate</a> *<a class="el" href="classlogic_1_1_c_physical.html#aafbc006b465e17f1efd99eea519b668b">p_template</a>)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ab244dfd75184cf85d8094036fc1aad34">Update</a> (float dt)</td></tr>
+<tr><td colspan="2"><h2>Metody chronione</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a0291db8f8ae7d7c1de1529e8ea082bff">CPhysical</a> (const std::wstring &amp;uniqueId)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#aa348191499927a26beda7c6d8efb3053">CPhysical</a> (const <a class="el" href="classlogic_1_1_c_physical.html">CPhysical</a> &amp;CPhysicalCopy)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a8ec6de9933054c6b89d18a6cb7f1baaf">~CPhysical</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a06f3c4c446c2e1a44cd7525aff712a9c">SetZIndex</a> (int layer_index)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ab2323e09141a9484d2a7c85e972b5e23">GetZIndex</a> ()</td></tr>
+<tr><td colspan="2"><h2>Atrybuty chronione</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::wstring&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#acbed65d69e56faed644aa4c45260d844">m_unique_id</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::wstring&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ab1f5932a42ae1a35c3dc50d328470b82">m_genre</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">sf::Vector2f&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#abced4a6a2af608222703217d57fc2751">m_position</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">sf::Vector2f&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a6e6ecbb46f75cf4f08a95f1576584dcf">m_old_position</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a99ffa47284aaa6869f366efc2db2f56f">m_rotation_uniform</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ad3cc01ddeba81487b3385b2801536a7a">m_rotation_body</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a999ff521c5c41797e97e497d412f6ffa">m_rotation_head</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">sf::Vector2f&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a0b55680a9d1b264125dbc17fa63a2fad">m_velocity</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a27090a9266b3160b752cc58d8e7d06db">m_circle_radius</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::string&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a3b23c001589748f35f93365834ac0eb4">m_texture_body</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::string&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a0c69d04eed40e7fe26ee0fb5f4f54a7e">m_texture_head</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ae98725a706d4eab5476ae204c067c7b1">p_animation_body</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a24232817000197b9f11597165ee53194">p_animation_head</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacelogic.html#a8c0b3d46799e1509d43f3177e32b67f4">ECollisionShape</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ac3e7e9f13edf925fba118a59f8de5da4">m_collision_shape</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">sf::Vector2f&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a9c5ea079dc42d6136494265d38a2971c">m_rect_size</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#adfa88a90598df00f33ca010dfd42bf6e">m_altitude</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">sf::Color&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ab543488deaaadf5ade62ccb57730c1dd">m_color_body</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">sf::Color&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a5b6a547efcd0c6b532a6a42c93cf7ddf">m_color_head</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">sf::Color&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a4a115d04a19e4c6d0e5ae4a357f83434">m_color_stored_body</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">sf::Color&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a5d5b9382f5a360fd6bbfc516e55094dd">m_color_stored_head</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">sf::Color&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#ab2f3a36a2ba5b36223d32980bf98d031">m_color_shadow</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">sf::Vector2f&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a8a3defdb0d104f3a972a4dcf53a03af4">m_shadow_offset_body</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">sf::Vector2f&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a3c34d4dda6880e8e1f2c41ac5b1cc257">m_shadow_offset_head</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a90ffd447376d6c4537161be919e1c5e2">m_ready_for_destruction</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#addcd9c60f1aba0c6563c492c7875fbe9">m_use_displayable_body</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#accda9eb2964968fbd3fa1649129c2d52">m_use_shadow_body</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#acd34c0545170a4bd4ed8522ee3cf09bd">m_use_displayable_head</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#a245fdb65670ebd0c5d5190f84f445978">m_use_shadow_head</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classfactory_1_1_c_physical_template.html">CPhysicalTemplate</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#aafbc006b465e17f1efd99eea519b668b">p_template</a></td></tr>
+<tr><td colspan="2"><h2>Statyczne atrybuty chronione</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#abbc4a6f7ac94c6c267ed9b6149091162">m_shadow_init</a> = 0.125f</td></tr>
+<tr><td colspan="2"><h2>Przyjaciele</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">class&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_physical.html#af951e2ef15f0d800ea59b76f29b55163">CPhysicalManager</a></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Opis szczegółowy</h2>
+<p>Klasa reprezentuje behawioralne cechy fizyczne i logiczne </p>
+<hr/><h2>Dokumentacja konstruktora i destruktora</h2>
+<a class="anchor" id="a0291db8f8ae7d7c1de1529e8ea082bff"></a><!-- doxytag: member="logic::CPhysical::CPhysical" ref="a0291db8f8ae7d7c1de1529e8ea082bff" args="(const std::wstring &amp;uniqueId)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logic::CPhysical::CPhysical </td>
+          <td>(</td>
+          <td class="paramtype">const std::wstring &amp;&nbsp;</td>
+          <td class="paramname"> <em>uniqueId</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Chroniony konstruktor domyślny - używany wyłącznie przez <a class="el" href="classlogic_1_1_c_physical_manager.html">CPhysicalManager</a> </p>
+
+</div>
+</div>
+<a class="anchor" id="aa348191499927a26beda7c6d8efb3053"></a><!-- doxytag: member="logic::CPhysical::CPhysical" ref="aa348191499927a26beda7c6d8efb3053" args="(const CPhysical &amp;CPhysicalCopy)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logic::CPhysical::CPhysical </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classlogic_1_1_c_physical.html">CPhysical</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>CPhysicalCopy</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Chroniony konstruktor kopiujący</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>CPhysicalCopy</em>&nbsp;</td><td>- parametr - obiekt klasy <a class="el" href="classlogic_1_1_c_physical.html">CPhysical</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8ec6de9933054c6b89d18a6cb7f1baaf"></a><!-- doxytag: member="logic::CPhysical::~CPhysical" ref="a8ec6de9933054c6b89d18a6cb7f1baaf" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logic::CPhysical::~CPhysical </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected, virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Chroniony destruktor wirtualny - używany wyłącznie przez <a class="el" href="classlogic_1_1_c_physical_manager.html">CPhysicalManager</a> </p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja funkcji składowych</h2>
+<a class="anchor" id="ad1de93c28462fd3fe88c2d68cabea975"></a><!-- doxytag: member="logic::CPhysical::GetAltitude" ref="ad1de93c28462fd3fe88c2d68cabea975" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float logic::CPhysical::GetAltitude </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wartość pułapu obiektu </p>
+
+</div>
+</div>
+<a class="anchor" id="a8b0bdb4d1d2ae6bd5956f049ae493aee"></a><!-- doxytag: member="logic::CPhysical::GetAnimation" ref="a8b0bdb4d1d2ae6bd5956f049ae493aee" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> * logic::CPhysical::GetAnimation </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wskaźnik na animację (body) /zgodność interfejsu/ </p>
+
+</div>
+</div>
+<a class="anchor" id="a547caf5f08a15421b956c99580bd6746"></a><!-- doxytag: member="logic::CPhysical::GetAnimation" ref="a547caf5f08a15421b956c99580bd6746" args="(EPhysicalPart physical_part=BODY)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> * logic::CPhysical::GetAnimation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacelogic.html#a9ad2f18e85b09d8237b20ce858ce8022">EPhysicalPart</a>&nbsp;</td>
+          <td class="paramname"> <em>physical_part</em> = <code>BODY</code></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wskaźnik na animację</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>physical_part</em>&nbsp;</td><td>- wyliczenie EPhysicalPart - część physical (default BODY) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae8d6bcf9505ac85fe5a27f7d66f0aaf1"></a><!-- doxytag: member="logic::CPhysical::GetAnimationBody" ref="ae8d6bcf9505ac85fe5a27f7d66f0aaf1" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> * logic::CPhysical::GetAnimationBody </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wskaźnik na animację (body) </p>
+
+</div>
+</div>
+<a class="anchor" id="a272ddb87ad2d30f2f29ff1aecf42ba95"></a><!-- doxytag: member="logic::CPhysical::GetAnimationBodyName" ref="a272ddb87ad2d30f2f29ff1aecf42ba95" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; logic::CPhysical::GetAnimationBodyName </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca nazwę animacji (body) </p>
+
+</div>
+</div>
+<a class="anchor" id="ad8b97cf6e87d805bff0949f12110a6d8"></a><!-- doxytag: member="logic::CPhysical::GetAnimationHead" ref="ad8b97cf6e87d805bff0949f12110a6d8" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> * logic::CPhysical::GetAnimationHead </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wskaźnik na animację (head) </p>
+
+</div>
+</div>
+<a class="anchor" id="a4f41782dabf96465e2891a8cbee85a10"></a><!-- doxytag: member="logic::CPhysical::GetAnimationHeadName" ref="a4f41782dabf96465e2891a8cbee85a10" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; logic::CPhysical::GetAnimationHeadName </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca nazwę animacji (head) </p>
+
+</div>
+</div>
+<a class="anchor" id="aa69c82138b8ecd4889b2332b3c37bbf3"></a><!-- doxytag: member="logic::CPhysical::GetAnimationName" ref="aa69c82138b8ecd4889b2332b3c37bbf3" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; logic::CPhysical::GetAnimationName </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca nazwę animacji (only body) /zgodność interfejsu/ </p>
+
+</div>
+</div>
+<a class="anchor" id="a81076e252863c0a407f7b4cb039352d4"></a><!-- doxytag: member="logic::CPhysical::GetAnimationName" ref="a81076e252863c0a407f7b4cb039352d4" args="(EPhysicalPart physical_part=BODY) const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; logic::CPhysical::GetAnimationName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacelogic.html#a9ad2f18e85b09d8237b20ce858ce8022">EPhysicalPart</a>&nbsp;</td>
+          <td class="paramname"> <em>physical_part</em> = <code>BODY</code></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca nazwę animacji</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>physical_part</em>&nbsp;</td><td>- wyliczenie EPhysicalPart - część physical (default BODY) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a72d68dcf5e8dfafa37b048f6fa267af3"></a><!-- doxytag: member="logic::CPhysical::GetCircleRadius" ref="a72d68dcf5e8dfafa37b048f6fa267af3" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float logic::CPhysical::GetCircleRadius </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca promień detekcji wykorzystywany przy liczeniu kolizji </p>
+
+</div>
+</div>
+<a class="anchor" id="a19ccb765b5cad4e6c8235d54f398a092"></a><!-- doxytag: member="logic::CPhysical::GetCollisionShape" ref="a19ccb765b5cad4e6c8235d54f398a092" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacelogic.html#a8c0b3d46799e1509d43f3177e32b67f4">ECollisionShape</a> logic::CPhysical::GetCollisionShape </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wyliczenie - typ liczenia kolizji </p>
+
+</div>
+</div>
+<a class="anchor" id="a17686a8f4c2a60bc1bbb3ac8850ef575"></a><!-- doxytag: member="logic::CPhysical::GetColor" ref="a17686a8f4c2a60bc1bbb3ac8850ef575" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const sf::Color &amp; logic::CPhysical::GetColor </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca kolor obiektu - body </p>
+
+</div>
+</div>
+<a class="anchor" id="ac42bbc37d690aa6b34824009fe6dac8b"></a><!-- doxytag: member="logic::CPhysical::GetColorBody" ref="ac42bbc37d690aa6b34824009fe6dac8b" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const sf::Color &amp; logic::CPhysical::GetColorBody </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca kolor obiektu - body </p>
+
+</div>
+</div>
+<a class="anchor" id="a0f0cb2a6d48f78eb9dd9b38169ea26c6"></a><!-- doxytag: member="logic::CPhysical::GetColorHead" ref="a0f0cb2a6d48f78eb9dd9b38169ea26c6" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const sf::Color &amp; logic::CPhysical::GetColorHead </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca kolor obiektu - head </p>
+
+</div>
+</div>
+<a class="anchor" id="a5f9feb2530e98b183564b24a4ae9d839"></a><!-- doxytag: member="logic::CPhysical::GetColorShadow" ref="a5f9feb2530e98b183564b24a4ae9d839" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const sf::Color &amp; logic::CPhysical::GetColorShadow </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca kolor cienia obiektu </p>
+
+</div>
+</div>
+<a class="anchor" id="ab492d783903f22350c95c6d33124fadf"></a><!-- doxytag: member="logic::CPhysical::GetDisplayable" ref="ab492d783903f22350c95c6d33124fadf" args="(EPhysicalPart physical_part)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrendering_1_1displayable_1_1_c_displayable.html">CDisplayable</a> * logic::CPhysical::GetDisplayable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacelogic.html#a9ad2f18e85b09d8237b20ce858ce8022">EPhysicalPart</a>&nbsp;</td>
+          <td class="paramname"> <em>physical_part</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wskaźnik na obiekt klasy CDisplayable (body)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>physical_part</em>&nbsp;</td><td>- wyliczenie EPhysicalPart - część physical </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="abcb8913defe79dddb9295ff973fb6093"></a><!-- doxytag: member="logic::CPhysical::GetDisplayable" ref="abcb8913defe79dddb9295ff973fb6093" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrendering_1_1displayable_1_1_c_displayable.html">CDisplayable</a> * logic::CPhysical::GetDisplayable </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wskaźnik na obiekt klasy CDisplayable (body) /zgodność interfejsu/ </p>
+
+</div>
+</div>
+<a class="anchor" id="aa00d38bbe3f00ae14d415c0dbd8e4749"></a><!-- doxytag: member="logic::CPhysical::GetDisplayableBody" ref="aa00d38bbe3f00ae14d415c0dbd8e4749" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrendering_1_1displayable_1_1_c_displayable.html">CDisplayable</a> * logic::CPhysical::GetDisplayableBody </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wskaźnik na obiekt klasy CDisplayable (body) </p>
+
+</div>
+</div>
+<a class="anchor" id="a77d5145516a8cab8f6f6f388ecb75975"></a><!-- doxytag: member="logic::CPhysical::GetDisplayableBodyShadow" ref="a77d5145516a8cab8f6f6f388ecb75975" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrendering_1_1displayable_1_1_c_displayable.html">CDisplayable</a> * logic::CPhysical::GetDisplayableBodyShadow </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wskaźnik na obiekt klasy CDisplayable (body shadow) </p>
+
+</div>
+</div>
+<a class="anchor" id="a49e15e3c5f7149252f2c0df25dc55a56"></a><!-- doxytag: member="logic::CPhysical::GetDisplayableHead" ref="a49e15e3c5f7149252f2c0df25dc55a56" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrendering_1_1displayable_1_1_c_displayable.html">CDisplayable</a> * logic::CPhysical::GetDisplayableHead </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wskaźnik na obiekt klasy CDisplayable (head) </p>
+
+</div>
+</div>
+<a class="anchor" id="a4c0593308543aca458cfff3b3d1393ec"></a><!-- doxytag: member="logic::CPhysical::GetDisplayableHeadShadow" ref="a4c0593308543aca458cfff3b3d1393ec" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrendering_1_1displayable_1_1_c_displayable.html">CDisplayable</a> * logic::CPhysical::GetDisplayableHeadShadow </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wskaźnik na obiekt klasy CDisplayable (head shadow) </p>
+
+</div>
+</div>
+<a class="anchor" id="a05b377f0d7fdbda194aafeb407545610"></a><!-- doxytag: member="logic::CPhysical::GetGenre" ref="a05b377f0d7fdbda194aafeb407545610" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::wstring &amp; logic::CPhysical::GetGenre </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca nazwę gatunku </p>
+
+</div>
+</div>
+<a class="anchor" id="a3389d20159410a6382f2f04299f42a40"></a><!-- doxytag: member="logic::CPhysical::GetIncrease" ref="a3389d20159410a6382f2f04299f42a40" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float logic::CPhysical::GetIncrease </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca statyczny współczynnik wirtualnej wysokości obiektu </p>
+
+</div>
+</div>
+<a class="anchor" id="a0eb156faa6a6b51e1dae7ba3f52a8049"></a><!-- doxytag: member="logic::CPhysical::GetOldPosition" ref="a0eb156faa6a6b51e1dae7ba3f52a8049" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const sf::Vector2f &amp; logic::CPhysical::GetOldPosition </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca pozycję przed aktualizacją logiki m_old_position </p>
+
+</div>
+</div>
+<a class="anchor" id="a228e0cb26ad0dc896347ff740fc50af2"></a><!-- doxytag: member="logic::CPhysical::GetPosition" ref="a228e0cb26ad0dc896347ff740fc50af2" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const sf::Vector2f &amp; logic::CPhysical::GetPosition </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca pozycję obiektu </p>
+
+</div>
+</div>
+<a class="anchor" id="aeed104d1a0d811264f3b756746e048dc"></a><!-- doxytag: member="logic::CPhysical::GetRectSize" ref="aeed104d1a0d811264f3b756746e048dc" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const sf::Vector2f &amp; logic::CPhysical::GetRectSize </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wektor dla obszaru prostokątnego detekcji wykorzystywany przy liczeniu kolizji </p>
+
+</div>
+</div>
+<a class="anchor" id="a283c921869551087d1b2a46c966316b0"></a><!-- doxytag: member="logic::CPhysical::GetRotation" ref="a283c921869551087d1b2a46c966316b0" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float logic::CPhysical::GetRotation </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wartość obrotu obiektu w stopniach (body and head) </p>
+
+</div>
+</div>
+<a class="anchor" id="a125f50c181f3c389bba9ba1ee749a34d"></a><!-- doxytag: member="logic::CPhysical::GetRotationBody" ref="a125f50c181f3c389bba9ba1ee749a34d" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float logic::CPhysical::GetRotationBody </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wartość obrotu obiektu w stopniach (body) </p>
+
+</div>
+</div>
+<a class="anchor" id="ad32d178a351234ca8071f6b0b8a6b9c2"></a><!-- doxytag: member="logic::CPhysical::GetRotationHead" ref="ad32d178a351234ca8071f6b0b8a6b9c2" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float logic::CPhysical::GetRotationHead </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wartość obrotu obiektu w stopniach (head) </p>
+
+</div>
+</div>
+<a class="anchor" id="ac652438062a6427006c756beee73a00d"></a><!-- doxytag: member="logic::CPhysical::GetScaleBody" ref="ac652438062a6427006c756beee73a00d" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Vector2f &amp; logic::CPhysical::GetScaleBody </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca skalę (body) </p>
+
+</div>
+</div>
+<a class="anchor" id="aab602449a5b11fddbd7319c72d5d2d3c"></a><!-- doxytag: member="logic::CPhysical::GetScaleHead" ref="aab602449a5b11fddbd7319c72d5d2d3c" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const sf::Vector2f &amp; logic::CPhysical::GetScaleHead </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca skalę (head) </p>
+
+</div>
+</div>
+<a class="anchor" id="a6d6eb0e87cef96f044de70310429fd51"></a><!-- doxytag: member="logic::CPhysical::GetShadow" ref="a6d6eb0e87cef96f044de70310429fd51" args="(EPhysicalPart physical_part)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrendering_1_1displayable_1_1_c_displayable.html">CDisplayable</a> * logic::CPhysical::GetShadow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacelogic.html#a9ad2f18e85b09d8237b20ce858ce8022">EPhysicalPart</a>&nbsp;</td>
+          <td class="paramname"> <em>physical_part</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wskaźnik na obiekt klasy CDisplayable (shadow)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>physical_part</em>&nbsp;</td><td>- wyliczenie EPhysicalPart - część physical </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad6976df0e6aee389a258c0f2e79a5fca"></a><!-- doxytag: member="logic::CPhysical::GetShadow" ref="ad6976df0e6aee389a258c0f2e79a5fca" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrendering_1_1displayable_1_1_c_displayable.html">CDisplayable</a> * logic::CPhysical::GetShadow </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wskaźnik na obiekt klasy CDisplayable (shadow) /zgodność interfejsu/ </p>
+
+</div>
+</div>
+<a class="anchor" id="a31c126c1a010854bdf96ab9854013ae8"></a><!-- doxytag: member="logic::CPhysical::GetShadowOffsetBody" ref="a31c126c1a010854bdf96ab9854013ae8" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::Vector2f logic::CPhysical::GetShadowOffsetBody </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wektor przesunięcia cienia względem obiektu - body </p>
+
+</div>
+</div>
+<a class="anchor" id="a21d8b5259947bf1ce1a447198212d1a8"></a><!-- doxytag: member="logic::CPhysical::GetShadowOffsetHead" ref="a21d8b5259947bf1ce1a447198212d1a8" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::Vector2f logic::CPhysical::GetShadowOffsetHead </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wektor przesunięcia cienia względem obiektu - head </p>
+
+</div>
+</div>
+<a class="anchor" id="af04eab504dce8477950cefe28008206c"></a><!-- doxytag: member="logic::CPhysical::getSmoothing" ref="af04eab504dce8477950cefe28008206c" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool logic::CPhysical::getSmoothing </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca tryb wygładzania tekstury </p>
+
+</div>
+</div>
+<a class="anchor" id="a6736e35c42d4da3c9169e97481c2c5bc"></a><!-- doxytag: member="logic::CPhysical::GetTemplate" ref="a6736e35c42d4da3c9169e97481c2c5bc" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classfactory_1_1_c_physical_template.html">CPhysicalTemplate</a>* logic::CPhysical::GetTemplate </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const<code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wskaźnik na obiekt klasy CPhysicalTemplate </p>
+
+</div>
+</div>
+<a class="anchor" id="aaa6d19e8abfca8ccbc3d59b38b859298"></a><!-- doxytag: member="logic::CPhysical::GetTextureBody" ref="aaa6d19e8abfca8ccbc3d59b38b859298" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; logic::CPhysical::GetTextureBody </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca nazwę tekstury (body) </p>
+
+</div>
+</div>
+<a class="anchor" id="aed4c1ea6bb66ce20c7df43c1db99fe9c"></a><!-- doxytag: member="logic::CPhysical::GetTextureHead" ref="aed4c1ea6bb66ce20c7df43c1db99fe9c" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; logic::CPhysical::GetTextureHead </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca nazwę tekstury (head) </p>
+
+</div>
+</div>
+<a class="anchor" id="abea7dfa68af3aa70393738723505d8ba"></a><!-- doxytag: member="logic::CPhysical::GetUniqueId" ref="abea7dfa68af3aa70393738723505d8ba" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::wstring &amp; logic::CPhysical::GetUniqueId </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca unikalną nazwę obiektu klasy <a class="el" href="classlogic_1_1_c_physical.html">CPhysical</a> </p>
+
+</div>
+</div>
+<a class="anchor" id="a58605291efb86a3e8f320d2a0534659a"></a><!-- doxytag: member="logic::CPhysical::GetUseDisplayableBody" ref="a58605291efb86a3e8f320d2a0534659a" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool logic::CPhysical::GetUseDisplayableBody </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const<code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca flagę, czy <a class="el" href="classlogic_1_1_c_physical.html">CPhysical</a> ma reprezentację graficzą (body) </p>
+
+</div>
+</div>
+<a class="anchor" id="a6bece4d7ada0addac04009c843058667"></a><!-- doxytag: member="logic::CPhysical::GetUseDisplayableHead" ref="a6bece4d7ada0addac04009c843058667" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool logic::CPhysical::GetUseDisplayableHead </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const<code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca flagę, czy <a class="el" href="classlogic_1_1_c_physical.html">CPhysical</a> ma reprezentację graficzą (head) </p>
+
+</div>
+</div>
+<a class="anchor" id="a0ce8c77f022fd3bc3582eb6516373676"></a><!-- doxytag: member="logic::CPhysical::GetUseShadow" ref="a0ce8c77f022fd3bc3582eb6516373676" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool logic::CPhysical::GetUseShadow </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca flagę, czy obiekt generuje cień (body and head) /zgodność interfejsu/ </p>
+
+</div>
+</div>
+<a class="anchor" id="a2f8024caf3462990ff242d441cbbdabf"></a><!-- doxytag: member="logic::CPhysical::GetUseShadowBody" ref="a2f8024caf3462990ff242d441cbbdabf" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool logic::CPhysical::GetUseShadowBody </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca flagę, czy obiekt generuje cień (body) </p>
+
+</div>
+</div>
+<a class="anchor" id="a67df4798dce811031bd176bcc62e6e7e"></a><!-- doxytag: member="logic::CPhysical::GetUseShadowHead" ref="a67df4798dce811031bd176bcc62e6e7e" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool logic::CPhysical::GetUseShadowHead </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca flagę, czy obiekt generuje cień (head) </p>
+
+</div>
+</div>
+<a class="anchor" id="a331f9807ce0dacc58486a72e4adaa4ef"></a><!-- doxytag: member="logic::CPhysical::GetVelocity" ref="a331f9807ce0dacc58486a72e4adaa4ef" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const sf::Vector2f &amp; logic::CPhysical::GetVelocity </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca prędkość obiektu </p>
+
+</div>
+</div>
+<a class="anchor" id="ab2323e09141a9484d2a7c85e972b5e23"></a><!-- doxytag: member="logic::CPhysical::GetZIndex" ref="ab2323e09141a9484d2a7c85e972b5e23" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int logic::CPhysical::GetZIndex </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline, protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca indeks warstwy renderingu obiektu </p>
+
+</div>
+</div>
+<a class="anchor" id="aa897708c082291a532a11f38482e474e"></a><!-- doxytag: member="logic::CPhysical::IsDead" ref="aa897708c082291a532a11f38482e474e" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool logic::CPhysical::IsDead </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca flagę, czy obiekt jest gotowy do usuniecia </p>
+
+</div>
+</div>
+<a class="anchor" id="a4836d5f5391034b2451d84d8b24eac15"></a><!-- doxytag: member="logic::CPhysical::Kill" ref="a4836d5f5391034b2451d84d8b24eac15" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::Kill </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Wirtualna metoda zaznacza obiekty do destrukcji </p>
+
+<p>Reimplementowana w <a class="el" href="classlogic_1_1_c_actor.html#aee73077dac23b7f5ddd2b54eb5b30fbd">logic::CActor</a>, <a class="el" href="classlogic_1_1_c_enemy.html#ae8c469dd67a31073294d13b191f381da">logic::CEnemy</a> i <a class="el" href="classlogic_1_1_c_player.html#a9dd84db6b079aaa2430f6ba84a9a6858">logic::CPlayer</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3981de34d33c97e3a3de0d73f12498a5"></a><!-- doxytag: member="logic::CPhysical::MarkForDelete" ref="a3981de34d33c97e3a3de0d73f12498a5" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::MarkForDelete </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia flagę dla obiektów gotowych do destrukcji </p>
+
+</div>
+</div>
+<a class="anchor" id="a37869f96a9aabcd5cfb74a7f4ed69312"></a><!-- doxytag: member="logic::CPhysical::RestoreColor" ref="a37869f96a9aabcd5cfb74a7f4ed69312" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::RestoreColor </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia oryginalny kolor obiektu załadowany z tekstury - body and head </p>
+
+</div>
+</div>
+<a class="anchor" id="a084f9607acf2947670ebf2d3a5432d1d"></a><!-- doxytag: member="logic::CPhysical::RestoreColorBody" ref="a084f9607acf2947670ebf2d3a5432d1d" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::RestoreColorBody </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia oryginalny kolor obiektu załadowany z tekstury - body </p>
+
+</div>
+</div>
+<a class="anchor" id="aea11d31d03e4060bc4b8f3e192f7f8e1"></a><!-- doxytag: member="logic::CPhysical::RestoreColorHead" ref="aea11d31d03e4060bc4b8f3e192f7f8e1" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::RestoreColorHead </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia oryginalny kolor obiektu załadowany z tekstury - head </p>
+
+</div>
+</div>
+<a class="anchor" id="a47fe7679b34a6dd6b08d85e0131a0b47"></a><!-- doxytag: member="logic::CPhysical::Rotate" ref="a47fe7679b34a6dd6b08d85e0131a0b47" args="(float angle)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::Rotate </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>angle</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda obraca obiekt o zadany kąt (body and head)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>angle</em>&nbsp;</td><td>- wartość obrotu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7e4a571ad7fcb6b5a805559e685568d6"></a><!-- doxytag: member="logic::CPhysical::RotateBody" ref="a7e4a571ad7fcb6b5a805559e685568d6" args="(float angle)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::RotateBody </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>angle</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda obraca obiekt o zadany kąt (body)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>angle</em>&nbsp;</td><td>- wartość obrotu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a3ea1d824b9cc3a2034152d099cc68155"></a><!-- doxytag: member="logic::CPhysical::RotateHead" ref="a3ea1d824b9cc3a2034152d099cc68155" args="(float angle)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::RotateHead </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>angle</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda obraca obiekt o zadany kąt (head)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>angle</em>&nbsp;</td><td>- wartość obrotu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a119c8fb3d6b9ba2f9c36f14a334dedbe"></a><!-- doxytag: member="logic::CPhysical::SetAltitude" ref="a119c8fb3d6b9ba2f9c36f14a334dedbe" args="(float altitude)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetAltitude </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>altitude</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia wartość pułapu obiektu</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>altitude</em>&nbsp;</td><td>- wartość pułapu obiektu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a72bef2da0e763df66ecbc6a406f52a76"></a><!-- doxytag: member="logic::CPhysical::SetAnimation" ref="a72bef2da0e763df66ecbc6a406f52a76" args="(const std::string &amp;anim_name_body, const std::string &amp;anim_name_head)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetAnimation </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>anim_name_body</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>anim_name_head</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia komplet animacji</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;anim_name_body</em>&nbsp;</td><td>- stała referencja na obiekt klasy std::string - nazwa animacji (body)</td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>&amp;anim_name_head</em>&nbsp;</td><td>- stała referencja na obiekt klasy std::string - nazwa animacji (head) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aacc923e7fef6945b14798f1ea8427ae8"></a><!-- doxytag: member="logic::CPhysical::SetAnimation" ref="aacc923e7fef6945b14798f1ea8427ae8" args="(CAnimation *p_anim_body, CAnimation *p_anim_head)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetAnimation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *&nbsp;</td>
+          <td class="paramname"> <em>p_anim_body</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *&nbsp;</td>
+          <td class="paramname"> <em>p_anim_head</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia komplet animacji</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>*p_anim_body</em>&nbsp;</td><td>- wskaźnik na obiekt klasy CAnimation (body)</td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>*p_anim_head</em>&nbsp;</td><td>- wskaźnik na obiekt klasy CAnimation (head) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a186680311b8dd4765279cb8cb4776d8f"></a><!-- doxytag: member="logic::CPhysical::SetAnimation" ref="a186680311b8dd4765279cb8cb4776d8f" args="(const std::string &amp;anim_name)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetAnimation </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>anim_name</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia nazwę animacji (only body) /zgodność interfejsu/</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;anim_name</em>&nbsp;</td><td>- nazwa animacji (only body) /zgodność interfejsu/ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac2628696e0bbc33af1aaefa9038955a6"></a><!-- doxytag: member="logic::CPhysical::SetAnimation" ref="ac2628696e0bbc33af1aaefa9038955a6" args="(CAnimation *p_anim)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetAnimation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *&nbsp;</td>
+          <td class="paramname"> <em>p_anim</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia ustawia wskaźnik na animację (body) /zgodność interfejsu/</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>*p_anim</em>&nbsp;</td><td>- wskaźnik na animację - obiekt klasy CAnimation /zgodność interfejsu/ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8ff0d913aa138c41aec9708ed6735b86"></a><!-- doxytag: member="logic::CPhysical::SetAnimation" ref="a8ff0d913aa138c41aec9708ed6735b86" args="(const std::string &amp;anim_name, EPhysicalPart physical_part=BODY)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetAnimation </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>anim_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacelogic.html#a9ad2f18e85b09d8237b20ce858ce8022">EPhysicalPart</a>&nbsp;</td>
+          <td class="paramname"> <em>physical_part</em> = <code>BODY</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia nazwę animacji (only body) /zgodność interfejsu/</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;anim_name</em>&nbsp;</td><td>- nazwa animacji (only body) /zgodność interfejsu/</td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>physical_part</em>&nbsp;</td><td>- wyliczenie EPhysicalPart - część physical (default BODY) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a27b21e0c33e041933f5182e43af237b4"></a><!-- doxytag: member="logic::CPhysical::SetAnimation" ref="a27b21e0c33e041933f5182e43af237b4" args="(CAnimation *p_anim, EPhysicalPart physical_part=BODY)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetAnimation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *&nbsp;</td>
+          <td class="paramname"> <em>p_anim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacelogic.html#a9ad2f18e85b09d8237b20ce858ce8022">EPhysicalPart</a>&nbsp;</td>
+          <td class="paramname"> <em>physical_part</em> = <code>BODY</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia ustawia wskaźnik na animację</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>*p_anim</em>&nbsp;</td><td>- wskaźnik na animację - obiekt klasy CAnimation</td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>physical_part</em>&nbsp;</td><td>- wyliczenie EPhysicalPart - część physical (default BODY) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae36c876a29a135281901d31ad6a62549"></a><!-- doxytag: member="logic::CPhysical::SetAnimationBody" ref="ae36c876a29a135281901d31ad6a62549" args="(const std::string &amp;anim_body_name)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetAnimationBody </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>anim_body_name</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia nazwę animacji (body)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;anim_body_name</em>&nbsp;</td><td>- nazwa animacji (body) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7d04575e3baa24d1e1a472e70bddecf7"></a><!-- doxytag: member="logic::CPhysical::SetAnimationBody" ref="a7d04575e3baa24d1e1a472e70bddecf7" args="(CAnimation *p_anim_body)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetAnimationBody </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *&nbsp;</td>
+          <td class="paramname"> <em>p_anim_body</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia ustawia wskaźnik na animację (body)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>*p_anim_body</em>&nbsp;</td><td>- wskaźnik na animację - obiekt klasy CAnimation (body) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac9019bb5faf855ad8d0f71686cdc13e4"></a><!-- doxytag: member="logic::CPhysical::SetAnimationHead" ref="ac9019bb5faf855ad8d0f71686cdc13e4" args="(const std::string &amp;anim_head_name)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetAnimationHead </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>anim_head_name</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia nazwę animacji (head)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;anim_head_name</em>&nbsp;</td><td>- nazwa animacji (head) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a6fc69a8e97354f463544a08377569c89"></a><!-- doxytag: member="logic::CPhysical::SetAnimationHead" ref="a6fc69a8e97354f463544a08377569c89" args="(CAnimation *p_anim_head)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetAnimationHead </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *&nbsp;</td>
+          <td class="paramname"> <em>p_anim_head</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia ustawia wskaźnik na animację (head)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>*p_anim_head</em>&nbsp;</td><td>- wskaźnik na animację - obiekt klasy CAnimation (head) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="af5df2a007a5904ac33f3ccfbfb9c362e"></a><!-- doxytag: member="logic::CPhysical::SetBoundingCircle" ref="af5df2a007a5904ac33f3ccfbfb9c362e" args="(float radius)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetBoundingCircle </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>radius</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Wirtualna metoda ustawiająca wartość promienia detekcji wykorzystywaną przy liczeniu kolizji</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>radius</em>&nbsp;</td><td>- promień detekcji </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aeca039238962eafb767bb89c1c703377"></a><!-- doxytag: member="logic::CPhysical::SetBoundingRect" ref="aeca039238962eafb767bb89c1c703377" args="(const sf::Vector2f &amp;rect_size)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetBoundingRect </td>
+          <td>(</td>
+          <td class="paramtype">const sf::Vector2f &amp;&nbsp;</td>
+          <td class="paramname"> <em>rect_size</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia wartość obszaru prostokątnego detekcji wykorzystywany przy liczeniu kolizji</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;rect_size</em>&nbsp;</td><td>- stała referencja wektor dla obszaru prostokątnego detekcji wykorzystywany przy liczeniu kolizji </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aac4f747f019dcc99a001bd1e9c8cc1fa"></a><!-- doxytag: member="logic::CPhysical::SetColor" ref="aac4f747f019dcc99a001bd1e9c8cc1fa" args="(const sf::Color &amp;color)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetColor </td>
+          <td>(</td>
+          <td class="paramtype">const sf::Color &amp;&nbsp;</td>
+          <td class="paramname"> <em>color</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia kolor obiektu - (body and head)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>color</em>&nbsp;</td><td>- kolor </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a652d3e589c0b1354d144c8e9f226af93"></a><!-- doxytag: member="logic::CPhysical::SetColorBody" ref="a652d3e589c0b1354d144c8e9f226af93" args="(const sf::Color &amp;color_body)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetColorBody </td>
+          <td>(</td>
+          <td class="paramtype">const sf::Color &amp;&nbsp;</td>
+          <td class="paramname"> <em>color_body</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia kolor obiektu - body</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>color_body</em>&nbsp;</td><td>- kolor obiektu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aaa460a1b2796a767875add749b03c71b"></a><!-- doxytag: member="logic::CPhysical::SetColorHead" ref="aaa460a1b2796a767875add749b03c71b" args="(const sf::Color &amp;color_head)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetColorHead </td>
+          <td>(</td>
+          <td class="paramtype">const sf::Color &amp;&nbsp;</td>
+          <td class="paramname"> <em>color_head</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia kolor obiektu - head</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>color_head</em>&nbsp;</td><td>- kolor </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a976e91a93b75cf62e628cfd5071421e0"></a><!-- doxytag: member="logic::CPhysical::SetColorShadow" ref="a976e91a93b75cf62e628cfd5071421e0" args="(const sf::Color &amp;color_shadow)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetColorShadow </td>
+          <td>(</td>
+          <td class="paramtype">const sf::Color &amp;&nbsp;</td>
+          <td class="paramname"> <em>color_shadow</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia kolor cienia obiektu</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>color_shadow</em>&nbsp;</td><td>- kolor cienia obiektu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa8ce614555ade042ca10a1290eff7d0a"></a><!-- doxytag: member="logic::CPhysical::SetGenre" ref="aa8ce614555ade042ca10a1290eff7d0a" args="(const std::wstring &amp;genre)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetGenre </td>
+          <td>(</td>
+          <td class="paramtype">const std::wstring &amp;&nbsp;</td>
+          <td class="paramname"> <em>genre</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia nazwę gatunku</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;genre</em>&nbsp;</td><td>- stała referencja na obiekt klasy std::wstring </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="afa6a4c15311a93fda7f068a57a2116da"></a><!-- doxytag: member="logic::CPhysical::SetIncrease" ref="afa6a4c15311a93fda7f068a57a2116da" args="(float increase) const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const void logic::CPhysical::SetIncrease </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>increase</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia statyczny współczynnik wirtualnej wysokości obiektu</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>increase</em>&nbsp;</td><td>- wirtualna wysokość obiektu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="af83de7725fbfe6f65762eb60ffb22eae"></a><!-- doxytag: member="logic::CPhysical::SetPosition" ref="af83de7725fbfe6f65762eb60ffb22eae" args="(const sf::Vector2f &amp;new_value, bool change_old_position=false)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetPosition </td>
+          <td>(</td>
+          <td class="paramtype">const sf::Vector2f &amp;&nbsp;</td>
+          <td class="paramname"> <em>new_value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&nbsp;</td>
+          <td class="paramname"> <em>change_old_position</em> = <code>false</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia pozycję obiektu</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;vector</em>&nbsp;</td><td>- stała referenacja na obiekt klasy sf::Vector2f</td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>change_old_position</em>&nbsp;</td><td>- flaga, czy aktualizować m_old_position </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ab59e09c5ba2ae80c94785c4a700e144f"></a><!-- doxytag: member="logic::CPhysical::SetPosition" ref="ab59e09c5ba2ae80c94785c4a700e144f" args="(float x, float y, bool change_old_position=false)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetPosition </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&nbsp;</td>
+          <td class="paramname"> <em>change_old_position</em> = <code>false</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia pozycję obiektu</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>x</em>&nbsp;</td><td>- współrzędna x obiektu</td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>y</em>&nbsp;</td><td>- współrzędna y obiektu</td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>change_old_position</em>&nbsp;</td><td>- flaga, czy aktualizować m_old_position </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a945366e33ee9487aa3d53a9bfcf38df5"></a><!-- doxytag: member="logic::CPhysical::SetRotation" ref="a945366e33ee9487aa3d53a9bfcf38df5" args="(float rotation_uniform)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetRotation </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>rotation_uniform</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia wartość obrotu obiektu w stopniach (body and head)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>rotation_uniform</em>&nbsp;</td><td>- wartość obrotu obiektu (body and head) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac49119caad4c8e29fbc00d16579825cb"></a><!-- doxytag: member="logic::CPhysical::SetRotationBody" ref="ac49119caad4c8e29fbc00d16579825cb" args="(float rotation_body)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetRotationBody </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>rotation_body</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia wartość obrotu obiektu w stopniach (body)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>rotation_body</em>&nbsp;</td><td>- wartość obrotu obiektu (body) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8e4ab6059a53e6e37c2120efd7beae13"></a><!-- doxytag: member="logic::CPhysical::SetRotationHead" ref="a8e4ab6059a53e6e37c2120efd7beae13" args="(float rotation_head)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetRotationHead </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>rotation_head</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia wartość obrotu obiektu w stopniach (head)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>rotation_head</em>&nbsp;</td><td>- wartość obrotu obiektu (head) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a84f11368905764039eda048dd5b0f6cf"></a><!-- doxytag: member="logic::CPhysical::SetScale" ref="a84f11368905764039eda048dd5b0f6cf" args="(float uniform)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetScale </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>uniform</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia skalę</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>uniform</em>&nbsp;</td><td>- jednolita wartość skalująca w osi x i y </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ab0efce67fa5762146c740a54a9764f52"></a><!-- doxytag: member="logic::CPhysical::SetScale" ref="ab0efce67fa5762146c740a54a9764f52" args="(const sf::Vector2f &amp;scale)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetScale </td>
+          <td>(</td>
+          <td class="paramtype">const sf::Vector2f &amp;&nbsp;</td>
+          <td class="paramname"> <em>scale</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia skalę (body and head)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;scale</em>&nbsp;</td><td>- wektor skali - stała referencja na obiekt klasy sf::Vector2f </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a9c937c8d0e680e3f62c77178e9a396f4"></a><!-- doxytag: member="logic::CPhysical::SetScale" ref="a9c937c8d0e680e3f62c77178e9a396f4" args="(float scale_X, float scale_Y)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetScale </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>scale_X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>scale_Y</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia skalę (body and head)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>scale_X</em>&nbsp;</td><td>- wartość X</td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>scale_Y</em>&nbsp;</td><td>- wartość Y </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="abf25242b98f7293dd3199938c2fd3084"></a><!-- doxytag: member="logic::CPhysical::SetScaleBody" ref="abf25242b98f7293dd3199938c2fd3084" args="(const sf::Vector2f &amp;scale_vector)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetScaleBody </td>
+          <td>(</td>
+          <td class="paramtype">const sf::Vector2f &amp;&nbsp;</td>
+          <td class="paramname"> <em>scale_vector</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia skalę (body)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;scale_vector</em>&nbsp;</td><td>- wektor skali - stała referencja na obiekt klasy sf::Vector2f </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a74c7629cce1c5625c6449608db751aef"></a><!-- doxytag: member="logic::CPhysical::SetScaleBody" ref="a74c7629cce1c5625c6449608db751aef" args="(float scale_X, float scale_Y)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetScaleBody </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>scale_X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>scale_Y</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia skalę (body)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>scale_X</em>&nbsp;</td><td>- wartość X</td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>scale_Y</em>&nbsp;</td><td>- wartość Y </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8888d192149aa2b21204146740b86f04"></a><!-- doxytag: member="logic::CPhysical::SetScaleHead" ref="a8888d192149aa2b21204146740b86f04" args="(const sf::Vector2f &amp;scale_vector)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetScaleHead </td>
+          <td>(</td>
+          <td class="paramtype">const sf::Vector2f &amp;&nbsp;</td>
+          <td class="paramname"> <em>scale_vector</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia skalę (head)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;scale_vector</em>&nbsp;</td><td>- wektor skali - stała referencja na obiekt klasy sf::Vector2f </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a47af40612a3e6934f00f7d14a4e63ec6"></a><!-- doxytag: member="logic::CPhysical::SetScaleHead" ref="a47af40612a3e6934f00f7d14a4e63ec6" args="(float scale_X, float scale_Y)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetScaleHead </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>scale_X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>scale_Y</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia skalę (head)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>scale_X</em>&nbsp;</td><td>- wartość X</td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>scale_Y</em>&nbsp;</td><td>- wartość Y </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a3bc6023d7c5fdfc82222e6e6a1676dbf"></a><!-- doxytag: member="logic::CPhysical::SetShadowOffsetBody" ref="a3bc6023d7c5fdfc82222e6e6a1676dbf" args="(sf::Vector2f &amp;shadow_offset_body)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetShadowOffsetBody </td>
+          <td>(</td>
+          <td class="paramtype">sf::Vector2f &amp;&nbsp;</td>
+          <td class="paramname"> <em>shadow_offset_body</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia wektor przesunięcia cienia względem obiektu - body</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;shadow_offset_body</em>&nbsp;</td><td>- stała referencja na wektor przesunięcia cienia względem obiektu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad48d1023b48889bcd272f9637a10ea7d"></a><!-- doxytag: member="logic::CPhysical::SetShadowOffsetHead" ref="ad48d1023b48889bcd272f9637a10ea7d" args="(sf::Vector2f &amp;shadow_offset_head)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetShadowOffsetHead </td>
+          <td>(</td>
+          <td class="paramtype">sf::Vector2f &amp;&nbsp;</td>
+          <td class="paramname"> <em>shadow_offset_head</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia wektor przesunięcia cienia względem obiektu - head</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;shadow_offset_head</em>&nbsp;</td><td>- stała referencja na wektor przesunięcia cienia względem obiektu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7cdf01a4151e69ece1f16a5a36b3a431"></a><!-- doxytag: member="logic::CPhysical::setSmoothing" ref="a7cdf01a4151e69ece1f16a5a36b3a431" args="(bool smooth)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::setSmoothing </td>
+          <td>(</td>
+          <td class="paramtype">bool&nbsp;</td>
+          <td class="paramname"> <em>smooth</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia tryb wygładzania tekstury</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>smooth</em>&nbsp;</td><td>- flaga wygładzania tekstury </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a3451a4f8606c900ae589c9c8f221e8b8"></a><!-- doxytag: member="logic::CPhysical::SetTemplate" ref="a3451a4f8606c900ae589c9c8f221e8b8" args="(CPhysicalTemplate *p_template)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetTemplate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classfactory_1_1_c_physical_template.html">CPhysicalTemplate</a> *&nbsp;</td>
+          <td class="paramname"> <em>p_template</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia wskaźnik na obiekt klasy CPhysicalTemplate</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>*p_template</em>&nbsp;</td><td>- wskaźnik na obiekt klasy CPhysicalTemplate </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a070278f544e25dc30f4424544f6bb746"></a><!-- doxytag: member="logic::CPhysical::SetTextureBody" ref="a070278f544e25dc30f4424544f6bb746" args="(const std::string &amp;texture_body)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetTextureBody </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>texture_body</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustatawia nazwę tekstury (body)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>texture_body</em>&nbsp;</td><td>- nazwa tekstury (body) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7c0e5bad29818302aa69f2c24b19637f"></a><!-- doxytag: member="logic::CPhysical::SetTextureHead" ref="a7c0e5bad29818302aa69f2c24b19637f" args="(const std::string &amp;texture_head)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetTextureHead </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>texture_head</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustatwia nazwę tekstury (head)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>texture_head</em>&nbsp;</td><td>- nazwa tekstury (head) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a0e8fe100fcbac15baa38349724211e22"></a><!-- doxytag: member="logic::CPhysical::SetUseDisplayable" ref="a0e8fe100fcbac15baa38349724211e22" args="(bool b)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetUseDisplayable </td>
+          <td>(</td>
+          <td class="paramtype">bool&nbsp;</td>
+          <td class="paramname"> <em>b</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia flagę, czy <a class="el" href="classlogic_1_1_c_physical.html">CPhysical</a> ma reprezentację graficzą (body and head) </p>
+
+</div>
+</div>
+<a class="anchor" id="a4da9eaa3f9151577d8e8c86be0026bdc"></a><!-- doxytag: member="logic::CPhysical::SetUseDisplayableBody" ref="a4da9eaa3f9151577d8e8c86be0026bdc" args="(bool b)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetUseDisplayableBody </td>
+          <td>(</td>
+          <td class="paramtype">bool&nbsp;</td>
+          <td class="paramname"> <em>b</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia flagę, czy <a class="el" href="classlogic_1_1_c_physical.html">CPhysical</a> ma reprezentację graficzą (body) </p>
+
+</div>
+</div>
+<a class="anchor" id="a166c96ca53a9afd02b19f382d6d94e37"></a><!-- doxytag: member="logic::CPhysical::SetUseDisplayableHead" ref="a166c96ca53a9afd02b19f382d6d94e37" args="(bool b)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetUseDisplayableHead </td>
+          <td>(</td>
+          <td class="paramtype">bool&nbsp;</td>
+          <td class="paramname"> <em>b</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia flagę, czy <a class="el" href="classlogic_1_1_c_physical.html">CPhysical</a> ma reprezentację graficzą (head) </p>
+
+</div>
+</div>
+<a class="anchor" id="a075d95ff4631e09783fd7670cfd06121"></a><!-- doxytag: member="logic::CPhysical::SetUseShadow" ref="a075d95ff4631e09783fd7670cfd06121" args="(bool use_shadow)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetUseShadow </td>
+          <td>(</td>
+          <td class="paramtype">bool&nbsp;</td>
+          <td class="paramname"> <em>use_shadow</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia flagę, czy obiekt ma generować cień (body and head) /zgodność interfejsu/</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>use_shadow</em>&nbsp;</td><td>- flaga, czy obiekt ma generować cień (body and head) /zgodność interfejsu/ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac09abf6f118a7335a5f4a49bb6793356"></a><!-- doxytag: member="logic::CPhysical::SetUseShadowBody" ref="ac09abf6f118a7335a5f4a49bb6793356" args="(bool use_shadow_body)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetUseShadowBody </td>
+          <td>(</td>
+          <td class="paramtype">bool&nbsp;</td>
+          <td class="paramname"> <em>use_shadow_body</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia flagę, czy obiekt ma generować cień (body)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>use_shadow_body</em>&nbsp;</td><td>- flaga, czy obiekt ma generować cień (body) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a74da19527da46af6eb3b5ca5e6cf4556"></a><!-- doxytag: member="logic::CPhysical::SetUseShadowHead" ref="a74da19527da46af6eb3b5ca5e6cf4556" args="(bool use_shadow_head)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetUseShadowHead </td>
+          <td>(</td>
+          <td class="paramtype">bool&nbsp;</td>
+          <td class="paramname"> <em>use_shadow_head</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia flagę, czy obiekt ma generować cień (head)</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>use_shadow_head</em>&nbsp;</td><td>- flaga, czy obiekt ma generować cień (head) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a20b95c21952dae1aec89b0afd3e31a5e"></a><!-- doxytag: member="logic::CPhysical::SetVelocity" ref="a20b95c21952dae1aec89b0afd3e31a5e" args="(const sf::Vector2f &amp;velocity)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetVelocity </td>
+          <td>(</td>
+          <td class="paramtype">const sf::Vector2f &amp;&nbsp;</td>
+          <td class="paramname"> <em>velocity</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia prędkość obiektu</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>velocity</em>&nbsp;</td><td>- stała referencja na obiekt klasy sf::Vector2f </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a06f3c4c446c2e1a44cd7525aff712a9c"></a><!-- doxytag: member="logic::CPhysical::SetZIndex" ref="a06f3c4c446c2e1a44cd7525aff712a9c" args="(int layer_index)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::SetZIndex </td>
+          <td>(</td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>layer_index</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia indeks warstwy renderingu obiektu</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>layer_index</em>&nbsp;</td><td>- indeks warstwy renderingu obiektu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ab244dfd75184cf85d8094036fc1aad34"></a><!-- doxytag: member="logic::CPhysical::Update" ref="ab244dfd75184cf85d8094036fc1aad34" args="(float dt)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CPhysical::Update </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>dt</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Wirtualna metoda aktualizująca obiekt</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>dt</em>&nbsp;</td><td>- czas </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplementowana w <a class="el" href="classlogic_1_1_c_actor.html#a36ff4669b51b161756c64f19de23fde9">logic::CActor</a>, <a class="el" href="classlogic_1_1_c_bullet.html#a8fb92711ab670a381c3372959d640284">logic::CBullet</a>, <a class="el" href="classlogic_1_1_c_enemy.html#aa22ebf24879f3637ae92effd0a45ec1a">logic::CEnemy</a> i <a class="el" href="classlogic_1_1_c_player.html#ac809c8933bb08c149167802c5bbd5232">logic::CPlayer</a>.</p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja przyjaciół i funkcji związanych</h2>
+<a class="anchor" id="af951e2ef15f0d800ea59b76f29b55163"></a><!-- doxytag: member="logic::CPhysical::CPhysicalManager" ref="af951e2ef15f0d800ea59b76f29b55163" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classlogic_1_1_c_physical_manager.html">CPhysicalManager</a><code> [friend]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Deklaracja przyjaźni </p>
+
+<p>Reimplementowana w <a class="el" href="classlogic_1_1_c_actor.html#af951e2ef15f0d800ea59b76f29b55163">logic::CActor</a>, <a class="el" href="classlogic_1_1_c_bullet.html#af951e2ef15f0d800ea59b76f29b55163">logic::CBullet</a>, <a class="el" href="classlogic_1_1_c_enemy.html#af951e2ef15f0d800ea59b76f29b55163">logic::CEnemy</a> i <a class="el" href="classlogic_1_1_c_player.html#af951e2ef15f0d800ea59b76f29b55163">logic::CPlayer</a>.</p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja atrybutów składowych</h2>
+<a class="anchor" id="adfa88a90598df00f33ca010dfd42bf6e"></a><!-- doxytag: member="logic::CPhysical::m_altitude" ref="adfa88a90598df00f33ca010dfd42bf6e" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float <a class="el" href="classlogic_1_1_c_physical.html#adfa88a90598df00f33ca010dfd42bf6e">logic::CPhysical::m_altitude</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a27090a9266b3160b752cc58d8e7d06db"></a><!-- doxytag: member="logic::CPhysical::m_circle_radius" ref="a27090a9266b3160b752cc58d8e7d06db" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float <a class="el" href="classlogic_1_1_c_physical.html#a27090a9266b3160b752cc58d8e7d06db">logic::CPhysical::m_circle_radius</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac3e7e9f13edf925fba118a59f8de5da4"></a><!-- doxytag: member="logic::CPhysical::m_collision_shape" ref="ac3e7e9f13edf925fba118a59f8de5da4" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacelogic.html#a8c0b3d46799e1509d43f3177e32b67f4">ECollisionShape</a> <a class="el" href="classlogic_1_1_c_physical.html#ac3e7e9f13edf925fba118a59f8de5da4">logic::CPhysical::m_collision_shape</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab543488deaaadf5ade62ccb57730c1dd"></a><!-- doxytag: member="logic::CPhysical::m_color_body" ref="ab543488deaaadf5ade62ccb57730c1dd" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::Color <a class="el" href="classlogic_1_1_c_physical.html#ab543488deaaadf5ade62ccb57730c1dd">logic::CPhysical::m_color_body</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5b6a547efcd0c6b532a6a42c93cf7ddf"></a><!-- doxytag: member="logic::CPhysical::m_color_head" ref="a5b6a547efcd0c6b532a6a42c93cf7ddf" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::Color <a class="el" href="classlogic_1_1_c_physical.html#a5b6a547efcd0c6b532a6a42c93cf7ddf">logic::CPhysical::m_color_head</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab2f3a36a2ba5b36223d32980bf98d031"></a><!-- doxytag: member="logic::CPhysical::m_color_shadow" ref="ab2f3a36a2ba5b36223d32980bf98d031" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::Color <a class="el" href="classlogic_1_1_c_physical.html#ab2f3a36a2ba5b36223d32980bf98d031">logic::CPhysical::m_color_shadow</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4a115d04a19e4c6d0e5ae4a357f83434"></a><!-- doxytag: member="logic::CPhysical::m_color_stored_body" ref="a4a115d04a19e4c6d0e5ae4a357f83434" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::Color <a class="el" href="classlogic_1_1_c_physical.html#a4a115d04a19e4c6d0e5ae4a357f83434">logic::CPhysical::m_color_stored_body</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5d5b9382f5a360fd6bbfc516e55094dd"></a><!-- doxytag: member="logic::CPhysical::m_color_stored_head" ref="a5d5b9382f5a360fd6bbfc516e55094dd" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::Color <a class="el" href="classlogic_1_1_c_physical.html#a5d5b9382f5a360fd6bbfc516e55094dd">logic::CPhysical::m_color_stored_head</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab1f5932a42ae1a35c3dc50d328470b82"></a><!-- doxytag: member="logic::CPhysical::m_genre" ref="ab1f5932a42ae1a35c3dc50d328470b82" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::wstring <a class="el" href="classlogic_1_1_c_physical.html#ab1f5932a42ae1a35c3dc50d328470b82">logic::CPhysical::m_genre</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6e6ecbb46f75cf4f08a95f1576584dcf"></a><!-- doxytag: member="logic::CPhysical::m_old_position" ref="a6e6ecbb46f75cf4f08a95f1576584dcf" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::Vector2f <a class="el" href="classlogic_1_1_c_physical.html#a6e6ecbb46f75cf4f08a95f1576584dcf">logic::CPhysical::m_old_position</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abced4a6a2af608222703217d57fc2751"></a><!-- doxytag: member="logic::CPhysical::m_position" ref="abced4a6a2af608222703217d57fc2751" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::Vector2f <a class="el" href="classlogic_1_1_c_physical.html#abced4a6a2af608222703217d57fc2751">logic::CPhysical::m_position</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a90ffd447376d6c4537161be919e1c5e2"></a><!-- doxytag: member="logic::CPhysical::m_ready_for_destruction" ref="a90ffd447376d6c4537161be919e1c5e2" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classlogic_1_1_c_physical.html#a90ffd447376d6c4537161be919e1c5e2">logic::CPhysical::m_ready_for_destruction</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9c5ea079dc42d6136494265d38a2971c"></a><!-- doxytag: member="logic::CPhysical::m_rect_size" ref="a9c5ea079dc42d6136494265d38a2971c" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::Vector2f <a class="el" href="classlogic_1_1_c_physical.html#a9c5ea079dc42d6136494265d38a2971c">logic::CPhysical::m_rect_size</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad3cc01ddeba81487b3385b2801536a7a"></a><!-- doxytag: member="logic::CPhysical::m_rotation_body" ref="ad3cc01ddeba81487b3385b2801536a7a" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float <a class="el" href="classlogic_1_1_c_physical.html#ad3cc01ddeba81487b3385b2801536a7a">logic::CPhysical::m_rotation_body</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a999ff521c5c41797e97e497d412f6ffa"></a><!-- doxytag: member="logic::CPhysical::m_rotation_head" ref="a999ff521c5c41797e97e497d412f6ffa" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float <a class="el" href="classlogic_1_1_c_physical.html#a999ff521c5c41797e97e497d412f6ffa">logic::CPhysical::m_rotation_head</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a99ffa47284aaa6869f366efc2db2f56f"></a><!-- doxytag: member="logic::CPhysical::m_rotation_uniform" ref="a99ffa47284aaa6869f366efc2db2f56f" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float <a class="el" href="classlogic_1_1_c_physical.html#a99ffa47284aaa6869f366efc2db2f56f">logic::CPhysical::m_rotation_uniform</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abbc4a6f7ac94c6c267ed9b6149091162"></a><!-- doxytag: member="logic::CPhysical::m_shadow_init" ref="abbc4a6f7ac94c6c267ed9b6149091162" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float <a class="el" href="classlogic_1_1_c_physical.html#abbc4a6f7ac94c6c267ed9b6149091162">logic::CPhysical::m_shadow_init</a> = 0.125f<code> [static, protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8a3defdb0d104f3a972a4dcf53a03af4"></a><!-- doxytag: member="logic::CPhysical::m_shadow_offset_body" ref="a8a3defdb0d104f3a972a4dcf53a03af4" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::Vector2f <a class="el" href="classlogic_1_1_c_physical.html#a8a3defdb0d104f3a972a4dcf53a03af4">logic::CPhysical::m_shadow_offset_body</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3c34d4dda6880e8e1f2c41ac5b1cc257"></a><!-- doxytag: member="logic::CPhysical::m_shadow_offset_head" ref="a3c34d4dda6880e8e1f2c41ac5b1cc257" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::Vector2f <a class="el" href="classlogic_1_1_c_physical.html#a3c34d4dda6880e8e1f2c41ac5b1cc257">logic::CPhysical::m_shadow_offset_head</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3b23c001589748f35f93365834ac0eb4"></a><!-- doxytag: member="logic::CPhysical::m_texture_body" ref="a3b23c001589748f35f93365834ac0eb4" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string <a class="el" href="classlogic_1_1_c_physical.html#a3b23c001589748f35f93365834ac0eb4">logic::CPhysical::m_texture_body</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0c69d04eed40e7fe26ee0fb5f4f54a7e"></a><!-- doxytag: member="logic::CPhysical::m_texture_head" ref="a0c69d04eed40e7fe26ee0fb5f4f54a7e" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string <a class="el" href="classlogic_1_1_c_physical.html#a0c69d04eed40e7fe26ee0fb5f4f54a7e">logic::CPhysical::m_texture_head</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acbed65d69e56faed644aa4c45260d844"></a><!-- doxytag: member="logic::CPhysical::m_unique_id" ref="acbed65d69e56faed644aa4c45260d844" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::wstring <a class="el" href="classlogic_1_1_c_physical.html#acbed65d69e56faed644aa4c45260d844">logic::CPhysical::m_unique_id</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="addcd9c60f1aba0c6563c492c7875fbe9"></a><!-- doxytag: member="logic::CPhysical::m_use_displayable_body" ref="addcd9c60f1aba0c6563c492c7875fbe9" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classlogic_1_1_c_physical.html#addcd9c60f1aba0c6563c492c7875fbe9">logic::CPhysical::m_use_displayable_body</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acd34c0545170a4bd4ed8522ee3cf09bd"></a><!-- doxytag: member="logic::CPhysical::m_use_displayable_head" ref="acd34c0545170a4bd4ed8522ee3cf09bd" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classlogic_1_1_c_physical.html#acd34c0545170a4bd4ed8522ee3cf09bd">logic::CPhysical::m_use_displayable_head</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="accda9eb2964968fbd3fa1649129c2d52"></a><!-- doxytag: member="logic::CPhysical::m_use_shadow_body" ref="accda9eb2964968fbd3fa1649129c2d52" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classlogic_1_1_c_physical.html#accda9eb2964968fbd3fa1649129c2d52">logic::CPhysical::m_use_shadow_body</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a245fdb65670ebd0c5d5190f84f445978"></a><!-- doxytag: member="logic::CPhysical::m_use_shadow_head" ref="a245fdb65670ebd0c5d5190f84f445978" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classlogic_1_1_c_physical.html#a245fdb65670ebd0c5d5190f84f445978">logic::CPhysical::m_use_shadow_head</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0b55680a9d1b264125dbc17fa63a2fad"></a><!-- doxytag: member="logic::CPhysical::m_velocity" ref="a0b55680a9d1b264125dbc17fa63a2fad" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::Vector2f <a class="el" href="classlogic_1_1_c_physical.html#a0b55680a9d1b264125dbc17fa63a2fad">logic::CPhysical::m_velocity</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae98725a706d4eab5476ae204c067c7b1"></a><!-- doxytag: member="logic::CPhysical::p_animation_body" ref="ae98725a706d4eab5476ae204c067c7b1" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a>* <a class="el" href="classlogic_1_1_c_physical.html#ae98725a706d4eab5476ae204c067c7b1">logic::CPhysical::p_animation_body</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a24232817000197b9f11597165ee53194"></a><!-- doxytag: member="logic::CPhysical::p_animation_head" ref="a24232817000197b9f11597165ee53194" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a>* <a class="el" href="classlogic_1_1_c_physical.html#a24232817000197b9f11597165ee53194">logic::CPhysical::p_animation_head</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aafbc006b465e17f1efd99eea519b668b"></a><!-- doxytag: member="logic::CPhysical::p_template" ref="aafbc006b465e17f1efd99eea519b668b" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classfactory_1_1_c_physical_template.html">CPhysicalTemplate</a>* <a class="el" href="classlogic_1_1_c_physical.html#aafbc006b465e17f1efd99eea519b668b">logic::CPhysical::p_template</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Logic/Physical/<a class="el" href="_c_physical_8h_source.html">CPhysical.h</a></li>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Logic/Physical/<a class="el" href="_c_physical_8cpp.html">CPhysical.cpp</a></li>
+</ul>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:18 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

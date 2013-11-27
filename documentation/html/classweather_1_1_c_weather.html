@@ -1,0 +1,321 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Dokumentacja klasy weather::CWeather</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Lista&nbsp;klas</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarchia&nbsp;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&nbsp;klas</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="namespaceweather.html">weather</a>::<a class="el" href="classweather_1_1_c_weather.html">CWeather</a>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja klasy weather::CWeather</h1><!-- doxytag: class="weather::CWeather" --><!-- doxytag: inherits="CSingleton&lt; CWeather &gt;,listener::IFrameListener" -->
+<p><code>#include &lt;<a class="el" href="_c_weather_8h_source.html">CWeather.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla weather::CWeather</div>
+<div class="dynsection">
+ <div class="center">
+  <img src="classweather_1_1_c_weather.gif" usemap="#weather::CWeather_map" alt=""/>
+  <map id="weather::CWeather_map" name="weather::CWeather_map">
+<area href="class_c_singleton.html" alt="CSingleton&lt; CWeather &gt;" shape="rect" coords="0,56,153,80"/>
+<area href="classlistener_1_1_i_frame_listener.html" alt="listener::IFrameListener" shape="rect" coords="163,56,316,80"/>
+<area href="class_i_cleanupable.html" alt="ICleanupable" shape="rect" coords="0,0,153,24"/>
+</map>
+ </div>
+</div>
+
+<p><a href="classweather_1_1_c_weather-members.html">Lista wszystkich składowych.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Metody publiczne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweather_1_1_c_weather.html#adde146a95105efb5995cce1906215ce6">CWeather</a> (void)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweather_1_1_c_weather.html#a3a0c5781398e3f6cb4a398dc969e3704">~CWeather</a> (void)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweather_1_1_c_weather.html#a0daada751a17cea760fc0dddf0dc33d4">GetDegree</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweather_1_1_c_weather.html#a9dbed07ddf97f795b2846a31bca700a0">SetDegree</a> (float degree)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweather_1_1_c_weather.html#aa7b94f4c20a9b15f6a3418cde915f0e5">GetShadowTime</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweather_1_1_c_weather.html#a61fab3dee9be75952ff3bf45378abcfc">SetShadowTime</a> (float shadow_time)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweather_1_1_c_weather.html#adfc1ff19a90cdfda9af0499f6be0312a">FrameStarted</a> (float secondsPassed)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const sf::Color &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweather_1_1_c_weather.html#a96fcee8945ee7d97d239932f9a33001d">GetWeatherShadowColor</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweather_1_1_c_weather.html#a7f348e4059224c26f459aefa1fd1be8d">SetWeatherShadowColor</a> (const sf::Color &amp;color_shadow)</td></tr>
+<tr><td colspan="2"><h2>Metody chronione</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classweather_1_1_c_weather.html#ab797f851c9f48df795bd632498629963">Cleanup</a> ()</td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Opis szczegółowy</h2>
+<p>Klasa reprezentuje menadżera zjawisk pogodowych </p>
+<hr/><h2>Dokumentacja konstruktora i destruktora</h2>
+<a class="anchor" id="adde146a95105efb5995cce1906215ce6"></a><!-- doxytag: member="weather::CWeather::CWeather" ref="adde146a95105efb5995cce1906215ce6" args="(void)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">weather::CWeather::CWeather </td>
+          <td>(</td>
+          <td class="paramtype">void&nbsp;</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Konstruktor </p>
+
+</div>
+</div>
+<a class="anchor" id="a3a0c5781398e3f6cb4a398dc969e3704"></a><!-- doxytag: member="weather::CWeather::~CWeather" ref="a3a0c5781398e3f6cb4a398dc969e3704" args="(void)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">weather::CWeather::~CWeather </td>
+          <td>(</td>
+          <td class="paramtype">void&nbsp;</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Destruktor </p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja funkcji składowych</h2>
+<a class="anchor" id="ab797f851c9f48df795bd632498629963"></a><!-- doxytag: member="weather::CWeather::Cleanup" ref="ab797f851c9f48df795bd632498629963" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void weather::CWeather::Cleanup </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected, virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Wirtualna metoda czyszcząca singleton </p>
+
+<p>Reimplementowana z <a class="el" href="class_c_singleton.html#a3a52d96048af8abff11142a79f61ce05">CSingleton&lt; CWeather &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adfc1ff19a90cdfda9af0499f6be0312a"></a><!-- doxytag: member="weather::CWeather::FrameStarted" ref="adfc1ff19a90cdfda9af0499f6be0312a" args="(float secondsPassed)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void weather::CWeather::FrameStarted </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>secondsPassed</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Wirtualna metoda aktualizuje obiekty w kontenerze</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>secondsPassed</em>&nbsp;</td><td>- upływający czas </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementuje <a class="el" href="classlistener_1_1_i_frame_listener.html#a207f7b7dc3c6045ab3d782e379a446fb">listener::IFrameListener</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0daada751a17cea760fc0dddf0dc33d4"></a><!-- doxytag: member="weather::CWeather::GetDegree" ref="a0daada751a17cea760fc0dddf0dc33d4" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float weather::CWeather::GetDegree </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca wartość kąta - pozorny obieg źródła światła wokół sceny </p>
+
+</div>
+</div>
+<a class="anchor" id="aa7b94f4c20a9b15f6a3418cde915f0e5"></a><!-- doxytag: member="weather::CWeather::GetShadowTime" ref="aa7b94f4c20a9b15f6a3418cde915f0e5" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float weather::CWeather::GetShadowTime </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca czas aktualizacji wartości kąta padania źródła światła wokół sceny </p>
+
+</div>
+</div>
+<a class="anchor" id="a96fcee8945ee7d97d239932f9a33001d"></a><!-- doxytag: member="weather::CWeather::GetWeatherShadowColor" ref="a96fcee8945ee7d97d239932f9a33001d" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const sf::Color&amp; weather::CWeather::GetWeatherShadowColor </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const<code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca kolor i nasycenie cienia w zależności od pory dnia </p>
+
+</div>
+</div>
+<a class="anchor" id="a9dbed07ddf97f795b2846a31bca700a0"></a><!-- doxytag: member="weather::CWeather::SetDegree" ref="a9dbed07ddf97f795b2846a31bca700a0" args="(float degree)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void weather::CWeather::SetDegree </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>degree</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia wartość kąta - pozorny obieg źródła światła wokół sceny</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>degree</em>&nbsp;</td><td>- kąt </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a61fab3dee9be75952ff3bf45378abcfc"></a><!-- doxytag: member="weather::CWeather::SetShadowTime" ref="a61fab3dee9be75952ff3bf45378abcfc" args="(float shadow_time)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void weather::CWeather::SetShadowTime </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>shadow_time</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia czas aktualizacji wartości kąta padania źródła światła wokół sceny</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>shadow_time</em>&nbsp;</td><td>- czas </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7f348e4059224c26f459aefa1fd1be8d"></a><!-- doxytag: member="weather::CWeather::SetWeatherShadowColor" ref="a7f348e4059224c26f459aefa1fd1be8d" args="(const sf::Color &amp;color_shadow)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void weather::CWeather::SetWeatherShadowColor </td>
+          <td>(</td>
+          <td class="paramtype">const sf::Color &amp;&nbsp;</td>
+          <td class="paramname"> <em>color_shadow</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia kolor i nasycenie cienia w zależności od pory dnia</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>&amp;color_shadow</em>&nbsp;</td><td>- stała referencja na obiekt klasy sf::Color </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Weather/<a class="el" href="_c_weather_8h_source.html">CWeather.h</a></li>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Weather/<a class="el" href="_c_weather_8cpp.html">CWeather.cpp</a></li>
+</ul>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:19 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

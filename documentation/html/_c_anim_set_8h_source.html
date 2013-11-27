@@ -1,0 +1,140 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Plik źródłowy C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Rendering/Animations/CAnimSet.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+<h1>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Rendering/Animations/CAnimSet.h</h1><a href="_c_anim_set_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/*</span>
+<a name="l00002"></a>00002 <span class="comment"> _____________________________________</span>
+<a name="l00003"></a>00003 <span class="comment">| CAnimSet.h - definicja klasy.       |</span>
+<a name="l00004"></a>00004 <span class="comment">| SCI - March 2012.                   |</span>
+<a name="l00005"></a>00005 <span class="comment">|_____________________________________|</span>
+<a name="l00006"></a>00006 <span class="comment"></span>
+<a name="l00007"></a>00007 <span class="comment">*/</span>
+<a name="l00008"></a>00008 
+<a name="l00009"></a>00009 <span class="preprocessor">#ifndef H_ANIM_SET_SCI</span>
+<a name="l00010"></a>00010 <span class="preprocessor"></span><span class="preprocessor">#define H_ANIM_SET_SCI</span>
+<a name="l00011"></a>00011 <span class="preprocessor"></span>
+<a name="l00012"></a>00012 <span class="preprocessor">#include &lt;vector&gt;</span>
+<a name="l00013"></a>00013 <span class="preprocessor">#include &quot;<a class="code" href="_e_anim_handler_8h.html">EAnimHandler.h</a>&quot;</span>
+<a name="l00014"></a>00014 <span class="preprocessor">#include &quot;../../XML/CXml.h&quot;</span>
+<a name="l00015"></a>00015 
+<a name="l00016"></a>00016 <span class="keyword">using namespace </span>animation;
+<a name="l00017"></a>00017 <span class="keyword">using namespace </span>xml;
+<a name="l00018"></a>00018 
+<a name="l00019"></a>00019 <span class="keyword">namespace </span>rendering
+<a name="l00020"></a>00020 {
+<a name="l00021"></a>00021         <span class="keyword">namespace </span>animation
+<a name="l00022"></a>00022         {
+<a name="l00026"></a>00026                 <span class="keyword">class </span>CAnimation;
+<a name="l00027"></a>00027 
+<a name="l00031"></a>00031                 <span class="keyword">class </span>CNameAnimPairTranslator;
+<a name="l00032"></a>00032 
+<a name="l00036"></a><a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html">00036</a>                 <span class="keyword">class </span><a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html">CAnimSet</a>
+<a name="l00037"></a>00037                 {
+<a name="l00038"></a>00038 
+<a name="l00039"></a>00039                 <span class="keyword">public</span>:
+<a name="l00040"></a>00040             
+<a name="l00044"></a>00044                         <a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a987e88a50322b53ff412d5ef3c8d6382">CAnimSet</a>();
+<a name="l00045"></a>00045 
+<a name="l00049"></a>00049                         <a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#aae814bc841454cbcd5f0c0a148b9b4c9">~CAnimSet</a>();
+<a name="l00050"></a>00050 
+<a name="l00054"></a>00054                         <span class="keyword">const</span> std::string <a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a2c0272675306e116c4bc379fab533b7f">GetAnimSetName</a>() <span class="keyword">const</span>;
+<a name="l00055"></a>00055 
+<a name="l00061"></a>00061                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a7be3fb13e47c480909e2423045df14ca">SetAnimSetName</a>(<span class="keyword">const</span> std::string &amp;animset_name);
+<a name="l00062"></a>00062 
+<a name="l00068"></a>00068                         <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a505fe5fc931cac22ecd4200b0a6195a2">ParseAnimHandle</a>(std::string &amp;handle_input);
+<a name="l00069"></a>00069 
+<a name="l00077"></a>00077                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a26b4aaedfc3e051450159f74cbb15925">SetAnimation</a>(<span class="keywordtype">int</span> anim_handle, <a class="code" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *p_anim);
+<a name="l00078"></a>00078 
+<a name="l00086"></a>00086                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a26b4aaedfc3e051450159f74cbb15925">SetAnimation</a>(<span class="keywordtype">int</span> anim_handle, std::string &amp;anim_name);
+<a name="l00087"></a>00087             
+<a name="l00093"></a>00093                         std::string *<a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#adb1b8b2ebeeb78154b6c30ee9937d00b">GetAnimName</a>(<span class="keywordtype">int</span> anim_handle);
+<a name="l00094"></a>00094 
+<a name="l00100"></a>00100                         <a class="code" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *<a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#ac9156bee33abe1d81cd433a1771681f8">GetAnim</a>(<span class="keywordtype">int</span> anim_handle);
+<a name="l00101"></a>00101             
+<a name="l00102"></a>00102                         <span class="comment">//metody pomocnicze</span>
+<a name="l00103"></a>00103                         
+<a name="l00104"></a>00104                         <span class="comment">//body animations</span>
+<a name="l00105"></a><a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#ad3720456a276da811363f8f4dd238ca8">00105</a>                         <span class="keyword">inline</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *<a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#ad3720456a276da811363f8f4dd238ca8">GetDefaultAnimBody</a>           ()      { <span class="keywordflow">return</span> <a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#ac9156bee33abe1d81cd433a1771681f8">GetAnim</a>(<a class="code" href="namespaceanimation.html#ad477e1dbcb1f2d34c352f0a6379524b8a455901672fa698a30bf8854559a45a05">anim_handle_body_Default</a>);                     }
+<a name="l00106"></a><a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a2918df6dc2d33548148d1e36b02ef88c">00106</a>                         <span class="keyword">inline</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *<a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a2918df6dc2d33548148d1e36b02ef88c">GetMoveAnimBody</a>                      ()      { <span class="keywordflow">return</span> <a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#ac9156bee33abe1d81cd433a1771681f8">GetAnim</a>(<a class="code" href="namespaceanimation.html#ad477e1dbcb1f2d34c352f0a6379524b8ac7a9b4b015aaa0ad0f7cf7a9e06f307f">anim_handle_body_Move</a>);                        }
+<a name="l00107"></a><a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a2f1185f70554a5c0e4bf9d3c5e3d0cef">00107</a>                         <span class="keyword">inline</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *<a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a2f1185f70554a5c0e4bf9d3c5e3d0cef">GetDeathAnimBody</a>                     ()      { <span class="keywordflow">return</span> <a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#ac9156bee33abe1d81cd433a1771681f8">GetAnim</a>(<a class="code" href="namespaceanimation.html#ad477e1dbcb1f2d34c352f0a6379524b8adb1f5a828e1e11d406d8c51e3886eb93">anim_handle_body_Death</a>);                       }
+<a name="l00108"></a>00108                         <span class="comment">//head animations</span>
+<a name="l00109"></a><a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a88b84e90f59ae371ce5228382c4fec53">00109</a>                         <span class="keyword">inline</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *<a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a88b84e90f59ae371ce5228382c4fec53">GetDefaultAnimHead</a>           ()      { <span class="keywordflow">return</span> <a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#ac9156bee33abe1d81cd433a1771681f8">GetAnim</a>(<a class="code" href="namespaceanimation.html#ad477e1dbcb1f2d34c352f0a6379524b8acc4539041e2364675dbb4744012e7bff">anim_handle_head_Default</a>);                     }
+<a name="l00110"></a><a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a4bdc17c209c07197adbf30f0d4408733">00110</a>                         <span class="keyword">inline</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *<a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a4bdc17c209c07197adbf30f0d4408733">GetShotAnimHead</a>                      ()      { <span class="keywordflow">return</span> <a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#ac9156bee33abe1d81cd433a1771681f8">GetAnim</a>(<a class="code" href="namespaceanimation.html#ad477e1dbcb1f2d34c352f0a6379524b8a3752d16e7e0aac765fc0c9e23a60ff73">anim_handle_head_Shot</a>);                        }
+<a name="l00111"></a><a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#af61ca8fd688d3638b8a02da9b49aa9f4">00111</a>                         <span class="keyword">inline</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *<a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#af61ca8fd688d3638b8a02da9b49aa9f4">GetAmmoLoadingAnimHead</a>       ()      { <span class="keywordflow">return</span> <a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#ac9156bee33abe1d81cd433a1771681f8">GetAnim</a>(<a class="code" href="namespaceanimation.html#ad477e1dbcb1f2d34c352f0a6379524b8ac944e3fc0f079b5baa840a21df446987">anim_handle_head_Ammo_Loading</a>);        }
+<a name="l00112"></a><a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a4b522882b7ad79d5c78bf8b7cf6a5ece">00112</a>                         <span class="keyword">inline</span> <a class="code" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> *<a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a4b522882b7ad79d5c78bf8b7cf6a5ece">GetDeathAnimHead</a>                     ()      { <span class="keywordflow">return</span> <a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#ac9156bee33abe1d81cd433a1771681f8">GetAnim</a>(<a class="code" href="namespaceanimation.html#ad477e1dbcb1f2d34c352f0a6379524b8a16048d37056de3130ec54ff08d83a75f">anim_handle_head_Death</a>);                       }
+<a name="l00113"></a>00113 
+<a name="l00121"></a>00121                         <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a497fa416a1ed2975b70d07a3f4810bf7">Parse</a>(<a class="code" href="classxml_1_1_c_xml.html">CXml</a> &amp;xml, <a class="code" href="classrapidxml_1_1xml__node.html">rapidxml::xml_node&lt;&gt;</a> *root = 0);
+<a name="l00122"></a>00122 
+<a name="l00126"></a><a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a3380a723e576e9c4b6b95b39445a903e">00126</a>                         <span class="keyword">inline</span> <span class="keyword">const</span> std::vector&lt;CNameAnimPairTranslator&gt; &amp;<a class="code" href="classrendering_1_1animation_1_1_c_anim_set.html#a3380a723e576e9c4b6b95b39445a903e">GetAnims</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_anims; }
+<a name="l00127"></a>00127 
+<a name="l00128"></a>00128                 <span class="keyword">private</span>:
+<a name="l00129"></a>00129 
+<a name="l00130"></a>00130                         std::string                                                             m_animset_name;                 <span class="comment">//nazwa zestawu</span>
+<a name="l00131"></a>00131                         <span class="keyword">static</span> <span class="keywordtype">int</span>                                                              m_anim_handle_number;   <span class="comment">//uchwyt animacji</span>
+<a name="l00132"></a>00132                         <span class="keyword">static</span> std::string                                              m_anim_handle_names[];  <span class="comment">//tablica stringów przechowująca nazwy animacji</span>
+<a name="l00133"></a>00133                         std::vector&lt;CNameAnimPairTranslator&gt;    m_anims;                                <span class="comment">//kontener przechowujący animacje</span>
+<a name="l00134"></a>00134                 };
+<a name="l00135"></a>00135 
+<a name="l00136"></a>00136         }<span class="comment">//namespace animation</span>
+<a name="l00137"></a>00137 }<span class="comment">//namespace rendering</span>
+<a name="l00138"></a>00138 <span class="preprocessor">#endif//H_ANIM_SET_SCI</span>
+</pre></div></div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:16 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

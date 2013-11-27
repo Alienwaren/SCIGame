@@ -1,0 +1,117 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Plik źródłowy C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Rendering/Drawable/IDrawable.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+<h1>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Rendering/Drawable/IDrawable.h</h1><a href="_i_drawable_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/*</span>
+<a name="l00002"></a>00002 <span class="comment"> ___________________________________________</span>
+<a name="l00003"></a>00003 <span class="comment">| IDrawable.h - definicja interfejsu        |</span>
+<a name="l00004"></a>00004 <span class="comment">| SCI - August 2012.                        |</span>
+<a name="l00005"></a>00005 <span class="comment">|___________________________________________|</span>
+<a name="l00006"></a>00006 <span class="comment"></span>
+<a name="l00007"></a>00007 <span class="comment">*/</span>
+<a name="l00008"></a>00008 
+<a name="l00009"></a>00009 <span class="preprocessor">#ifndef H_IDRAWABLE_SCI</span>
+<a name="l00010"></a>00010 <span class="preprocessor"></span><span class="preprocessor">#define H_IDRAWABLE_SCI</span>
+<a name="l00011"></a>00011 <span class="preprocessor"></span>
+<a name="l00012"></a>00012 <span class="keyword">namespace </span>sf
+<a name="l00013"></a>00013 {
+<a name="l00017"></a>00017     <span class="keyword">class </span>RenderWindow;
+<a name="l00018"></a>00018 }
+<a name="l00019"></a>00019 <span class="keyword">namespace </span>rendering
+<a name="l00020"></a>00020 {
+<a name="l00021"></a>00021         <span class="keyword">namespace </span>drawable
+<a name="l00022"></a>00022         {
+<a name="l00026"></a><a class="code" href="classrendering_1_1drawable_1_1_i_drawable.html">00026</a>                 <span class="keyword">class </span><a class="code" href="classrendering_1_1drawable_1_1_i_drawable.html">IDrawable</a>
+<a name="l00027"></a>00027                 {
+<a name="l00028"></a>00028 
+<a name="l00029"></a>00029                 <span class="keyword">public</span>:
+<a name="l00030"></a>00030                         
+<a name="l00034"></a>00034                         <a class="code" href="classrendering_1_1drawable_1_1_i_drawable.html#abbd66694927fa7ff521f165c47a8bc2c">IDrawable</a>();
+<a name="l00035"></a>00035 
+<a name="l00041"></a>00041                         <a class="code" href="classrendering_1_1drawable_1_1_i_drawable.html#abbd66694927fa7ff521f165c47a8bc2c">IDrawable</a>(<span class="keyword">const</span> <a class="code" href="classrendering_1_1drawable_1_1_i_drawable.html">IDrawable</a>&amp; IDrawableCopy);
+<a name="l00042"></a>00042 
+<a name="l00046"></a>00046                         <span class="keyword">virtual</span> <a class="code" href="classrendering_1_1drawable_1_1_i_drawable.html#a7fee6f6d9ed40cb6f828caaeeae56201">~IDrawable</a>();
+<a name="l00047"></a>00047 
+<a name="l00051"></a>00051                         <span class="keyword">const</span> <span class="keywordtype">bool</span> <a class="code" href="classrendering_1_1drawable_1_1_i_drawable.html#ada9009f4d7dfc7863bcf6c7857d94b8c">GetVisible</a>() <span class="keyword">const</span>;
+<a name="l00052"></a>00052 
+<a name="l00058"></a>00058                         <span class="keyword">const</span> <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1drawable_1_1_i_drawable.html#a1f837028c1b4bfc5b0ee947ef9b94c3a">SetVisible</a>(<span class="keywordtype">bool</span> visible);
+<a name="l00059"></a>00059 
+<a name="l00063"></a>00063                         <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="classrendering_1_1drawable_1_1_i_drawable.html#acf2fff573150af56795a9be215f49c07">GetLayerIndex</a>() <span class="keyword">const</span>;
+<a name="l00064"></a>00064 
+<a name="l00070"></a>00070                         <span class="keyword">const</span> <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1drawable_1_1_i_drawable.html#abe7e2dddb5b27a6b524afc78424ce7ad">SetLayerIndex</a>(<span class="keywordtype">int</span> layer_index);
+<a name="l00071"></a>00071 
+<a name="l00077"></a>00077                         <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classrendering_1_1drawable_1_1_i_drawable.html#a7b9262f02482c9a1e034b75954497c4d">Draw</a>(sf::RenderWindow* renderWindow) = 0;
+<a name="l00078"></a>00078 
+<a name="l00079"></a>00079                 <span class="keyword">private</span>:
+<a name="l00080"></a>00080 
+<a name="l00084"></a><a class="code" href="classrendering_1_1drawable_1_1_i_drawable.html#a61f0cac14a26516203df40506a65951d">00084</a>                         <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classrendering_1_1drawable_1_1_c_drawable_manager.html">CDrawableManager</a>;
+<a name="l00085"></a>00085 
+<a name="l00086"></a>00086                         <span class="keywordtype">bool</span>    m_visible;                              <span class="comment">//flaga określajaca, czy obiekt jest widoczny</span>
+<a name="l00087"></a>00087                         <span class="keywordtype">int</span>             m_layer_index;                  <span class="comment">//indeks warstwy, na której ma być renderowany obiekt</span>
+<a name="l00088"></a>00088                         <span class="keywordtype">int</span>             m_layer_vector_index;   <span class="comment">//indeks w kontenerze, określający, czy obiekt znajduje się na prawidłowej warstwie</span>
+<a name="l00089"></a>00089                     
+<a name="l00090"></a>00090                 };
+<a name="l00091"></a>00091 
+<a name="l00092"></a>00092         }<span class="comment">//using  namespace drawable;</span>
+<a name="l00093"></a>00093 }<span class="comment">//namespace rendering</span>
+<a name="l00094"></a>00094 <span class="preprocessor">#endif //H_IDRAWABLE_SCI</span>
+</pre></div></div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:16 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

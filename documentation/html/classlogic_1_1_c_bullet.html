@@ -1,0 +1,207 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Dokumentacja klasy logic::CBullet</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Lista&nbsp;klas</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarchia&nbsp;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&nbsp;klas</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="namespacelogic.html">logic</a>::<a class="el" href="classlogic_1_1_c_bullet.html">CBullet</a>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja klasy logic::CBullet</h1><!-- doxytag: class="logic::CBullet" --><!-- doxytag: inherits="logic::CPhysical" -->
+<p><code>#include &lt;<a class="el" href="_c_bullet_8h_source.html">CBullet.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla logic::CBullet</div>
+<div class="dynsection">
+ <div class="center">
+  <img src="classlogic_1_1_c_bullet.gif" usemap="#logic::CBullet_map" alt=""/>
+  <map id="logic::CBullet_map" name="logic::CBullet_map">
+<area href="classlogic_1_1_c_physical.html" alt="logic::CPhysical" shape="rect" coords="0,0,102,24"/>
+</map>
+ </div>
+</div>
+
+<p><a href="classlogic_1_1_c_bullet-members.html">Lista wszystkich składowych.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Metody publiczne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_bullet.html#a8fb92711ab670a381c3372959d640284">Update</a> (float dt)</td></tr>
+<tr><td colspan="2"><h2>Metody chronione</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_bullet.html#ac36b958671d5dc9dc6183f5123c21d0f">CBullet</a> (const std::wstring &amp;uniqueId)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_bullet.html#a90fb30bf470f60c8411b60c99c540ea2">CBullet</a> (const <a class="el" href="classlogic_1_1_c_bullet.html">CBullet</a> &amp;CBulletCopy)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_bullet.html#a8eb88137b3b82b1213f13d227e40484d">~CBullet</a> ()</td></tr>
+<tr><td colspan="2"><h2>Przyjaciele</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">class&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogic_1_1_c_bullet.html#af951e2ef15f0d800ea59b76f29b55163">CPhysicalManager</a></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Opis szczegółowy</h2>
+<p>Klasa reprezentuje funkcjonalność pocisku </p>
+<hr/><h2>Dokumentacja konstruktora i destruktora</h2>
+<a class="anchor" id="ac36b958671d5dc9dc6183f5123c21d0f"></a><!-- doxytag: member="logic::CBullet::CBullet" ref="ac36b958671d5dc9dc6183f5123c21d0f" args="(const std::wstring &amp;uniqueId)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logic::CBullet::CBullet </td>
+          <td>(</td>
+          <td class="paramtype">const std::wstring &amp;&nbsp;</td>
+          <td class="paramname"> <em>uniqueId</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Chroniony konstruktor domyślny </p>
+
+</div>
+</div>
+<a class="anchor" id="a90fb30bf470f60c8411b60c99c540ea2"></a><!-- doxytag: member="logic::CBullet::CBullet" ref="a90fb30bf470f60c8411b60c99c540ea2" args="(const CBullet &amp;CBulletCopy)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logic::CBullet::CBullet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classlogic_1_1_c_bullet.html">CBullet</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>CBulletCopy</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Chroniony konstruktor kopiujący</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>CBulletCopy</em>&nbsp;</td><td>- parametr - obiekt klasy <a class="el" href="classlogic_1_1_c_bullet.html">CBullet</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8eb88137b3b82b1213f13d227e40484d"></a><!-- doxytag: member="logic::CBullet::~CBullet" ref="a8eb88137b3b82b1213f13d227e40484d" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logic::CBullet::~CBullet </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected, virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Chroniony destruktor wirtualny - używany wyłącznie przez <a class="el" href="classlogic_1_1_c_physical_manager.html">CPhysicalManager</a> </p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja funkcji składowych</h2>
+<a class="anchor" id="a8fb92711ab670a381c3372959d640284"></a><!-- doxytag: member="logic::CBullet::Update" ref="a8fb92711ab670a381c3372959d640284" args="(float dt)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logic::CBullet::Update </td>
+          <td>(</td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>dt</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Wirtualna metoda aktualizująca obiekt</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>dt</em>&nbsp;</td><td>- czas </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplementowana z <a class="el" href="classlogic_1_1_c_physical.html#ab244dfd75184cf85d8094036fc1aad34">logic::CPhysical</a>.</p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja przyjaciół i funkcji związanych</h2>
+<a class="anchor" id="af951e2ef15f0d800ea59b76f29b55163"></a><!-- doxytag: member="logic::CBullet::CPhysicalManager" ref="af951e2ef15f0d800ea59b76f29b55163" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classlogic_1_1_c_physical_manager.html">CPhysicalManager</a><code> [friend]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Deklaracja przyjaźni </p>
+
+<p>Reimplementowana z <a class="el" href="classlogic_1_1_c_physical.html#af951e2ef15f0d800ea59b76f29b55163">logic::CPhysical</a>.</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Logic/Bullet/<a class="el" href="_c_bullet_8h_source.html">CBullet.h</a></li>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Logic/Bullet/<a class="el" href="_c_bullet_8cpp.html">CBullet.cpp</a></li>
+</ul>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:18 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

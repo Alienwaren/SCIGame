@@ -1,0 +1,109 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Plik źródłowy C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Logic/Enemy/CEnemy.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+<h1>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Logic/Enemy/CEnemy.h</h1><a href="_c_enemy_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/*</span>
+<a name="l00002"></a>00002 <span class="comment"> ____________________________________</span>
+<a name="l00003"></a>00003 <span class="comment">| CEnemy.h - definicja klasy.        |</span>
+<a name="l00004"></a>00004 <span class="comment">| SCI - March 2013.                  |</span>
+<a name="l00005"></a>00005 <span class="comment">|____________________________________|</span>
+<a name="l00006"></a>00006 <span class="comment"></span>
+<a name="l00007"></a>00007 <span class="comment">*/</span>
+<a name="l00008"></a>00008 
+<a name="l00009"></a>00009 <span class="preprocessor">#ifndef H_ENEMY_SCI</span>
+<a name="l00010"></a>00010 <span class="preprocessor"></span><span class="preprocessor">#define H_ENEMY_SCI</span>
+<a name="l00011"></a>00011 <span class="preprocessor"></span>
+<a name="l00012"></a>00012 <span class="preprocessor">#include &lt;string&gt;</span>
+<a name="l00013"></a>00013 <span class="preprocessor">#include &quot;../Actor/CActor.h&quot;</span>
+<a name="l00014"></a>00014 
+<a name="l00018"></a>00018 <span class="keyword">class </span>CActorAI;
+<a name="l00019"></a>00019 
+<a name="l00020"></a>00020 <span class="keyword">namespace </span>logic
+<a name="l00021"></a>00021 {
+<a name="l00025"></a><a class="code" href="classlogic_1_1_c_enemy.html">00025</a>         <span class="keyword">class </span><a class="code" href="classlogic_1_1_c_enemy.html">CEnemy</a>: <span class="keyword">public</span> logic::<a class="code" href="classlogic_1_1_c_actor.html">CActor</a> 
+<a name="l00026"></a>00026         {
+<a name="l00027"></a>00027 
+<a name="l00031"></a><a class="code" href="classlogic_1_1_c_enemy.html#af951e2ef15f0d800ea59b76f29b55163">00031</a>                 <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classlogic_1_1_c_physical_manager.html">CPhysicalManager</a>;
+<a name="l00032"></a>00032 
+<a name="l00033"></a>00033                 <span class="comment">//Aby uzyskać obiekt CEnemy, należy wywołać CPhysicalManager::CreateEnemy();</span>
+<a name="l00034"></a>00034 
+<a name="l00035"></a>00035         <span class="keyword">protected</span>:
+<a name="l00036"></a>00036 
+<a name="l00040"></a>00040                 <a class="code" href="classlogic_1_1_c_enemy.html#a4254b4d7cd57f315bf068ab1f07e0e3d">CEnemy</a>(<span class="keyword">const</span> std::wstring&amp; uniqueId);
+<a name="l00041"></a>00041 
+<a name="l00047"></a>00047                 <a class="code" href="classlogic_1_1_c_enemy.html#a4254b4d7cd57f315bf068ab1f07e0e3d">CEnemy</a>(<span class="keyword">const</span> <a class="code" href="classlogic_1_1_c_enemy.html">CEnemy</a> &amp;CEnemyCopy);
+<a name="l00048"></a>00048 
+<a name="l00052"></a>00052                 <span class="keyword">virtual</span> <a class="code" href="classlogic_1_1_c_enemy.html#a9e3287ba3ee45d329ac87697ecd0e8a6">~CEnemy</a>(<span class="keywordtype">void</span>);
+<a name="l00053"></a>00053 
+<a name="l00054"></a>00054         <span class="keyword">public</span>:
+<a name="l00055"></a>00055 
+<a name="l00061"></a>00061                 <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classlogic_1_1_c_enemy.html#aa22ebf24879f3637ae92effd0a45ec1a">Update</a>(<span class="keywordtype">float</span> dt);
+<a name="l00062"></a>00062 
+<a name="l00066"></a>00066                 <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classlogic_1_1_c_enemy.html#ae8c469dd67a31073294d13b191f381da">Kill</a>();
+<a name="l00067"></a>00067 
+<a name="l00068"></a>00068         <span class="keyword">private</span>:
+<a name="l00069"></a>00069 
+<a name="l00070"></a>00070                 <span class="comment">//rozwojowo - zaproponuj pola oraz metody dla wroga (w zależności od pomysłu)</span>
+<a name="l00071"></a>00071         };
+<a name="l00072"></a>00072 }<span class="comment">//namespace logic</span>
+<a name="l00073"></a>00073 <span class="preprocessor">#endif //H_ENEMY_SCI</span>
+</pre></div></div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:16 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>

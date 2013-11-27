@@ -1,0 +1,230 @@
+<!-- This comment will put IE 6, 7 and 8 in quirks mode -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GameSCI: Dokumentacja klasy rendering::animation::CAnimation</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javaScript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Wygenerowano przez Doxygen 1.6.1 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+--></script>
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="index.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <img id="MSearchSelect" src="search/search.png"
+             onmouseover="return searchBox.OnSearchSelectShow()"
+             onmouseout="return searchBox.OnSearchSelectHide()"
+             alt=""/>
+        <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+             onfocus="searchBox.OnSearchFieldFocus(true)" 
+             onblur="searchBox.OnSearchFieldFocus(false)" 
+             onkeyup="searchBox.OnSearchFieldChange(event)"/>
+        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Lista&nbsp;klas</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarchia&nbsp;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&nbsp;klas</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="namespacerendering.html">rendering</a>::<a class="el" href="namespacerendering_1_1animation.html">animation</a>::<a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja klasy rendering::animation::CAnimation</h1><!-- doxytag: class="rendering::animation::CAnimation" -->
+<p><code>#include &lt;<a class="el" href="_c_animation_8h_source.html">CAnimation.h</a>&gt;</code></p>
+
+<p><a href="classrendering_1_1animation_1_1_c_animation-members.html">Lista wszystkich składowych.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Metody publiczne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html#a925e677665b46d42bf7a3b135cb88ba0">CAnimation</a> (void)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html#a6e568d329bab573f17302444d9f0c48a">CAnimation</a> (const <a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> &amp;CAnimationCopy)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html#ad1918976623c47539ec2be268437bae0">~CAnimation</a> (void)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const std::string &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html#a2c9e8273f85587df2c4a459d9b9c2814">GetAnimationName</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html#a3f256744b59673da8d9f539f17edaa49">SetAnimationName</a> (std::string anim_name)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">float&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html#af2f4365a4214a2c442f8f518a626aa27">TotalLength</a> ()</td></tr>
+<tr><td colspan="2"><h2>Atrybuty publiczne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classrendering_1_1animation_1_1_c_timed_animation_frame.html">CTimedAnimationFrame</a> &gt;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrendering_1_1animation_1_1_c_animation.html#aaeefdfffae0fe68769288f6a46a4f939">m_frames</a></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Opis szczegółowy</h2>
+<p>Klasa reprezentuje pojemnik na animacje </p>
+<hr/><h2>Dokumentacja konstruktora i destruktora</h2>
+<a class="anchor" id="a925e677665b46d42bf7a3b135cb88ba0"></a><!-- doxytag: member="rendering::animation::CAnimation::CAnimation" ref="a925e677665b46d42bf7a3b135cb88ba0" args="(void)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rendering::animation::CAnimation::CAnimation </td>
+          <td>(</td>
+          <td class="paramtype">void&nbsp;</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Konstruktor domyślny </p>
+
+</div>
+</div>
+<a class="anchor" id="a6e568d329bab573f17302444d9f0c48a"></a><!-- doxytag: member="rendering::animation::CAnimation::CAnimation" ref="a6e568d329bab573f17302444d9f0c48a" args="(const CAnimation &amp;CAnimationCopy)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rendering::animation::CAnimation::CAnimation </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>CAnimationCopy</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Konstruktor kopiujący</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>CAnimationCopy</em>&nbsp;</td><td>- parametr - obiekt klasy <a class="el" href="classrendering_1_1animation_1_1_c_animation.html">CAnimation</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad1918976623c47539ec2be268437bae0"></a><!-- doxytag: member="rendering::animation::CAnimation::~CAnimation" ref="ad1918976623c47539ec2be268437bae0" args="(void)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rendering::animation::CAnimation::~CAnimation </td>
+          <td>(</td>
+          <td class="paramtype">void&nbsp;</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Destruktor </p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja funkcji składowych</h2>
+<a class="anchor" id="a2c9e8273f85587df2c4a459d9b9c2814"></a><!-- doxytag: member="rendering::animation::CAnimation::GetAnimationName" ref="a2c9e8273f85587df2c4a459d9b9c2814" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; rendering::animation::CAnimation::GetAnimationName </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca referencję na nazwę animacji </p>
+
+</div>
+</div>
+<a class="anchor" id="a3f256744b59673da8d9f539f17edaa49"></a><!-- doxytag: member="rendering::animation::CAnimation::SetAnimationName" ref="a3f256744b59673da8d9f539f17edaa49" args="(std::string anim_name)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const void rendering::animation::CAnimation::SetAnimationName </td>
+          <td>(</td>
+          <td class="paramtype">std::string&nbsp;</td>
+          <td class="paramname"> <em>anim_name</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda ustawia na nazwę animacji</p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>name</em>&nbsp;</td><td>- nazwa animacji </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="af2f4365a4214a2c442f8f518a626aa27"></a><!-- doxytag: member="rendering::animation::CAnimation::TotalLength" ref="af2f4365a4214a2c442f8f518a626aa27" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float rendering::animation::CAnimation::TotalLength </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Metoda zwraca czas równy całkowitej długości trwania wszystkich klatek animacji (kumulacja) </p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja atrybutów składowych</h2>
+<a class="anchor" id="aaeefdfffae0fe68769288f6a46a4f939"></a><!-- doxytag: member="rendering::animation::CAnimation::m_frames" ref="aaeefdfffae0fe68769288f6a46a4f939" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classrendering_1_1animation_1_1_c_timed_animation_frame.html">CTimedAnimationFrame</a>&gt; <a class="el" href="classrendering_1_1animation_1_1_c_animation.html#aaeefdfffae0fe68769288f6a46a4f939">rendering::animation::CAnimation::m_frames</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Rendering/Animations/<a class="el" href="_c_animation_8h_source.html">CAnimation.h</a></li>
+<li>C:/Documents and Settings/Jacek/Moje dokumenty/Visual Studio 2008/Projects/GameSCI/GameSCI/source/Rendering/Animations/<a class="el" href="_c_animation_8cpp.html">CAnimation.cpp</a></li>
+</ul>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&nbsp;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&nbsp;</span>Klasy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&nbsp;</span>Przestrzenie nazw</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&nbsp;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&nbsp;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&nbsp;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&nbsp;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&nbsp;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&nbsp;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&nbsp;</span>Przyjaciele</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&nbsp;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr size="1"/><address style="text-align: right;"><small>Wygenerowano Tue Nov 26 15:18:18 2013 dla GameSCI programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.1 </small></address>
+</body>
+</html>
