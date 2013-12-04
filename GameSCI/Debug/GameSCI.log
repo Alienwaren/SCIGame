@@ -1,99 +1,20 @@
-﻿Build started 2013-11-27 15:10:37.
-     1>Project "C:\Users\overkiller\Documents\GitHub\SCIGame\GameSCI\GameSCI.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"..\SFML-2.0-windows-vc10-32bits\SFML-2.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt source\Factory\CBulletTemplate.cpp source\Logic\Bullet\CBullet.cpp source\main.cpp source\ResourceManager\CFont.cpp source\ResourceManager\CMusic.cpp source\ResourceManager\CResourceManager.cpp source\ResourceManager\CSound.cpp source\ResourceManager\CTexture.cpp source\ResourceManager\IResource.cpp source\Utilities\Singleton\CSingletonCleaner.cpp source\Utilities\StringUtils\StringUtils.cpp source\Utilities\TimeUtilities\CClock.cpp source\Utilities\TimeUtilities\CFPS.cpp source\XML\CXml.cpp source\Rendering\Displayable\CDisplayable.cpp source\Rendering\Displayable\CSprite.cpp source\Rendering\Animations\CAnimation.cpp source\Rendering\Animations\CAnimationFrame.cpp source\Rendering\Animations\CAnimationManager.cpp source\Rendering\Animations\CAnimationState.cpp source\Rendering\Animations\CAnimSet.cpp source\Rendering\Animations\CNameAnimPairTranslator.cpp source\Rendering\Animations\CTimedAnimationFrame.cpp source\Rendering\Drawable\CDrawableManager.cpp source\Rendering\Drawable\IDrawable.cpp source\Game\CGame.cpp source\Game\CGameProperties.cpp source\Logic\CLogic.cpp source\Logic\CPhysicalManager.cpp source\Logic\Physical\CPhysical.cpp source\Logic\Actor\CActor.cpp source\Logic\Enemy\CEnemy.cpp source\Logic\Player\CPlayer.cpp source\Weather\CWeather.cpp source\Factory\CActorTemplate.cpp source\Factory\CEnemyTemplate.cpp source\Factory\CPhysicalTemplate.cpp source\Factory\CPlayerTemplate.cpp
-         CPlayerTemplate.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(12): fatal error C1083: Cannot open include file: 'SFML/System/Vector2.hpp': No such file or directory
-         CPhysicalTemplate.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(12): fatal error C1083: Cannot open include file: 'SFML/System/Vector2.hpp': No such file or directory
-         CEnemyTemplate.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(12): fatal error C1083: Cannot open include file: 'SFML/System/Vector2.hpp': No such file or directory
-         CActorTemplate.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(12): fatal error C1083: Cannot open include file: 'SFML/System/Vector2.hpp': No such file or directory
-         CWeather.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\weather\cweather.h(14): fatal error C1083: Cannot open include file: 'SFML/Graphics/Color.hpp': No such file or directory
-         CPlayer.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(12): fatal error C1083: Cannot open include file: 'SFML/System/Vector2.hpp': No such file or directory
-         CEnemy.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(12): fatal error C1083: Cannot open include file: 'SFML/System/Vector2.hpp': No such file or directory
-         CActor.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(12): fatal error C1083: Cannot open include file: 'SFML/System/Vector2.hpp': No such file or directory
-         CPhysical.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(12): fatal error C1083: Cannot open include file: 'SFML/System/Vector2.hpp': No such file or directory
-         CPhysicalManager.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(12): fatal error C1083: Cannot open include file: 'SFML/System/Vector2.hpp': No such file or directory
-         CLogic.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\game\listener\ikeylistener.h(12): fatal error C1083: Cannot open include file: 'SFML/Window/Event.hpp': No such file or directory
-         CGameProperties.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\game\cgame.h(12): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
-         CGame.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\game\cgame.h(12): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
-         IDrawable.cpp
-         CDrawableManager.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\rendering\displayable\csprite.h(12): fatal error C1083: Cannot open include file: 'SFML/Graphics/Sprite.hpp': No such file or directory
-         CTimedAnimationFrame.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\rendering\animations\canimationframe.h(13): fatal error C1083: Cannot open include file: 'SFML/Graphics/Rect.hpp': No such file or directory
-         CNameAnimPairTranslator.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\rendering\animations\canimationframe.h(13): fatal error C1083: Cannot open include file: 'SFML/Graphics/Rect.hpp': No such file or directory
-         CAnimSet.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\rendering\animations\canimationframe.h(13): fatal error C1083: Cannot open include file: 'SFML/Graphics/Rect.hpp': No such file or directory
-         CAnimationState.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\rendering\animations\canimationframe.h(13): fatal error C1083: Cannot open include file: 'SFML/Graphics/Rect.hpp': No such file or directory
-         CAnimationManager.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\rendering\animations\canimationframe.h(13): fatal error C1083: Cannot open include file: 'SFML/Graphics/Rect.hpp': No such file or directory
-         Generating Code...
-         Compiling...
-         CAnimationFrame.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\rendering\animations\canimationframe.h(13): fatal error C1083: Cannot open include file: 'SFML/Graphics/Rect.hpp': No such file or directory
-         CAnimation.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\rendering\animations\canimationframe.h(13): fatal error C1083: Cannot open include file: 'SFML/Graphics/Rect.hpp': No such file or directory
-         CSprite.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\rendering\displayable\csprite.h(12): fatal error C1083: Cannot open include file: 'SFML/Graphics/Sprite.hpp': No such file or directory
-         CDisplayable.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\rendering\displayable\csprite.h(12): fatal error C1083: Cannot open include file: 'SFML/Graphics/Sprite.hpp': No such file or directory
-         CXml.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\xml\rapidxml\rapidxml_utils.hpp(40): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'size_t', possible loss of data
-                 c:\users\overkiller\documents\github\scigame\gamesci\source\xml\rapidxml\rapidxml_utils.hpp(28) : while compiling class template member function 'rapidxml::file<Ch>::file(const char *)'
-                 with
-                 [
-                     Ch=char
-                 ]
-                 c:\users\overkiller\documents\github\scigame\gamesci\source\xml\cxml.cpp(28) : see reference to function template instantiation 'rapidxml::file<Ch>::file(const char *)' being compiled
-                 with
-                 [
-                     Ch=char
-                 ]
-                 c:\users\overkiller\documents\github\scigame\gamesci\source\xml\cxml.cpp(28) : see reference to class template instantiation 'rapidxml::file<Ch>' being compiled
-                 with
-                 [
-                     Ch=char
-                 ]
-         CFPS.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\utilities\timeutilities\cfps.h(12): fatal error C1083: Cannot open include file: 'SFML/System/Clock.hpp': No such file or directory
-         CClock.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\utilities\timeutilities\cclock.h(13): fatal error C1083: Cannot open include file: 'SFML/System/Clock.hpp': No such file or directory
-         StringUtils.cpp
-         CSingletonCleaner.cpp
-         IResource.cpp
-         CTexture.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\resourcemanager\ctexture.h(12): fatal error C1083: Cannot open include file: 'SFML/Graphics/Texture.hpp': No such file or directory
-         CSound.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\resourcemanager\csound.h(12): fatal error C1083: Cannot open include file: 'SFML/Audio/SoundBuffer.hpp': No such file or directory
-         CResourceManager.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\resourcemanager\ctexture.h(12): fatal error C1083: Cannot open include file: 'SFML/Graphics/Texture.hpp': No such file or directory
-         CMusic.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\resourcemanager\cmusic.h(12): fatal error C1083: Cannot open include file: 'SFML/Audio/Music.hpp': No such file or directory
-         CFont.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\resourcemanager\cfont.h(12): fatal error C1083: Cannot open include file: 'SFML/Graphics/Font.hpp': No such file or directory
-         main.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\game\cgame.h(12): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
-         CBullet.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(12): fatal error C1083: Cannot open include file: 'SFML/System/Vector2.hpp': No such file or directory
-         CBulletTemplate.cpp
-     1>c:\users\overkiller\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(12): fatal error C1083: Cannot open include file: 'SFML/System/Vector2.hpp': No such file or directory
-         Generating Code...
-     1>Done Building Project "C:\Users\overkiller\Documents\GitHub\SCIGame\GameSCI\GameSCI.vcxproj" (Build target(s)) -- FAILED.
+﻿Build started 2013-12-04 13:50:27.
+     1>Project "C:\Users\TEMP\Desktop\GameSCI\GameSCI\GameSCI.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\GameSCI.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\GameSCI.unsuccessfulbuild".
+         Touching "Debug\GameSCI.lastbuildstate".
+     1>Done Building Project "C:\Users\TEMP\Desktop\GameSCI\GameSCI\GameSCI.vcxproj" (build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:11.82
+Time Elapsed 00:00:00.10

@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<root>
+
+	<!--ladownie z osobnych plikow-->
+	
+	<!--animacja testowa  body-->
+	<animation_name name = "anim_one">
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="0"	rect_top="0"	rect_width="64"	rect_height="64"  />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="64"	rect_top="0"	rect_width="64"	rect_height="64"  />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="128"	rect_top="0"	rect_width="64"	rect_height="64"  />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="192"	rect_top="0"	rect_width="64"	rect_height="64"  />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="0"	rect_top="64"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="64"	rect_top="64"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="128"	rect_top="64"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="192"	rect_top="64"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="0"	rect_top="128"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="64"	rect_top="128"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="128"	rect_top="128"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="192"	rect_top="128"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="0"	rect_top="192"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="64"	rect_top="192"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="128"	rect_top="192"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="192"	rect_top="192"	rect_width="64"	rect_height="64" />
+	</animation_name>
+
+	<!--animacja testowa  head-->
+	<animation_name name = "anim_two">
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_two_move.png"	rect_left="0"	rect_top="0"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_two_move.png"	rect_left="64"	rect_top="0"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_two_move.png"	rect_left="128"	rect_top="0"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_two_move.png"	rect_left="192"	rect_top="0"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_two_move.png"	rect_left="256"	rect_top="0"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_two_move.png"	rect_left="320"	rect_top="0"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_two_move.png"	rect_left="384"	rect_top="0"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_two_move.png"	rect_left="448"	rect_top="0"	rect_width="64"	rect_height="64" />
+	</animation_name>
+	
+	
+	<!--ladownie z atlasu tekstur-->
+	<!--d e s t r o y e r-->
+
+	<!--body-->
+	<animation_name name = "anim_destroyer_default_body">
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="0"	rect_top="0"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="64"	rect_top="0"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="128"	rect_top="0"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="192"	rect_top="0"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="256"	rect_top="0"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="320"	rect_top="0"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="384"	rect_top="0"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="448"	rect_top="0"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="0"	rect_top="64"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="64"	rect_top="64"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="128"	rect_top="64"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="192"	rect_top="64"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="256"	rect_top="64"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="320"	rect_top="64"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="384"	rect_top="64"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="448"	rect_top="64"	rect_width="64"	rect_height="64" />
+	</animation_name>
+	
+	<!--body-->	
+	<animation_name name = "anim_destroyer_move_body">
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="0"	rect_top="128"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="64"	rect_top="128"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="128"	rect_top="128"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="192"	rect_top="128"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="256"	rect_top="128"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="320"	rect_top="128"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="384"	rect_top="128"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="448"	rect_top="128"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="0"	rect_top="192"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="64"	rect_top="192"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="128"	rect_top="192"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="192"	rect_top="192"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="256"	rect_top="192"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="320"	rect_top="192"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="384"	rect_top="192"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="448"	rect_top="192"	rect_width="64"	rect_height="64" />
+	</animation_name>
+	
+	<!--body-->
+	<animation_name name = "anim_destroyer_death_body">
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="0"	rect_top="256"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="64"	rect_top="256"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="128"	rect_top="256"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="192"	rect_top="256"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="256"	rect_top="256"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="320"	rect_top="256"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="384"	rect_top="256"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="448"	rect_top="256"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="0"	rect_top="320"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="64"	rect_top="320"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="128"	rect_top="320"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="192"	rect_top="320"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="256"	rect_top="320"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="320"	rect_top="320"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="384"	rect_top="320"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="448"	rect_top="320"	rect_width="64"	rect_height="64" />
+	</animation_name>
+	
+	<!--head-->
+	<animation_name name = "anim_destroyer_default_head">
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="0"	rect_top="384"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="64"	rect_top="384"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="128"	rect_top="384"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="192"	rect_top="384"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="256"	rect_top="384"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="320"	rect_top="384"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="384"	rect_top="384"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="448"	rect_top="384"	rect_width="64"	rect_height="64" />
+	</animation_name>
+
+	<!--head-->
+	<animation_name name = "anim_destroyer_shot_head">
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="0"	rect_top="448"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="64"	rect_top="448"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="128"	rect_top="448"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="192"	rect_top="448"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="256"	rect_top="448"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="320"	rect_top="448"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="384"	rect_top="448"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="448"	rect_top="448"	rect_width="64"	rect_height="64" />
+	</animation_name>
+	
+	<!--head-->
+	<animation_name name = "anim_destroyer_ammo_loading_head">
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="0"	rect_top="512"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="64"	rect_top="512"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="128"	rect_top="512"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="192"	rect_top="512"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="256"	rect_top="512"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="320"	rect_top="512"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="384"	rect_top="512"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="448"	rect_top="512"	rect_width="64"	rect_height="64" />
+	</animation_name>
+	
+	<!--head-->
+	<animation_name name = "anim_destroyer_death_head">
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="0"	rect_top="576"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="64"	rect_top="576"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="128"	rect_top="576"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="192"	rect_top="576"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="256"	rect_top="576"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="320"	rect_top="576"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="384"	rect_top="576"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/atlases/destroyer.png"	rect_left="448"	rect_top="576"	rect_width="64"	rect_height="64" />
+	</animation_name>
+
+</root>

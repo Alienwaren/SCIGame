@@ -1,26 +1,38 @@
 <?xml version="1.0"?>
 <root>
 
-	<!--ladownie z osobnych plikow-->
+	<!--ladownie z osobnych plikow 2B-->
+	
+	<animation_name name = "anim_gods">
+		<animation_frame	frame_time="0.12" texture_name="data/graphics/atlases/gods_atlas.png"	rect_left="0"	rect_top="0"	rect_width="32"	rect_height="48"  />
+		<animation_frame	frame_time="0.12" texture_name="data/graphics/atlases/gods_atlas.png"	rect_left="32"	rect_top="0"	rect_width="32"	rect_height="48"  />
+		<animation_frame	frame_time="0.12" texture_name="data/graphics/atlases/gods_atlas.png"	rect_left="64"	rect_top="0"	rect_width="32"	rect_height="48"  />
+		<animation_frame	frame_time="0.12" texture_name="data/graphics/atlases/gods_atlas.png"	rect_left="96"	rect_top="0"	rect_width="32"	rect_height="48"  />
+		<animation_frame	frame_time="0.12" texture_name="data/graphics/atlases/gods_atlas.png"	rect_left="128"	rect_top="0"	rect_width="32"	rect_height="48"  />
+		<animation_frame	frame_time="0.12" texture_name="data/graphics/atlases/gods_atlas.png"	rect_left="160"	rect_top="0"	rect_width="32"	rect_height="48"  />
+		<animation_frame	frame_time="0.12" texture_name="data/graphics/atlases/gods_atlas.png"	rect_left="192"	rect_top="0"	rect_width="32"	rect_height="48"  />
+		<animation_frame	frame_time="0.12" texture_name="data/graphics/atlases/gods_atlas.png"	rect_left="224"	rect_top="0"	rect_width="32"	rect_height="48"  />
+	</animation_name>
+	
 	
 	<!--animacja testowa  body-->
 	<animation_name name = "anim_one">
-		<animation_frame	frame_time="0.1" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="0"	rect_top="0"	rect_width="64"	rect_height="64"  />
-		<animation_frame	frame_time="0.1" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="64"	rect_top="0"	rect_width="64"	rect_height="64"  />
-		<animation_frame	frame_time="0.1" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="128"	rect_top="0"	rect_width="64"	rect_height="64"  />
-		<animation_frame	frame_time="0.1" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="192"	rect_top="0"	rect_width="64"	rect_height="64"  />
-		<animation_frame	frame_time="0.1" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="0"	rect_top="64"	rect_width="64"	rect_height="64" />
-		<animation_frame	frame_time="0.1" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="64"	rect_top="64"	rect_width="64"	rect_height="64" />
-		<animation_frame	frame_time="0.1" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="128"	rect_top="64"	rect_width="64"	rect_height="64" />
-		<animation_frame	frame_time="0.1" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="192"	rect_top="64"	rect_width="64"	rect_height="64" />
-		<animation_frame	frame_time="0.1" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="0"	rect_top="128"	rect_width="64"	rect_height="64" />
-		<animation_frame	frame_time="0.1" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="64"	rect_top="128"	rect_width="64"	rect_height="64" />
-		<animation_frame	frame_time="0.1" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="128"	rect_top="128"	rect_width="64"	rect_height="64" />
-		<animation_frame	frame_time="0.1" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="192"	rect_top="128"	rect_width="64"	rect_height="64" />
-		<animation_frame	frame_time="0.1" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="0"	rect_top="192"	rect_width="64"	rect_height="64" />
-		<animation_frame	frame_time="0.1" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="64"	rect_top="192"	rect_width="64"	rect_height="64" />
-		<animation_frame	frame_time="0.1" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="128"	rect_top="192"	rect_width="64"	rect_height="64" />
-		<animation_frame	frame_time="6" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="192"	rect_top="192"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="0"	rect_top="0"	rect_width="64"	rect_height="64"  />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="64"	rect_top="0"	rect_width="64"	rect_height="64"  />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="128"	rect_top="0"	rect_width="64"	rect_height="64"  />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="192"	rect_top="0"	rect_width="64"	rect_height="64"  />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="0"	rect_top="64"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="64"	rect_top="64"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="128"	rect_top="64"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="192"	rect_top="64"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="0"	rect_top="128"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="64"	rect_top="128"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="128"	rect_top="128"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="192"	rect_top="128"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="0"	rect_top="192"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="64"	rect_top="192"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="128"	rect_top="192"	rect_width="64"	rect_height="64" />
+		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="192"	rect_top="192"	rect_width="64"	rect_height="64" />
 	</animation_name>
 
 	<!--animacja testowa  head-->

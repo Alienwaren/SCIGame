@@ -128,35 +128,34 @@ namespace game
 		//view.rotate(45.f);
 		//m_render_window->setView(view);
 		
-		gWeather.SetShadowTime(0.0000000000000000000000000000000000000000001f);
-
 		//³adowanie danych z poziomu CResourceManager'a
-		if(gResourceManager.LoadPhysicalTemplate("data/xml_data/units_enemy/destroyer.xml") == false)
+		if(gResourceManager.LoadPhysicalTemplate("data/xml_data/units_enemy/gods.xml") == false)
 			printf("Data not loaded...\n");
 		//tworzê wzorzec fabryczny i inicjujê go danymi pobramymi z CResourceManager'a uprzednio za³adowane
-		CPhysicalTemplate *p_template = gResourceManager.GetPhysicalTemplate("data/xml_data/units_enemy/destroyer.xml");
+		CPhysicalTemplate *p_template = gResourceManager.GetPhysicalTemplate("data/xml_data/units_enemy/gods.xml");
 		//ten kod jest testowy, bo tworzenie (respawn) obiektów bêdzie z poziomu ³adowania mapy (level'a)
 		CEnemy *p_enemy = gPhysicalManager.CreateEnemy(L"ID_enemy");
 		//wzorzec wype³niam danymi utworzony obiekt (Physical'a)
 		if(p_enemy)
 			p_template->Fill(p_enemy);
+
+		
 		
 		if(p_enemy)
 			p_enemy->setSmoothing(true);
 
-		p_enemy->SetPosition(400, 200);
-		p_enemy->SetRotationBody(32.f);
-		p_enemy->SetRotationHead(310);
-		p_enemy->SetScale(2.5f);
-		//p_enemy->SetAltitude(12);
-		//testy...sprawdziæ...jak to dzia³a...
-		p_enemy->SetColorHead(sf::Color::Blue);	//kolorujemy obiekt body na niebiesko
-		//p_enemy->SetColorBody(sf::Color::Red);	//kolorujemy obiekt head na czerwono
+		p_enemy->SetPosition(400, 300);
+		p_enemy->SetRotationBody(0.f);
+	//	p_enemy->SetRotationHead(310);
+	//	p_enemy->setAltitude(12);
+		p_enemy->SetScale(2);
 
+		//testy...sprawdziæ...jak to dzia³a...
+		//p_enemy->SetColorHead(sf::Color::Blue);	
+		//p_enemy->SetColorBody(sf::Color::Red);	
 		//p_enemy->RestoreColor();				//odzyskujemy oryginalny kolor body and head
 		//p_enemy->RestoreColorBody();			//odzyskujemy oryginalny kolor body
-		p_enemy->RestoreColorHead();			//odzyskujemy oryginalny kolor head
-
+		//p_enemy->RestoreColorHead();			//
 		printf("CGame::Run()\n");
 
 		while (m_render_window->isOpen())
