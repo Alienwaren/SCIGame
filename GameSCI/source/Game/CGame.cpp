@@ -116,7 +116,7 @@ namespace game
 		fps_text.setString("Zaczynamy");
 		fps_text.setFont(font);
 		fps_text.setCharacterSize(20);
-		fps_text.setColor(sf::Color::Blue);
+		fps_text.setColor(sf::Color::Green);
 		fps_text.setPosition(10,10);
 
 
@@ -133,22 +133,31 @@ namespace game
 			printf("Data not loaded...\n");
 		//tworzê wzorzec fabryczny i inicjujê go danymi pobramymi z CResourceManager'a uprzednio za³adowane
 		CPhysicalTemplate *p_template = gResourceManager.GetPhysicalTemplate("data/xml_data/units_enemy/gods.xml");
+		//wrzorzec drugiego wroga - Alienwaren/Kejczor
+		CPhysicalTemplate *p_template2 = gResourceManager.GetPhysicalTemplate("data/xml_data/units_enemy/gods.xml");
 		//ten kod jest testowy, bo tworzenie (respawn) obiektów bêdzie z poziomu ³adowania mapy (level'a)
 		CEnemy *p_enemy = gPhysicalManager.CreateEnemy(L"ID_enemy");
+		CEnemy *p_enemy2 = gPhysicalManager.CreateEnemy(L"nowyPrzeciwnik"); //próba utworzenia nowego wroga - Alienwaren/Kejczor - SUKCES!
 		//wzorzec wype³niam danymi utworzony obiekt (Physical'a)
 		if(p_enemy)
 			p_template->Fill(p_enemy);
 
-		
+		if(p_enemy2)
+			p_template2->Fill(p_enemy2);
 		
 		if(p_enemy)
-			p_enemy->setSmoothing(true);
+			p_enemy->setSmoothing(false);
+
+		if(p_enemy2)
+			p_enemy->setSmoothing(false);
 
 		p_enemy->SetPosition(400, 300);
 		p_enemy->SetRotationBody(0.f);
 	//	p_enemy->SetRotationHead(310);
 	//	p_enemy->setAltitude(12);
-		p_enemy->SetScale(2);
+		p_enemy->SetScale(2.5f);
+		p_enemy2->SetScale(1.5f);
+		p_enemy2->SetPosition(200,300);
 
 		//testy...sprawdziæ...jak to dzia³a...
 		//p_enemy->SetColorHead(sf::Color::Blue);	
