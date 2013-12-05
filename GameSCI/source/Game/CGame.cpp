@@ -132,11 +132,12 @@ namespace game
 		if(gResourceManager.LoadPhysicalTemplate("data/xml_data/units_enemy/gods.xml") == false)
 			printf("Data not loaded...\n");
 		//tworzê wzorzec fabryczny i inicjujê go danymi pobramymi z CResourceManager'a uprzednio za³adowane
-		CPhysicalTemplate *p_template = gResourceManager.GetPhysicalTemplate("data/xml_data/units_enemy/gods.xml");
+		CPhysicalTemplate *p_template = gResourceManager.GetPhysicalTemplate("data/xml_data/units_enemy/zombie.xml");
 		//wrzorzec drugiego wroga - Alienwaren/Kejczor
-		CPhysicalTemplate *p_template2 = gResourceManager.GetPhysicalTemplate("data/xml_data/units_enemy/gods.xml");
+		CPhysicalTemplate *p_template2 = gResourceManager.GetPhysicalTemplate("data/xml_data/units_enemy/zombie.xml");
 		//ten kod jest testowy, bo tworzenie (respawn) obiektów bêdzie z poziomu ³adowania mapy (level'a)
 		CEnemy *p_enemy = gPhysicalManager.CreateEnemy(L"ID_enemy");
+
 		CEnemy *p_enemy2 = gPhysicalManager.CreateEnemy(L"nowyPrzeciwnik"); //próba utworzenia nowego wroga - Alienwaren/Kejczor - SUKCES!
 		//wzorzec wype³niam danymi utworzony obiekt (Physical'a)
 		if(p_enemy)
@@ -146,10 +147,10 @@ namespace game
 			p_template2->Fill(p_enemy2);
 		
 		if(p_enemy)
-			p_enemy->setSmoothing(false);
+			p_enemy->setSmoothing(true);
 
 		if(p_enemy2)
-			p_enemy->setSmoothing(false);
+			p_enemy->setSmoothing(true);
 
 		p_enemy->SetPosition(400, 300);
 		p_enemy->SetRotationBody(0.f);
@@ -179,8 +180,13 @@ namespace game
 
 			while (m_render_window->pollEvent(m_event))
 			{
-				if (m_event.type == sf::Event::Closed)
+				if (m_event.type == sf::Event::Closed) //zamykanie okna guziczkiem
 				{	
+					m_render_window->close();
+				}
+
+				else if(m_event.type == sf::Event::KeyPressed && m_event.key.code == sf::Keyboard::Escape) //zamykanie okna escapem
+				{
 					m_render_window->close();
 				}
 			}

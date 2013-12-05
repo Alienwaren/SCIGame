@@ -1,7 +1,29 @@
 <?xml version="1.0"?>
 <root>
 
-	<!--ladownie z osobnych plikow-->
+	<!--ladownie z osobnych plikow 2B-->
+	
+	<animation_name name = "anim_zombie">
+		<animation_frame	frame_time="0.10" texture_name="data/graphics/atlases/atlas_zombie.png"	rect_left="0"	rect_top="0"	rect_width="35"	rect_height="60"  />
+		<animation_frame	frame_time="0.10" texture_name="data/graphics/atlases/atlas_zombie.png"	rect_left="35"	rect_top="0"	rect_width="35"	rect_height="60"  />
+		<animation_frame	frame_time="0.10" texture_name="data/graphics/atlases/atlas_zombie.png"	rect_left="70"	rect_top="0"	rect_width="35"	rect_height="60"  />
+		<animation_frame	frame_time="0.10" texture_name="data/graphics/atlases/atlas_zombie.png"	rect_left="105"	rect_top="0"	rect_width="35"	rect_height="60"  />
+		<animation_frame	frame_time="0.10" texture_name="data/graphics/atlases/atlas_zombie.png"	rect_left="140" rect_top="0"	rect_width="35"	rect_height="60"  />
+		<animation_frame	frame_time="0.10" texture_name="data/graphics/atlases/atlas_zombie.png"	rect_left="175" rect_top="0"    rect_width="35"	rect_height="60"  />
+		<animation_frame	frame_time="0.10" texture_name="data/graphics/atlases/atlas_zombie.png"	rect_left="210" rect_top="0"	rect_width="35"	rect_height="60"  />
+	</animation_name>
+
+	<animation_name name = "anim_gods">
+		<animation_frame	frame_time="0.12" texture_name="data/graphics/atlases/gods_atlas.png"	rect_left="0"	rect_top="0"	rect_width="32"	rect_height="48"  />
+		<animation_frame	frame_time="0.12" texture_name="data/graphics/atlases/gods_atlas.png"	rect_left="32"	rect_top="0"	rect_width="32"	rect_height="48"  />
+		<animation_frame	frame_time="0.12" texture_name="data/graphics/atlases/gods_atlas.png"	rect_left="64"	rect_top="0"	rect_width="32"	rect_height="48"  />
+		<animation_frame	frame_time="0.12" texture_name="data/graphics/atlases/gods_atlas.png"	rect_left="96"	rect_top="0"	rect_width="32"	rect_height="48"  />
+		<animation_frame	frame_time="0.12" texture_name="data/graphics/atlases/gods_atlas.png"	rect_left="128"	rect_top="0"	rect_width="32"	rect_height="48"  />
+		<animation_frame	frame_time="0.12" texture_name="data/graphics/atlases/gods_atlas.png"	rect_left="160"	rect_top="0"	rect_width="32"	rect_height="48"  />
+		<animation_frame	frame_time="0.12" texture_name="data/graphics/atlases/gods_atlas.png"	rect_left="192"	rect_top="0"	rect_width="32"	rect_height="48"  />
+		<animation_frame	frame_time="0.12" texture_name="data/graphics/atlases/gods_atlas.png"	rect_left="224"	rect_top="0"	rect_width="32"	rect_height="48"  />
+	</animation_name>
+	
 	
 	<!--animacja testowa  body-->
 	<animation_name name = "anim_one">
