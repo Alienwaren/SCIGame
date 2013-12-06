@@ -24,6 +24,10 @@
 		<animation_frame	frame_time="0.12" texture_name="data/graphics/atlases/gods_atlas.png"	rect_left="224"	rect_top="0"	rect_width="32"	rect_height="48"  />
 	</animation_name>
 	
+	<animation_name name = "anim_bunny">
+		<animation_frame	frame_time="0.3" texture_name="data/graphics/atlases/atlas_bunny.png"	rect_left="0"	rect_top="0"	rect_width="83"	rect_height="68"  />
+		<animation_frame	frame_time="0.3" texture_name="data/graphics/atlases/atlas_bunny.png"	rect_left="84"	rect_top="0"	rect_width="83"	rect_height="68"  />
+	</animation_name>
 	
 	<!--animacja testowa  body-->
 	<animation_name name = "anim_one">

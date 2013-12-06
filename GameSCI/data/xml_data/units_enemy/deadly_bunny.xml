@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<root type = "enemy">
+
+	<!-- CPhysical -->
+
+	<!--nazwa obiektu-->
+	<genre genre = "deadly_buuny" />
+	
+	<!--zakres dla promienia kolizji-->
+	<radius
+		circle_radius = "32.0"
+	/>
+	<!--rozmiar obszaru prostok¹tnego-->
+	<rect_size
+		rect_size_x = "83.0"
+		rect_size_y = "68.0"
+	/>
+	
+	<!--skala-->
+	<scale
+		scale_body = "1.0"
+		scale_head = "1.0"
+	/>
+
+	<!--pu³ap obiektu wzglêdem pod³o¿a-->
+	<altitude
+		altitude = "1.0"
+	/>
+
+	<!--flagi decyduj¹ce o wygl¹dzie obiektu-->
+	<physical_config
+		use_displayable_body = "true"
+		use_shadow_body = "true"
+
+	/>
+	
+	<!--animacja CPhysical - test-->
+	<unit_animation
+		animation_body = "anim_one"
+	/>
+
+	<!--CActor-->
+	
+	<!--wartosc energi poczatkowej obiektu-->
+	<unit_energy
+		energy = "100"
+	/>
+	
+	<!--dane techniczne-->
+	<technical_data
+		mass = "85"
+		temperature = "34"
+		speed = "100"
+		movabled = "true"
+	/>
+
+	<!--zestawy animacji-->
+	<!--nazwa animacji musi byc zgodna z nazwami zarejestrowqanymi, class CAnimationManager-->
+	<!--typ animacji musi byc zgodny z wpisami w tablicy zawieraj¹cej zdefiniowane typy animacji, class CAnimSet-->
+	<animset name_animset = "anim_bunny">
+		<!--body-->
+		<anim name = "anim_bunny" type = "default_body" />
+		<anim name = "anim_bunny" type = "move_body" />
+	</animset>
+	
+
+</root>
