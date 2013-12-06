@@ -1,4 +1,4 @@
-﻿Build started 2013-12-06 11:58:35.
+﻿Build started 2013-12-06 12:14:17.
      1>Project "C:\Users\overkiller\Documents\GitHub\SCIGame\GameSCI\GameSCI.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\GameSCI.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -17,4 +17,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.11
+Time Elapsed 00:00:00.19
