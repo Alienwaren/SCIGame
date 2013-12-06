@@ -140,15 +140,15 @@ namespace game
 		//ten kod jest testowy, bo tworzenie (respawn) obiektów bêdzie z poziomu ³adowania mapy (level'a)
 		CEnemy *p_enemy = gPhysicalManager.CreateEnemy(L"ID_enemy");
 
-		CEnemy *p_enemy2 = gPhysicalManager.CreateEnemy(L"nowyPrzeciwnik"); //próba utworzenia nowego wroga - Alienwaren/Kejczor - SUKCES!
+		CEnemy *zombie = gPhysicalManager.CreateEnemy(L"Zombie"); //próba utworzenia nowego wroga - Alienwaren/Kejczor - SUKCES!
 
 		CEnemy *p_enemy3 = gPhysicalManager.CreateEnemy(L"Deadly Bunny"); /// Deadly bunny - Alienwaren/Kejczor
 		//wzorzec wype³niam danymi utworzony obiekt (Physical'a)
 		if(p_enemy)
 			p_template->Fill(p_enemy);
 
-		if(p_enemy2)
-			p_template2->Fill(p_enemy2);
+		if(zombie)
+			p_template2->Fill(zombie);
 
 		if(p_enemy3)
 			bunnyTemplate->Fill(p_enemy3);
@@ -156,7 +156,7 @@ namespace game
 		if(p_enemy)
 			p_enemy->setSmoothing(true);
 
-		if(p_enemy2)
+		if(zombie)
 			p_enemy->setSmoothing(true);
 
 		if(p_enemy3)
@@ -167,8 +167,8 @@ namespace game
 	//	p_enemy->SetRotationHead(310);
 	//	p_enemy->setAltitude(12);
 		p_enemy->SetScale(2.5f);
-		p_enemy2->SetScale(1.5f);
-		p_enemy2->SetPosition(200,300);
+		zombie->SetScale(1.5f);
+		zombie->SetPosition(200,300);
 		p_enemy3->SetPosition(100,300);
 
 		//testy...sprawdziæ...jak to dzia³a...

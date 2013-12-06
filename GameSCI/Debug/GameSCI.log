@@ -1,20 +1,63 @@
-﻿Build started 2013-12-06 11:58:35.
-     1>Project "C:\Users\overkiller\Documents\GitHub\SCIGame\GameSCI\GameSCI.vcxproj" on node 2 (build target(s)).
+﻿Build started 2013-12-06 12:14:52.
+     1>Project "C:\Users\starwipe33\Documents\GitHub\SCIGame\GameSCI\GameSCI.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "Debug\GameSCI.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\GameSCI.unsuccessfulbuild".
        ClCompile:
-         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\SFML-2.0-windows-vc10-32bits\SFML-2.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source\Game\CGame.cpp
+         CGame.cpp
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
-         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\starwipe33\Documents\GitHub\SCIGame\Debug\GameSCI.exe" /INCREMENTAL /NOLOGO /LIBPATH:"..\SFML-2.0-windows-vc10-32bits\SFML-2.0\lib" "sfml-system-d.lib" "sfml-window-d.lib" "sfml-main-d.lib" "sfml-graphics-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GameSCI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\starwipe33\Documents\GitHub\SCIGame\Debug\GameSCI.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\starwipe33\Documents\GitHub\SCIGame\Debug\GameSCI.lib" /MACHINE:X86 Debug\GameSCI.exe.embed.manifest.res
+         Debug\CBulletTemplate.obj
+         Debug\CBullet.obj
+         Debug\main.obj
+         Debug\CFont.obj
+         Debug\CMusic.obj
+         Debug\CResourceManager.obj
+         Debug\CSound.obj
+         Debug\CTexture.obj
+         Debug\IResource.obj
+         Debug\CSingletonCleaner.obj
+         Debug\StringUtils.obj
+         Debug\CClock.obj
+         Debug\CFPS.obj
+         Debug\CXml.obj
+         Debug\CDisplayable.obj
+         Debug\CSprite.obj
+         Debug\CAnimation.obj
+         Debug\CAnimationFrame.obj
+         Debug\CAnimationManager.obj
+         Debug\CAnimationState.obj
+         Debug\CAnimSet.obj
+         Debug\CNameAnimPairTranslator.obj
+         Debug\CTimedAnimationFrame.obj
+         Debug\CDrawableManager.obj
+         Debug\IDrawable.obj
+         Debug\CGame.obj
+         Debug\CGameProperties.obj
+         Debug\CLogic.obj
+         Debug\CPhysicalManager.obj
+         Debug\CPhysical.obj
+         Debug\CActor.obj
+         Debug\CEnemy.obj
+         Debug\CPlayer.obj
+         Debug\CWeather.obj
+         Debug\CActorTemplate.obj
+         Debug\CEnemyTemplate.obj
+         Debug\CPhysicalTemplate.obj
+         Debug\CPlayerTemplate.obj
        Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\GameSCI.exe.embed.manifest" /manifest Debug\GameSCI.exe.intermediate.manifest
          All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         GameSCI.vcxproj -> C:\Users\starwipe33\Documents\GitHub\SCIGame\Debug\GameSCI.exe
        FinalizeBuildStatus:
          Deleting file "Debug\GameSCI.unsuccessfulbuild".
          Touching "Debug\GameSCI.lastbuildstate".
-     1>Done Building Project "C:\Users\overkiller\Documents\GitHub\SCIGame\GameSCI\GameSCI.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\starwipe33\Documents\GitHub\SCIGame\GameSCI\GameSCI.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.11
+Time Elapsed 00:00:02.07
