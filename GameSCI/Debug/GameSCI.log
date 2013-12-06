@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 ﻿Build started 2013-12-06 12:14:52.
      1>Project "C:\Users\starwipe33\Documents\GitHub\SCIGame\GameSCI\GameSCI.vcxproj" on node 2 (build target(s)).
+=======
+﻿Build started 2013-12-06 12:14:17.
+     1>Project "C:\Users\overkiller\Documents\GitHub\SCIGame\GameSCI\GameSCI.vcxproj" on node 2 (build target(s)).
+>>>>>>> 6990ccca03a20c2b0954aeca031e949c20b2e294
      1>InitializeBuildStatus:
          Touching "Debug\GameSCI.unsuccessfulbuild".
        ClCompile:
@@ -60,4 +65,8 @@
 
 Build succeeded.
 
+<<<<<<< HEAD
 Time Elapsed 00:00:02.07
+=======
+Time Elapsed 00:00:00.19
+>>>>>>> 6990ccca03a20c2b0954aeca031e949c20b2e294
