@@ -29,6 +29,11 @@
 		<animation_frame	frame_time="0.3" texture_name="data/graphics/atlases/atlas_bunny.png"	rect_left="84"	rect_top="0"	rect_width="83"	rect_height="68"  />
 	</animation_name>
 	
+	<animation_name name = "anim_greenTurret">
+		<animation_frame	frame_time="0.9" texture_name="data/graphics/atlases/greenTurretAtlas.png"	rect_left="0"	rect_top="0"	rect_width="20"	rect_height="23"  />
+		<animation_frame	frame_time="0.9" texture_name="data/graphics/atlases/greenTurretAtlas.png"	rect_left="20"	rect_top="0"	rect_width="20"	rect_height="23"  />
+	</animation_name>
+	
 	<!--animacja testowa  body-->
 	<animation_name name = "anim_one">
 		<animation_frame	frame_time="0.125" texture_name="data/graphics/animations/physicals/robot_destroyer_part_one_move.png"	rect_left="0"	rect_top="0"	rect_width="64"	rect_height="64"  />

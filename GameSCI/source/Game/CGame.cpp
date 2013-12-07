@@ -137,18 +137,25 @@ namespace game
 		CPhysicalTemplate *p_template2 = gResourceManager.GetPhysicalTemplate("data/xml_data/units_enemy/zombie.xml");
 
 		CPhysicalTemplate *bunnyTemplate = gResourceManager.GetPhysicalTemplate("data/xml_data/units_enemy/deadly_bunny.xml"); // wzorzec Deadly Bunny
+		
+		CPhysicalTemplate *greenTurretTemplate = gResourceManager.GetPhysicalTemplate("data/xml_data/units_enemy/greenTurret.xml"); // wzorzec Deadly Bunny
 		//ten kod jest testowy, bo tworzenie (respawn) obiektów bêdzie z poziomu ³adowania mapy (level'a)
 		CEnemy *p_enemy = gPhysicalManager.CreateEnemy(L"ID_enemy");
 
 		CEnemy *zombie = gPhysicalManager.CreateEnemy(L"Zombie"); //próba utworzenia nowego wroga - Alienwaren/Kejczor - SUKCES!
 
 		CEnemy *p_enemy3 = gPhysicalManager.CreateEnemy(L"Deadly Bunny"); /// Deadly bunny - Alienwaren/Kejczor
+
+		CEnemy *p_greenTurret = gPhysicalManager.CreateEnemy(L"Green Turret");  ///Green Turret - Alienwaren/Kejczor
 		//wzorzec wype³niam danymi utworzony obiekt (Physical'a)
 		if(p_enemy)
 			p_template->Fill(p_enemy);
 
 		if(zombie)
 			p_template2->Fill(zombie);
+
+		if(p_greenTurret)
+			greenTurretTemplate->Fill(p_greenTurret);
 
 		if(p_enemy3)
 			bunnyTemplate->Fill(p_enemy3);
@@ -170,7 +177,8 @@ namespace game
 		zombie->SetScale(1.5f);
 		zombie->SetPosition(200,300);
 		p_enemy3->SetPosition(100,300);
-
+		p_greenTurret->SetScale(2.f);
+		p_greenTurret->SetPosition(100,100);
 		//testy...sprawdziæ...jak to dzia³a...
 		//p_enemy->SetColorHead(sf::Color::Blue);	
 		//p_enemy->SetColorBody(sf::Color::Red);	
