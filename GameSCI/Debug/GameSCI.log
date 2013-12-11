@@ -1,5 +1,5 @@
-﻿Build started 2013-12-07 10:11:39.
-     1>Project "C:\Users\overkiller\Documents\GitHub\SCIGame\GameSCI\GameSCI.vcxproj" on node 2 (build target(s)).
+﻿Build started 2013-12-11 13:49:21.
+     1>Project "C:\Users\TEMP.SCI.000\Documents\GitHub\SCIGame\GameSCI\GameSCI.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\GameSCI.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
@@ -13,8 +13,8 @@
        FinalizeBuildStatus:
          Deleting file "Debug\GameSCI.unsuccessfulbuild".
          Touching "Debug\GameSCI.lastbuildstate".
-     1>Done Building Project "C:\Users\overkiller\Documents\GitHub\SCIGame\GameSCI\GameSCI.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\TEMP.SCI.000\Documents\GitHub\SCIGame\GameSCI\GameSCI.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.10
+Time Elapsed 00:00:00.14
