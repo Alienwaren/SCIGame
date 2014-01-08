@@ -4,39 +4,6 @@
     <Filter Include="source">
       <UniqueIdentifier>{0eb4e0af-dc4c-4340-b0d0-f124899f4996}</UniqueIdentifier>
     </Filter>
-    <Filter Include="source\ResourceManager">
-      <UniqueIdentifier>{66bd0702-9abe-47fe-99ac-aaaa1a9f9611}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\Utilities">
-      <UniqueIdentifier>{350f56ed-5c9d-45e1-aea2-3ebbab206dc4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\Utilities\Singleton">
-      <UniqueIdentifier>{0afbd017-982c-4dca-9200-ff4185c77198}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\Utilities\StringUtils">
-      <UniqueIdentifier>{d8c512e5-2589-40c4-a271-ed94293c4c6f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\Utilities\TimeUtilities">
-      <UniqueIdentifier>{076702df-ffb2-4bdf-87a0-e29b2ce8624e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\XML">
-      <UniqueIdentifier>{d9f6a3a4-5a6a-4a78-ac8e-f97e00ce8a26}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\XML\RapidXML">
-      <UniqueIdentifier>{61fe123d-d41d-4502-af85-3b0334c509c5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\Rendering">
-      <UniqueIdentifier>{3bf82a20-7f7b-4032-b8ed-75e0eedb9422}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\Rendering\Displayable">
-      <UniqueIdentifier>{4c3d0724-e12c-4631-ae5f-9d8465808c6e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\Rendering\Animations">
-      <UniqueIdentifier>{eec8d5ec-c0e2-47e0-afa0-a96e47f86c7b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\Rendering\Drawable">
-      <UniqueIdentifier>{dfad3477-2207-4d48-8cc0-fc30ec9501a6}</UniqueIdentifier>
-    </Filter>
     <Filter Include="source\Game">
       <UniqueIdentifier>{40c95214-939a-4446-b5ea-2d8367505537}</UniqueIdentifier>
     </Filter>
@@ -58,9 +25,6 @@
     <Filter Include="source\Logic\Player">
       <UniqueIdentifier>{ba050d1b-09d2-402f-bb79-1a69aa5dfc36}</UniqueIdentifier>
     </Filter>
-    <Filter Include="source\Weather">
-      <UniqueIdentifier>{c44c4166-ed0e-43ca-9c37-b4e658731f0b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="source\Factory">
       <UniqueIdentifier>{09c7e02f-50cc-41fd-830c-0c1c15fd89c2}</UniqueIdentifier>
     </Filter>
@@ -70,88 +34,118 @@
     <Filter Include="source\Logic\Bullet">
       <UniqueIdentifier>{8163ff4a-834b-4aa2-af88-576a7ac35f8f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Robot">
+      <UniqueIdentifier>{42773f1a-8608-4b11-a76c-6932a8ac56f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{3bf82a20-7f7b-4032-b8ed-75e0eedb9422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Displayable">
+      <UniqueIdentifier>{4c3d0724-e12c-4631-ae5f-9d8465808c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Animations">
+      <UniqueIdentifier>{eec8d5ec-c0e2-47e0-afa0-a96e47f86c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Drawable">
+      <UniqueIdentifier>{dfad3477-2207-4d48-8cc0-fc30ec9501a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManager">
+      <UniqueIdentifier>{66bd0702-9abe-47fe-99ac-aaaa1a9f9611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{350f56ed-5c9d-45e1-aea2-3ebbab206dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Singleton">
+      <UniqueIdentifier>{0afbd017-982c-4dca-9200-ff4185c77198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\StringUtils">
+      <UniqueIdentifier>{d8c512e5-2589-40c4-a271-ed94293c4c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\TimeUtilities">
+      <UniqueIdentifier>{076702df-ffb2-4bdf-87a0-e29b2ce8624e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weather">
+      <UniqueIdentifier>{c44c4166-ed0e-43ca-9c37-b4e658731f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{d9f6a3a4-5a6a-4a78-ac8e-f97e00ce8a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\RapidXML">
+      <UniqueIdentifier>{61fe123d-d41d-4502-af85-3b0334c509c5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\main.cpp">
-      <Filter>source</Filter>
-    </ClCompile>
     <ClCompile Include="source\ResourceManager\CFont.cpp">
-      <Filter>source\ResourceManager</Filter>
+      <Filter>ResourceManager</Filter>
     </ClCompile>
     <ClCompile Include="source\ResourceManager\CMusic.cpp">
-      <Filter>source\ResourceManager</Filter>
+      <Filter>ResourceManager</Filter>
     </ClCompile>
     <ClCompile Include="source\ResourceManager\CResourceManager.cpp">
-      <Filter>source\ResourceManager</Filter>
+      <Filter>ResourceManager</Filter>
     </ClCompile>
     <ClCompile Include="source\ResourceManager\CSound.cpp">
-      <Filter>source\ResourceManager</Filter>
+      <Filter>ResourceManager</Filter>
     </ClCompile>
     <ClCompile Include="source\ResourceManager\CTexture.cpp">
-      <Filter>source\ResourceManager</Filter>
+      <Filter>ResourceManager</Filter>
     </ClCompile>
     <ClCompile Include="source\ResourceManager\IResource.cpp">
-      <Filter>source\ResourceManager</Filter>
+      <Filter>ResourceManager</Filter>
     </ClCompile>
     <ClCompile Include="source\Utilities\Singleton\CSingletonCleaner.cpp">
-      <Filter>source\Utilities\Singleton</Filter>
+      <Filter>Utilities\Singleton</Filter>
     </ClCompile>
     <ClCompile Include="source\Utilities\StringUtils\StringUtils.cpp">
-      <Filter>source\Utilities\StringUtils</Filter>
+      <Filter>Utilities\StringUtils</Filter>
     </ClCompile>
     <ClCompile Include="source\Utilities\TimeUtilities\CClock.cpp">
-      <Filter>source\Utilities\TimeUtilities</Filter>
+      <Filter>Utilities\TimeUtilities</Filter>
     </ClCompile>
     <ClCompile Include="source\Utilities\TimeUtilities\CFPS.cpp">
-      <Filter>source\Utilities\TimeUtilities</Filter>
+      <Filter>Utilities\TimeUtilities</Filter>
     </ClCompile>
     <ClCompile Include="source\XML\CXml.cpp">
-      <Filter>source\XML</Filter>
+      <Filter>XML</Filter>
     </ClCompile>
     <ClCompile Include="source\Rendering\Displayable\CDisplayable.cpp">
-      <Filter>source\Rendering\Displayable</Filter>
+      <Filter>Rendering\Displayable</Filter>
     </ClCompile>
     <ClCompile Include="source\Rendering\Displayable\CSprite.cpp">
-      <Filter>source\Rendering\Displayable</Filter>
+      <Filter>Rendering\Displayable</Filter>
     </ClCompile>
     <ClCompile Include="source\Rendering\Animations\CAnimation.cpp">
-      <Filter>source\Rendering\Animations</Filter>
+      <Filter>Rendering\Animations</Filter>
     </ClCompile>
     <ClCompile Include="source\Rendering\Animations\CAnimationFrame.cpp">
-      <Filter>source\Rendering\Animations</Filter>
+      <Filter>Rendering\Animations</Filter>
     </ClCompile>
     <ClCompile Include="source\Rendering\Animations\CAnimationManager.cpp">
-      <Filter>source\Rendering\Animations</Filter>
+      <Filter>Rendering\Animations</Filter>
     </ClCompile>
     <ClCompile Include="source\Rendering\Animations\CAnimationState.cpp">
-      <Filter>source\Rendering\Animations</Filter>
+      <Filter>Rendering\Animations</Filter>
     </ClCompile>
     <ClCompile Include="source\Rendering\Animations\CAnimSet.cpp">
-      <Filter>source\Rendering\Animations</Filter>
+      <Filter>Rendering\Animations</Filter>
     </ClCompile>
     <ClCompile Include="source\Rendering\Animations\CNameAnimPairTranslator.cpp">
-      <Filter>source\Rendering\Animations</Filter>
+      <Filter>Rendering\Animations</Filter>
     </ClCompile>
     <ClCompile Include="source\Rendering\Animations\CTimedAnimationFrame.cpp">
-      <Filter>source\Rendering\Animations</Filter>
+      <Filter>Rendering\Animations</Filter>
     </ClCompile>
     <ClCompile Include="source\Rendering\Drawable\CDrawableManager.cpp">
-      <Filter>source\Rendering\Drawable</Filter>
+      <Filter>Rendering\Drawable</Filter>
     </ClCompile>
     <ClCompile Include="source\Rendering\Drawable\IDrawable.cpp">
-      <Filter>source\Rendering\Drawable</Filter>
+      <Filter>Rendering\Drawable</Filter>
     </ClCompile>
     <ClCompile Include="source\Game\CGame.cpp">
       <Filter>source\Game</Filter>
     </ClCompile>
     <ClCompile Include="source\Game\CGameProperties.cpp">
       <Filter>source\Game</Filter>
-    </ClCompile>
-    <ClCompile Include="source\Logic\CLogic.cpp">
-      <Filter>source\Logic</Filter>
-    </ClCompile>
-    <ClCompile Include="source\Logic\CPhysicalManager.cpp">
-      <Filter>source\Logic</Filter>
     </ClCompile>
     <ClCompile Include="source\Logic\Physical\CPhysical.cpp">
       <Filter>source\Logic\Physical</Filter>
@@ -166,7 +160,7 @@
       <Filter>source\Logic\Player</Filter>
     </ClCompile>
     <ClCompile Include="source\Weather\CWeather.cpp">
-      <Filter>source\Weather</Filter>
+      <Filter>Weather</Filter>
     </ClCompile>
     <ClCompile Include="source\Factory\CActorTemplate.cpp">
       <Filter>source\Factory</Filter>
@@ -186,100 +180,106 @@
     <ClCompile Include="source\Factory\CBulletTemplate.cpp">
       <Filter>source\Factory</Filter>
     </ClCompile>
+    <ClCompile Include="source\Logic\CLogic.cpp" />
+    <ClCompile Include="source\Logic\CPhysicalManager.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="CRobot.cpp">
+      <Filter>Robot</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\ResourceManager\CFont.h">
-      <Filter>source\ResourceManager</Filter>
+      <Filter>ResourceManager</Filter>
     </ClInclude>
     <ClInclude Include="source\ResourceManager\CMusic.h">
-      <Filter>source\ResourceManager</Filter>
+      <Filter>ResourceManager</Filter>
     </ClInclude>
     <ClInclude Include="source\ResourceManager\CResourceManager.h">
-      <Filter>source\ResourceManager</Filter>
+      <Filter>ResourceManager</Filter>
     </ClInclude>
     <ClInclude Include="source\ResourceManager\CSound.h">
-      <Filter>source\ResourceManager</Filter>
+      <Filter>ResourceManager</Filter>
     </ClInclude>
     <ClInclude Include="source\ResourceManager\CTexture.h">
-      <Filter>source\ResourceManager</Filter>
+      <Filter>ResourceManager</Filter>
     </ClInclude>
     <ClInclude Include="source\ResourceManager\IResource.h">
-      <Filter>source\ResourceManager</Filter>
+      <Filter>ResourceManager</Filter>
     </ClInclude>
     <ClInclude Include="source\Utilities\Singleton\CSingleton.h">
-      <Filter>source\Utilities\Singleton</Filter>
+      <Filter>Utilities\Singleton</Filter>
     </ClInclude>
     <ClInclude Include="source\Utilities\Singleton\CSingletonCleaner.h">
-      <Filter>source\Utilities\Singleton</Filter>
+      <Filter>Utilities\Singleton</Filter>
     </ClInclude>
     <ClInclude Include="source\Utilities\Singleton\ICleanupable.h">
-      <Filter>source\Utilities\Singleton</Filter>
+      <Filter>Utilities\Singleton</Filter>
     </ClInclude>
     <ClInclude Include="source\Utilities\StringUtils\StringUtils.h">
-      <Filter>source\Utilities\StringUtils</Filter>
+      <Filter>Utilities\StringUtils</Filter>
     </ClInclude>
     <ClInclude Include="source\Utilities\TimeUtilities\CClock.h">
-      <Filter>source\Utilities\TimeUtilities</Filter>
+      <Filter>Utilities\TimeUtilities</Filter>
     </ClInclude>
     <ClInclude Include="source\Utilities\TimeUtilities\CFPS.h">
-      <Filter>source\Utilities\TimeUtilities</Filter>
+      <Filter>Utilities\TimeUtilities</Filter>
     </ClInclude>
     <ClInclude Include="source\Utilities\TimeUtilities\CPausableClock.h">
-      <Filter>source\Utilities\TimeUtilities</Filter>
+      <Filter>Utilities\TimeUtilities</Filter>
     </ClInclude>
     <ClInclude Include="source\XML\CXml.h">
-      <Filter>source\XML</Filter>
+      <Filter>XML</Filter>
     </ClInclude>
     <ClInclude Include="source\XML\RapidXML\rapidxml.hpp">
-      <Filter>source\XML\RapidXML</Filter>
+      <Filter>XML\RapidXML</Filter>
     </ClInclude>
     <ClInclude Include="source\XML\RapidXML\rapidxml_iterators.hpp">
-      <Filter>source\XML\RapidXML</Filter>
+      <Filter>XML\RapidXML</Filter>
     </ClInclude>
     <ClInclude Include="source\XML\RapidXML\rapidxml_print.hpp">
-      <Filter>source\XML\RapidXML</Filter>
+      <Filter>XML\RapidXML</Filter>
     </ClInclude>
     <ClInclude Include="source\XML\RapidXML\rapidxml_utils.hpp">
-      <Filter>source\XML\RapidXML</Filter>
+      <Filter>XML\RapidXML</Filter>
     </ClInclude>
     <ClInclude Include="source\Rendering\Displayable\CDisplayable.h">
-      <Filter>source\Rendering\Displayable</Filter>
+      <Filter>Rendering\Displayable</Filter>
     </ClInclude>
     <ClInclude Include="source\Rendering\Displayable\CSprite.h">
-      <Filter>source\Rendering\Displayable</Filter>
+      <Filter>Rendering\Displayable</Filter>
     </ClInclude>
     <ClInclude Include="source\Rendering\Animations\CAnimation.h">
-      <Filter>source\Rendering\Animations</Filter>
+      <Filter>Rendering\Animations</Filter>
     </ClInclude>
     <ClInclude Include="source\Rendering\Animations\CAnimationFrame.h">
-      <Filter>source\Rendering\Animations</Filter>
+      <Filter>Rendering\Animations</Filter>
     </ClInclude>
     <ClInclude Include="source\Rendering\Animations\CAnimationManager.h">
-      <Filter>source\Rendering\Animations</Filter>
+      <Filter>Rendering\Animations</Filter>
     </ClInclude>
     <ClInclude Include="source\Rendering\Animations\CAnimationState.h">
-      <Filter>source\Rendering\Animations</Filter>
+      <Filter>Rendering\Animations</Filter>
     </ClInclude>
     <ClInclude Include="source\Rendering\Animations\CAnimSet.h">
-      <Filter>source\Rendering\Animations</Filter>
+      <Filter>Rendering\Animations</Filter>
     </ClInclude>
     <ClInclude Include="source\Rendering\Animations\CNameAnimPairTranslator.h">
-      <Filter>source\Rendering\Animations</Filter>
+      <Filter>Rendering\Animations</Filter>
     </ClInclude>
     <ClInclude Include="source\Rendering\Animations\CTimedAnimationFrame.h">
-      <Filter>source\Rendering\Animations</Filter>
+      <Filter>Rendering\Animations</Filter>
     </ClInclude>
     <ClInclude Include="source\Rendering\Animations\EAnimHandler.h">
-      <Filter>source\Rendering\Animations</Filter>
+      <Filter>Rendering\Animations</Filter>
     </ClInclude>
     <ClInclude Include="source\Rendering\Drawable\CDrawableManager.h">
-      <Filter>source\Rendering\Drawable</Filter>
+      <Filter>Rendering\Drawable</Filter>
     </ClInclude>
     <ClInclude Include="source\Rendering\Drawable\IDrawable.h">
-      <Filter>source\Rendering\Drawable</Filter>
+      <Filter>Rendering\Drawable</Filter>
     </ClInclude>
     <ClInclude Include="source\Rendering\Drawable\Layers.h">
-      <Filter>source\Rendering\Drawable</Filter>
+      <Filter>Rendering\Drawable</Filter>
     </ClInclude>
     <ClInclude Include="source\Game\CGame.h">
       <Filter>source\Game</Filter>
@@ -295,12 +295,6 @@
     </ClInclude>
     <ClInclude Include="source\Game\Listener\IMouseListener.h">
       <Filter>source\Game\Listener</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Logic\CLogic.h">
-      <Filter>source\Logic</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Logic\CPhysicalManager.h">
-      <Filter>source\Logic</Filter>
     </ClInclude>
     <ClInclude Include="source\Logic\Physical\CPhysical.h">
       <Filter>source\Logic\Physical</Filter>
@@ -321,7 +315,7 @@
       <Filter>source\Logic\Player</Filter>
     </ClInclude>
     <ClInclude Include="source\Weather\CWeather.h">
-      <Filter>source\Weather</Filter>
+      <Filter>Weather</Filter>
     </ClInclude>
     <ClInclude Include="source\Factory\CActorTemplate.h">
       <Filter>source\Factory</Filter>
@@ -340,6 +334,11 @@
     </ClInclude>
     <ClInclude Include="source\Factory\CBulletTemplate.h">
       <Filter>source\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Logic\CLogic.h" />
+    <ClInclude Include="source\Logic\CPhysicalManager.h" />
+    <ClInclude Include="CRobot.h">
+      <Filter>Robot</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -91,6 +91,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CRobot.cpp" />
     <ClCompile Include="source\Factory\CBulletTemplate.cpp" />
     <ClCompile Include="source\Logic\Bullet\CBullet.cpp" />
     <ClCompile Include="source\main.cpp" />
@@ -131,6 +132,7 @@
     <ClCompile Include="source\Factory\CPlayerTemplate.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CRobot.h" />
     <ClInclude Include="source\Factory\CBulletTemplate.h" />
     <ClInclude Include="source\Logic\Bullet\CBullet.h" />
     <ClInclude Include="source\ResourceManager\CFont.h" />
