@@ -186,6 +186,9 @@
     <ClCompile Include="CRobot.cpp">
       <Filter>Robot</Filter>
     </ClCompile>
+    <ClCompile Include="source\Map\CMapObjectType.cpp" />
+    <ClCompile Include="source\Map\CMapObjectDescriptor.cpp" />
+    <ClCompile Include="source\Map\CMapa.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\ResourceManager\CFont.h">
@@ -340,6 +343,10 @@
     <ClInclude Include="CRobot.h">
       <Filter>Robot</Filter>
     </ClInclude>
+    <ClInclude Include="source\Map\MapHeader.h" />
+    <ClInclude Include="source\Map\CMapObjectType.h" />
+    <ClInclude Include="source\Map\CMapObjectDescriptor.h" />
+    <ClInclude Include="source\Map\CMapa.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="notes\notes.txt">
