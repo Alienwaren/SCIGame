@@ -1,54 +1,683 @@
-﻿Build started 2014-04-02 13:36:11.
-     1>Project "E:\SCIGAME\GameSCI\GameSCI.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2014-05-19 09:17:33.
+     1>Project "C:\Users\Damian\Documents\GitHub\SCIGame\GameSCI\GameSCI.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"..\SFML-2.0-windows-vc10-32bits\SFML-2.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt source\Game\CGame.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"..\SFML-2.0-windows-vc10-32bits\SFML-2.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt source\Factory\CFloraTemplate.cpp source\Logic\Flora\CFlora.cpp source\Map\CMapa.cpp source\Map\CMapObjectDescriptor.cpp source\Map\CMapObjectType.cpp CRobot.cpp source\Factory\CBulletTemplate.cpp source\Logic\Bullet\CBullet.cpp source\main.cpp source\ResourceManager\CFont.cpp source\ResourceManager\CMusic.cpp source\ResourceManager\CResourceManager.cpp source\ResourceManager\CSound.cpp source\ResourceManager\CTexture.cpp source\ResourceManager\IResource.cpp source\Utilities\Singleton\CSingletonCleaner.cpp source\Utilities\StringUtils\StringUtils.cpp source\Utilities\TimeUtilities\CClock.cpp source\Utilities\TimeUtilities\CFPS.cpp source\XML\CXml.cpp source\Rendering\Displayable\CDisplayable.cpp source\Rendering\Displayable\CSprite.cpp source\Rendering\Animations\CAnimation.cpp source\Rendering\Animations\CAnimationFrame.cpp source\Rendering\Animations\CAnimationManager.cpp source\Rendering\Animations\CAnimationState.cpp source\Rendering\Animations\CAnimSet.cpp source\Rendering\Animations\CNameAnimPairTranslator.cpp source\Rendering\Animations\CTimedAnimationFrame.cpp source\Rendering\Drawable\CDrawableManager.cpp source\Rendering\Drawable\IDrawable.cpp source\Game\CGame.cpp source\Game\CGameProperties.cpp source\Logic\CLogic.cpp source\Logic\CPhysicalManager.cpp source\Logic\Physical\CPhysical.cpp source\Logic\Actor\CActor.cpp source\Logic\Enemy\CEnemy.cpp source\Logic\Player\CPlayer.cpp source\Weather\CWeather.cpp source\Factory\CActorTemplate.cpp source\Factory\CEnemyTemplate.cpp source\Factory\CPhysicalTemplate.cpp source\Factory\CPlayerTemplate.cpp
+         CPlayerTemplate.cpp
+         CPhysicalTemplate.cpp
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(19): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(20): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(30): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(31): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(37): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(38): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\enemy\cenemy.h(20): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\enemy\cenemy.h(21): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(20): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(21): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(28): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(29): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(36): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(44): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(45): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\flora\cflora.h(5): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\flora\cflora.h(6): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cfloratemplate.h(11): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cfloratemplate.h(12): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cfloratemplate.h(16): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cfloratemplate.h(17): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(21): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(22): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(29): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(30): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(40): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(41): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(48): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(48): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(52): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(53): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\game\listener\iframelistener.h(12): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\game\listener\iframelistener.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\cphysicalmanager.h(22): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\cphysicalmanager.h(23): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\cphysicalmanager.h(33): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\cphysicalmanager.h(33): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\cphysicalmanager.h(35): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\cphysicalmanager.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\sstream(12): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\sstream(12): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\utilities\stringutils\stringutils.h(15): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\utilities\stringutils\stringutils.h(16): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\idrawable.h(12): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\idrawable.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\idrawable.h(19): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\idrawable.h(20): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\blendmode.hpp(28): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\blendmode.hpp(29): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\transform.hpp(36): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\transform.hpp(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\renderstates.hpp(36): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\renderstates.hpp(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\drawable.hpp(35): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\drawable.hpp(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\transformable.hpp(35): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\transformable.hpp(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\vertex.hpp(36): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\vertex.hpp(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\sprite.hpp(38): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\sprite.hpp(39): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\csprite.h(14): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\csprite.h(15): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(19): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(20): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(28): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(29): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(41): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(42): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(46): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(46): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(47): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(47): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(48): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(48): error C2039: 'drawable' : is not a member of 'rendering'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(48): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(50): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(51): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.cpp(16): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.cpp(16): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.cpp(18): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.cpp(19): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.cpp(129): fatal error C1004: unexpected end-of-file found
+         CEnemyTemplate.cpp
+         CActorTemplate.cpp
+         CWeather.cpp
+         CPlayer.cpp
+         CEnemy.cpp
+         CActor.cpp
+         CPhysical.cpp
+         CPhysicalManager.cpp
+         CLogic.cpp
+         CGameProperties.cpp
          CGame.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\SCIGAME\Debug\GameSCI.exe" /INCREMENTAL /NOLOGO /LIBPATH:"..\SFML-2.0-windows-vc10-32bits\SFML-2.0\lib" "sfml-system-d.lib" "sfml-window-d.lib" "sfml-main-d.lib" "sfml-graphics-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\SCIGAME\Debug\GameSCI.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\SCIGAME\Debug\GameSCI.lib" /MACHINE:X86 /SAFESEH Debug\CMapa.obj
-         Debug\CMapObjectDescriptor.obj
-         Debug\CMapObjectType.obj
-         Debug\CRobot.obj
-         Debug\CBulletTemplate.obj
-         Debug\CBullet.obj
-         Debug\main.obj
-         Debug\CFont.obj
-         Debug\CMusic.obj
-         Debug\CResourceManager.obj
-         Debug\CSound.obj
-         Debug\CTexture.obj
-         Debug\IResource.obj
-         Debug\CSingletonCleaner.obj
-         Debug\StringUtils.obj
-         Debug\CClock.obj
-         Debug\CFPS.obj
-         Debug\CXml.obj
-         Debug\CDisplayable.obj
-         Debug\CSprite.obj
-         Debug\CAnimation.obj
-         Debug\CAnimationFrame.obj
-         Debug\CAnimationManager.obj
-         Debug\CAnimationState.obj
-         Debug\CAnimSet.obj
-         Debug\CNameAnimPairTranslator.obj
-         Debug\CTimedAnimationFrame.obj
-         Debug\CDrawableManager.obj
-         Debug\IDrawable.obj
-         Debug\CGame.obj
-         Debug\CGameProperties.obj
-         Debug\CLogic.obj
-         Debug\CPhysicalManager.obj
-         Debug\CPhysical.obj
-         Debug\CActor.obj
-         Debug\CEnemy.obj
-         Debug\CPlayer.obj
-         Debug\CWeather.obj
-         Debug\CActorTemplate.obj
-         Debug\CEnemyTemplate.obj
-         Debug\CPhysicalTemplate.obj
-         Debug\CPlayerTemplate.obj
-         GameSCI.vcxproj -> E:\SCIGAME\Debug\GameSCI.exe
-     1>Done Building Project "E:\SCIGAME\GameSCI\GameSCI.vcxproj" (Build target(s)).
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\iresource.h(15): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\iresource.h(16): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\ecollisionshape.h(12): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\ecollisionshape.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\ephysicalpart.h(12): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\ephysicalpart.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(22): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(23): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(33): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(34): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(45): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(46): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(50): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(50): error C2653: 'rendering' : is not a class or namespace name
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(50): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(51): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(51): error C2653: 'rendering' : is not a class or namespace name
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(51): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(52): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(52): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(54): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(55): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(23): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(24): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(28): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(29): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(33): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(33): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(34): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(34): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(35): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(35): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(37): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(38): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(19): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(20): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(30): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(31): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(37): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(38): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\enemy\cenemy.h(20): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\enemy\cenemy.h(21): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(20): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(21): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(28): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(29): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(36): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(44): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(45): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\flora\cflora.h(5): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\flora\cflora.h(6): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cfloratemplate.h(11): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cfloratemplate.h(12): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cfloratemplate.h(16): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cfloratemplate.h(17): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(21): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(22): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(29): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(30): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(40): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(41): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(48): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(48): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(52): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(53): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cfont.h(15): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cfont.h(16): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\game\listener\iframelistener.h(12): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\game\listener\iframelistener.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\animations\canimationmanager.h(24): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\animations\canimationmanager.h(25): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\animations\canimationmanager.h(36): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\animations\canimationmanager.h(36): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\animations\canimationmanager.h(40): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\animations\canimationmanager.h(41): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\layers.h(11): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\layers.h(12): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(21): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(22): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(29): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(30): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(40): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(41): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(48): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(48): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(49): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(49): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(50): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(50): error C2653: 'rendering' : is not a class or namespace name
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(50): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(54): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(55): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\idrawable.h(12): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\idrawable.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\idrawable.h(19): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\idrawable.h(20): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\csprite.h(14): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\csprite.h(15): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(19): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(20): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(20): fatal error C1003: error count exceeds 100; stopping compilation
+         IDrawable.cpp
+         CDrawableManager.cpp
+         CTimedAnimationFrame.cpp
+         CNameAnimPairTranslator.cpp
+         CAnimSet.cpp
+         CAnimationState.cpp
+         CAnimationManager.cpp
+         Generating Code...
+         Compiling...
+         CAnimationFrame.cpp
+         CAnimation.cpp
+         CSprite.cpp
+         CDisplayable.cpp
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\iresource.h(15): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\iresource.h(16): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\ecollisionshape.h(12): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\ecollisionshape.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\ephysicalpart.h(12): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\ephysicalpart.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(22): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(23): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(33): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(34): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(45): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(46): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(50): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(50): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(51): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(51): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(52): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(52): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(54): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(55): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\assert.h(25): error C2059: syntax error : 'string'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\assert.h(25): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\rapidxml\rapidxml.hpp(57): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\rapidxml\rapidxml.hpp(58): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\rapidxml\rapidxml.hpp(134): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\rapidxml\rapidxml.hpp(135): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\fstream(13): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\fstream(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\rapidxml\rapidxml_utils.hpp(16): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\rapidxml\rapidxml_utils.hpp(17): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\cxml.h(16): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\cxml.h(16): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\cxml.h(17): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\cxml.h(17): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\cxml.h(19): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\cxml.h(20): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(23): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(24): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(28): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(29): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(33): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(33): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(34): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(34): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(35): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(35): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(37): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cphysicaltemplate.h(38): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(19): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(20): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(30): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(31): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(37): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(38): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\enemy\cenemy.h(20): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\enemy\cenemy.h(21): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(20): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(21): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(28): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(29): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(36): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(44): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(45): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\flora\cflora.h(5): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\flora\cflora.h(6): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cfloratemplate.h(11): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cfloratemplate.h(12): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cfloratemplate.h(16): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cfloratemplate.h(17): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(21): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(22): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(29): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(30): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(40): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(41): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(48): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(48): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(52): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(53): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\image.hpp(38): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\image.hpp(39): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\window\glresource.hpp(34): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\window\glresource.hpp(35): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\texture.hpp(36): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\texture.hpp(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\ctexture.h(15): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\ctexture.h(16): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\system\time.hpp(34): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\system\time.hpp(35): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\system\clock.hpp(35): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\system\clock.hpp(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\system\err.hpp(35): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\system\err.hpp(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\system\inputstream.hpp(34): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\system\inputstream.hpp(35): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\system\noncopyable.hpp(34): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\system\noncopyable.hpp(35): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\system\lock.hpp(35): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\system\lock.hpp(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\system\mutex.hpp(35): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\system\mutex.hpp(35): fatal error C1003: error count exceeds 100; stopping compilation
+         CXml.cpp
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\rapidxml\rapidxml_utils.hpp(40): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'size_t', possible loss of data
+                 c:\users\damian\documents\github\scigame\gamesci\source\xml\rapidxml\rapidxml_utils.hpp(28) : while compiling class template member function 'rapidxml::file<Ch>::file(const char *)'
+                 with
+                 [
+                     Ch=char
+                 ]
+                 c:\users\damian\documents\github\scigame\gamesci\source\xml\cxml.cpp(28) : see reference to function template instantiation 'rapidxml::file<Ch>::file(const char *)' being compiled
+                 with
+                 [
+                     Ch=char
+                 ]
+                 c:\users\damian\documents\github\scigame\gamesci\source\xml\cxml.cpp(28) : see reference to class template instantiation 'rapidxml::file<Ch>' being compiled
+                 with
+                 [
+                     Ch=char
+                 ]
+         CFPS.cpp
+         CClock.cpp
+         StringUtils.cpp
+         CSingletonCleaner.cpp
+         IResource.cpp
+         CTexture.cpp
+         CSound.cpp
+         CResourceManager.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\typeinfo(45): error C2071: 'CFloraTemplate::__type_info_root_node' : illegal storage class
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\typeinfo(77): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\typeinfo(77): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\typeinfo(87): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\typeinfo(87): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\ctype.h(22): error C2059: syntax error : 'string'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\ctype.h(22): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\locale.h(28): error C2059: syntax error : 'string'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\locale.h(28): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocinfo.h(18): error C2059: syntax error : 'string'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocinfo.h(18): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocinfo.h(128): error C2059: syntax error : 'string'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocinfo.h(128): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocinfo(17): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocinfo(17): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xdebug(16): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xdebug(16): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xdebug(34): error C2039: '_DebugHeapTag_t' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xdebug(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xdebug(34): error C2143: syntax error : missing ',' before '&'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xdebug(38): error C2039: '_DebugHeapTag_t' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xdebug(38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xdebug(38): error C2143: syntax error : missing ',' before '&'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xdebug(42): error C2039: '_DebugHeapTag_t' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xdebug(42): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xdebug(42): error C2143: syntax error : missing ',' before '&'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xdebug(46): error C2039: '_DebugHeapTag_t' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xdebug(46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xdebug(46): error C2143: syntax error : missing ',' before '&'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xdebug(49): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xdebug(49): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xfacet(18): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xfacet(18): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocale(22): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocale(22): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\errno.h(24): error C2059: syntax error : 'string'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\errno.h(24): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\system_error(21): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\system_error(21): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xiosbase(23): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xiosbase(23): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\streambuf(15): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\streambuf(15): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(22): error C2059: syntax error : 'string'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(22): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(51): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xlocnum(51): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\ios(15): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\ios(15): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(15): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(15): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(15): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(15): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\iterator(14): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\iterator(14): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\iterator(355): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\iterator(355): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(16): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(16): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtree(15): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtree(15): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\map(12): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\map(12): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\iresource.h(15): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\iresource.h(16): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\system\vector2.hpp(29): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\system\vector2.hpp(30): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\ecollisionshape.h(12): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\ecollisionshape.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\ephysicalpart.h(12): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\ephysicalpart.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\config.hpp(129): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\config.hpp(130): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\color.hpp(34): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\color.hpp(35): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(14): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(14): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\rect.hpp(35): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\rect.hpp(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(22): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(23): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(33): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(34): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(45): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(46): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(50): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(50): error C2653: 'rendering' : is not a class or namespace name
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(50): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(51): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(51): error C2653: 'rendering' : is not a class or namespace name
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(51): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(52): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(52): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(54): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(55): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\assert.h(25): error C2059: syntax error : 'string'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\assert.h(25): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\rapidxml\rapidxml.hpp(57): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\rapidxml\rapidxml.hpp(58): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\rapidxml\rapidxml.hpp(134): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\rapidxml\rapidxml.hpp(135): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\fstream(13): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\fstream(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\rapidxml\rapidxml_utils.hpp(16): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\rapidxml\rapidxml_utils.hpp(17): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\xml\rapidxml\rapidxml_utils.hpp(17): fatal error C1003: error count exceeds 100; stopping compilation
+         CMusic.cpp
+         CFont.cpp
+         main.cpp
+         CBullet.cpp
+         CBulletTemplate.cpp
+         CRobot.cpp
+         CMapObjectType.cpp
+         Generating Code...
+         Compiling...
+         CMapObjectDescriptor.cpp
+         CMapa.cpp
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(19): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(20): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(30): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(31): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(37): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\actor\cactor.h(38): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\enemy\cenemy.h(20): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\enemy\cenemy.h(21): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(20): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(21): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(28): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(29): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(36): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(44): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cactortemplate.h(45): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\flora\cflora.h(5): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\flora\cflora.h(6): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cfloratemplate.h(11): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cfloratemplate.h(12): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cfloratemplate.h(16): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\factory\cfloratemplate.h(17): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(21): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(22): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(29): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(30): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(40): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(41): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(48): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(48): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(52): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\resourcemanager\cresourcemanager.h(53): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\idrawable.h(12): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\idrawable.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\idrawable.h(19): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\idrawable.h(20): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\blendmode.hpp(28): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\blendmode.hpp(29): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\transform.hpp(36): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\transform.hpp(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\renderstates.hpp(36): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\renderstates.hpp(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\drawable.hpp(35): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\drawable.hpp(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\transformable.hpp(35): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\transformable.hpp(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\vertex.hpp(36): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\vertex.hpp(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\sprite.hpp(38): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\sfml-2.0-windows-vc10-32bits\sfml-2.0\include\sfml\graphics\sprite.hpp(39): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\csprite.h(14): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\csprite.h(15): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(19): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(20): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(28): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(29): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(41): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(42): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(46): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(46): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(47): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(47): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(48): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(48): error C2039: 'drawable' : is not a member of 'rendering'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(48): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(50): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\displayable\cdisplayable.h(51): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\game\listener\iframelistener.h(12): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\game\listener\iframelistener.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\layers.h(11): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\layers.h(12): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(21): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(22): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(29): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(30): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(40): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(41): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(48): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(48): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(49): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(49): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(50): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(50): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(54): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\rendering\drawable\cdrawablemanager.h(55): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\map\cmapa.cpp(17): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\map\cmapa.cpp(17): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\map\cmapa.cpp(18): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\map\cmapa.cpp(18): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\map\cmapa.cpp(19): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\map\cmapa.cpp(19): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\map\cmapa.cpp(20): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\map\cmapa.cpp(20): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\map\cmapa.cpp(22): error C2059: syntax error : 'namespace'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\map\cmapa.cpp(23): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\damian\documents\github\scigame\gamesci\source\map\cmapa.cpp(204): fatal error C1075: end of file found before the left brace '{' at 'c:\users\damian\documents\github\scigame\gamesci\source\factory\cfloratemplate.h(4)' was matched
+         CFlora.cpp
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\flora\cflora.cpp(12): error C2027: use of undefined type 'logic::CPhysicalManager'
+                 c:\users\damian\documents\github\scigame\gamesci\source\logic\physical\cphysical.h(65) : see declaration of 'logic::CPhysicalManager'
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\flora\cflora.cpp(15): error C2065: 'Create' : undeclared identifier
+     1>c:\users\damian\documents\github\scigame\gamesci\source\logic\flora\cflora.cpp(15): error C2275: 'logic::CFlora' : illegal use of this type as an expression
+                 c:\users\damian\documents\github\scigame\gamesci\source\logic\flora\cflora.h(10) : see declaration of 'logic::CFlora'
+         CFloraTemplate.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\sal.h(2367): error C2059: syntax error : 'string'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\sal.h(2367): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\concurrencysal.h(22): error C2059: syntax error : 'string'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\concurrencysal.h(22): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\vadefs.h(32): error C2059: syntax error : 'string'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\vadefs.h(32): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\crtdefs.h(66): error C2059: syntax error : 'string'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\crtdefs.h(66): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\yvals.h(185): warning C4384: #pragma 'detect_mismatch' should only be used at global scope
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\yvals.h(189): warning C4384: #pragma 'detect_mismatch' should only be used at global scope
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\yvals.h(200): warning C4384: #pragma 'detect_mismatch' should only be used at global scope
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\yvals.h(491): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\yvals.h(491): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\yvals.h(542): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\yvals.h(542): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\math.h(27): error C2059: syntax error : 'string'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\math.h(27): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\math.h(479): error C2059: syntax error : 'string'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\math.h(479): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtr1common(13): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtr1common(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(15): error C2059: syntax error : 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(15): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(70): error C2059: syntax error : 'string'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(70): error C2238: unexpected token(s) preceding ';'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(76): error C2039: 'enable_if' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(76): error C2143: syntax error : missing ';' before '<'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(76): error C2433: 'CFloraTemplate::enable_if' : 'inline' not permitted on data declarations
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(76): error C2238: unexpected token(s) preceding ';'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(76): error C2988: unrecognizable template declaration/definition
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(76): error C2059: syntax error : '<'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(76): error C2039: '_Is_numeric' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(76): error C2039: 'value' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(77): error C2039: '_Is_numeric' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(77): error C2039: 'value' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(78): error C2039: '_Common_float_type' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(78): error C2039: 'type' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(86): error C2238: unexpected token(s) preceding ';'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(86): error C2039: 'enable_if' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(86): error C2143: syntax error : missing ';' before '<'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(86): error C2433: 'CFloraTemplate::enable_if' : 'inline' not permitted on data declarations
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(86): error C2988: unrecognizable template declaration/definition
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(86): error C2059: syntax error : '<'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(86): error C2039: 'is_integral' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(86): error C2039: 'value' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(86): error C2039: 'type' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(87): error C2238: unexpected token(s) preceding ';'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(87): error C2039: 'enable_if' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(87): error C2143: syntax error : missing ';' before '<'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(87): error C2433: 'CFloraTemplate::enable_if' : 'inline' not permitted on data declarations
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(87): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(87): error C2988: unrecognizable template declaration/definition
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(87): error C2059: syntax error : '<'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(87): error C2039: 'is_integral' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(87): error C2039: 'value' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(87): error C2039: 'type' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(88): error C2238: unexpected token(s) preceding ';'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(88): error C2039: 'enable_if' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(88): error C2143: syntax error : missing ';' before '<'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(88): error C2433: 'CFloraTemplate::enable_if' : 'inline' not permitted on data declarations
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(88): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(88): error C2988: unrecognizable template declaration/definition
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(88): error C2059: syntax error : '<'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(88): error C2039: 'is_integral' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(88): error C2039: 'value' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(88): error C2039: 'type' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(89): error C2238: unexpected token(s) preceding ';'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(89): error C2039: '_Common_float_type' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(89): error C2143: syntax error : missing ';' before '<'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(89): error C2433: 'CFloraTemplate::_Common_float_type' : 'inline' not permitted on data declarations
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(89): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(89): error C2988: unrecognizable template declaration/definition
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(89): error C2059: syntax error : '<'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(89): error C2039: 'type' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(90): error C2238: unexpected token(s) preceding ';'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(90): error C2039: 'enable_if' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(90): error C2143: syntax error : missing ';' before '<'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(90): error C2433: 'CFloraTemplate::enable_if' : 'inline' not permitted on data declarations
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(90): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(90): error C2988: unrecognizable template declaration/definition
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(90): error C2059: syntax error : '<'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(90): error C2039: 'is_integral' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(90): error C2039: 'value' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(90): error C2039: 'type' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(91): error C2238: unexpected token(s) preceding ';'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(91): error C2039: 'enable_if' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(91): error C2143: syntax error : missing ';' before '<'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(91): error C2433: 'CFloraTemplate::enable_if' : 'inline' not permitted on data declarations
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(91): error C2988: unrecognizable template declaration/definition
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(91): error C2059: syntax error : '<'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(91): error C2039: 'is_integral' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(91): error C2039: 'value' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(91): error C2039: 'type' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(92): error C2238: unexpected token(s) preceding ';'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(92): error C2039: 'enable_if' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(92): error C2143: syntax error : missing ';' before '<'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(92): error C2433: 'CFloraTemplate::enable_if' : 'inline' not permitted on data declarations
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(92): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(92): error C2988: unrecognizable template declaration/definition
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(92): error C2059: syntax error : '<'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(92): error C2039: 'is_integral' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(92): error C2039: 'value' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(92): error C2039: 'type' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(93): error C2238: unexpected token(s) preceding ';'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(93): error C2039: 'enable_if' : is not a member of 'std'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(93): error C2143: syntax error : missing ';' before '<'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(93): error C2433: 'CFloraTemplate::enable_if' : 'inline' not permitted on data declarations
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(93): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(93): error C2988: unrecognizable template declaration/definition
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(93): error C2059: syntax error : '<'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xtgmath.h(93): fatal error C1003: error count exceeds 100; stopping compilation
+         Generating Code...
+     1>Done Building Project "C:\Users\Damian\Documents\GitHub\SCIGame\GameSCI\GameSCI.vcxproj" (Rebuild target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:02.76
+Time Elapsed 00:00:26.98

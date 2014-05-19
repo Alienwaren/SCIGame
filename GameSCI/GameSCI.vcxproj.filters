@@ -73,6 +73,9 @@
     <Filter Include="XML\RapidXML">
       <UniqueIdentifier>{61fe123d-d41d-4502-af85-3b0334c509c5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\Logic\Flora">
+      <UniqueIdentifier>{e34bf54b-72d4-4deb-a85b-a1157baa7ee9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\ResourceManager\CFont.cpp">
@@ -189,6 +192,10 @@
     <ClCompile Include="source\Map\CMapObjectType.cpp" />
     <ClCompile Include="source\Map\CMapObjectDescriptor.cpp" />
     <ClCompile Include="source\Map\CMapa.cpp" />
+    <ClCompile Include="source\Logic\Flora\CFlora.cpp" />
+    <ClCompile Include="source\Factory\CFloraTemplate.cpp">
+      <Filter>source\Factory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\ResourceManager\CFont.h">
@@ -347,6 +354,10 @@
     <ClInclude Include="source\Map\CMapObjectType.h" />
     <ClInclude Include="source\Map\CMapObjectDescriptor.h" />
     <ClInclude Include="source\Map\CMapa.h" />
+    <ClInclude Include="source\Logic\Flora\CFlora.h" />
+    <ClInclude Include="source\Factory\CFloraTemplate.h">
+      <Filter>source\Factory</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="notes\notes.txt">
