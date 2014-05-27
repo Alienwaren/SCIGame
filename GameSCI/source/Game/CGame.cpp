@@ -18,7 +18,7 @@
 #include "../Factory/CEnemyTemplate.h"
 #include "../Logic/CPhysicalManager.h"
 #include "../Logic/CLogic.h"
-
+#include "../Map/CMapa.h"
 using namespace resource;
 using namespace rendering::displayable;
 using namespace rendering::animation;
@@ -127,7 +127,9 @@ namespace game
 		//view.zoom(0.25f);
 		//view.rotate(45.f);
 		//m_render_window->setView(view);
-		
+		mapengine::CMapa lvl1;
+		lvl1.Load("E:/SCIGAME/GameSCI/data/xml_data/maps/level_001.xml");
+		lvl1.RespawnMapObjects(true);
 		//³adowanie danych z poziomu CResourceManager'a
 		if(gResourceManager.LoadPhysicalTemplate("data/xml_data/units_enemy/gods.xml") == false)
 			printf("Data not loaded...\n");
@@ -186,7 +188,7 @@ namespace game
 		//p_enemy->RestoreColorBody();			//odzyskujemy oryginalny kolor body
 		//p_enemy->RestoreColorHead();			//
 		printf("CGame::Run()\n");
-
+		
 		while (m_render_window->isOpen())
 		{
 			//zegar

@@ -1,0 +1,83 @@
+<!-- mapa zapisana w pliku xml wezel root = map-->
+<map>
+	<!--wersja mapy-->
+	<!--szerokosc mapy w kaflach-->
+	<!--wysokosc mapy w kaflach-->
+	<version>1</version>
+	<width>16</width>
+	<height>16</height>
+	
+	<!--Typy wzorcow dostêpnych na mapie-->
+	<!--code - nazwa wzorca-->
+	<!--file - nazwapliku xml-->
+	<objtype code = "enemy_destroyer"	file = "data/xml_data/units_enemy/destroyer.xml" />
+	<objtype code = "monster_destroyer" file = "data/xml_data/units_monster/monster.xml" />
+
+	<!--code - nazwa wzorca dla obiektu na mapie-->
+	<!--name - nazwa obiektu na mapie-->
+	<!--x - wspolrzedna x pozycji obiektu na mapie-->
+	<!--y - wspolrzedna y pozycji obiektu na mapie-->
+	<!--rotation_body - wartosc rotacji poczatkowej obiektu na mapie body-->
+	<!--rotation_head - wartosc rotacji poczatkowej obiektu na mapie head-->
+	<!--smooth - flaga filtru graficznego smooth obiektu na mapie-->
+
+	<obj
+		code = "enemy_destroyer"
+		name = "Janek"
+		x = "100"
+		y = "100"
+		rotation_body = "40"
+		rotation_head = "40"
+		smooth = "true"
+	/>
+	
+	<obj 
+		code = "monster_destroyer"
+		name = "Zenek"
+		x = "400"
+		y = "300"
+		rotation_body = "90"
+		rotation_head = "-90"	
+		smooth = "true"
+	/>
+	
+	<obj
+		code = "monster_destroyer"
+		name = "Jurek"
+		x = "100"
+		y = "500"
+		rotation_body = "100"
+		rotation_head = "45"
+		smooth = "true"
+	/>
+	
+	<obj
+		code = "enemy_destroyer"
+		name = "Mirek"
+		x = "500"
+		y = "80"
+		rotation_body = "-100"
+		rotation_head = "40"
+		smooth = "true"
+	/>
+	
+	<obj
+		code = "enemy_destroyer"
+		name = "Marek"
+		x = "600"
+		y = "80"
+		rotation_body = "-10"
+		rotation_head = "75"
+		smooth = "true"
+	/>
+	
+	<obj
+		code = "monster_destroyer"
+		name = "Tomek"
+		x = "200"
+		y = "300"
+		rotation_body = "60"
+		rotation_head = "-60"
+		smooth = "true"
+	/>
+</map>

@@ -10,6 +10,7 @@
 #define H_RESOURCE_MANAGER_SCI
 
 #include "../Utilities/Singleton/CSingleton.h"
+#include "../Factory/CFloraTemplate.h"
 #include "IResource.h"
 #include <map>
 #include <string>

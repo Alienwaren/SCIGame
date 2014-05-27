@@ -14,6 +14,7 @@
 #include "Bullet/CBullet.h"
 #include "../Utilities/StringUtils/StringUtils.h"
 #include "../Game/CGame.h"
+#include "../Logic/Flora/CFlora.h"
 #include <sstream>
 
 

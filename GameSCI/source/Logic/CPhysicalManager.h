@@ -26,6 +26,7 @@ namespace logic
 	class CEnemy;
 	class CPlayer;
 	class CBullet;
+	class CFlora;
 }
 //fabryka moøe produkowaÊ obiekty wyøej wymienionych klasy
 
@@ -77,7 +78,11 @@ namespace logic
 		///@param &uniqueId - unikalny identyfikator - sta≥a referencja na obiekt klasy std::wstring
 		///
 		logic::CEnemy *CreateEnemy(const std::wstring &uniqueId = L"");
-
+		///
+		///Tworzymy obiekty Flory i zwracamy wskaüniki na ten obiekt
+		///
+		///@param &uniqueId - unikalny identyfikator
+		logic::CFlora *CreateFlora(const std::wstring &uniqueId = L"");
 		///
 		///Metoda tworzy obiekt klasy CPlayer i zwaraca wskaünik na ten obiekt
 		///

@@ -20,12 +20,12 @@
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PlatformToolset>v100</PlatformToolset>
+    <PlatformToolset>v110</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v100</PlatformToolset>
+    <PlatformToolset>v110</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -91,6 +91,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="source\Factory\CFloraTemplate.cpp" />
+    <ClCompile Include="source\Logic\Flora\CFlora.cpp" />
+    <ClCompile Include="source\Map\CMapa.cpp" />
+    <ClCompile Include="source\Map\CMapObjectDescriptor.cpp" />
+    <ClCompile Include="source\Map\CMapObjectType.cpp" />
     <ClCompile Include="CRobot.cpp" />
     <ClCompile Include="source\Factory\CBulletTemplate.cpp" />
     <ClCompile Include="source\Logic\Bullet\CBullet.cpp" />
@@ -132,9 +137,15 @@
     <ClCompile Include="source\Factory\CPlayerTemplate.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="source\Factory\CFloraTemplate.h" />
+    <ClInclude Include="source\Logic\Flora\CFlora.h" />
+    <ClInclude Include="source\Map\CMapa.h" />
+    <ClInclude Include="source\Map\CMapObjectDescriptor.h" />
+    <ClInclude Include="source\Map\CMapObjectType.h" />
     <ClInclude Include="CRobot.h" />
     <ClInclude Include="source\Factory\CBulletTemplate.h" />
     <ClInclude Include="source\Logic\Bullet\CBullet.h" />
+    <ClInclude Include="source\Map\MapHeader.h" />
     <ClInclude Include="source\ResourceManager\CFont.h" />
     <ClInclude Include="source\ResourceManager\CMusic.h" />
     <ClInclude Include="source\ResourceManager\CResourceManager.h" />
